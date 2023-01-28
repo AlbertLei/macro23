@@ -1,5 +1,5 @@
 baseURL: '/' # you may change this
-title: 'course' # change it to your course name
+title: '宏经 | Macro Econ' # change it to your course name
 publishDir: "docs"
 languageCode: 'en-us'
 markup:
