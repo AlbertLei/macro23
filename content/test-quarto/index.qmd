@@ -1,0 +1,31 @@
+---
+format: 
+ hugo-md:
+   html-math-method: webtex
+---
+
+\newcommand{\supp}{\mathsf{supp} \,}
+
+# Testing quarto
+
+I have individual files that I want to render with Quarto,
+as Pandoc has better support for TeX.
+
+For example, this `index.qmd` is at
+`content/test-quarto/index.qmd`.
+I can generate the corresponding `index.md` file by running:
+
+```bash
+quarto render content/test-quarto/index.qmd
+```
+
+## Math and code highhight
+
+```python
+import numpy as np
+np.array(1)
+```
+
+$$
+\mu_0 \in \supp \Delta \Omega
+$$

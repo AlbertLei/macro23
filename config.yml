@@ -1,0 +1,7 @@
+baseURL: '/' # you may change this
+title: 'course' # change it to your course name
+publishDir: "docs"
+languageCode: 'en-us'
+markup:
+  highlight:
+    style: solarized-light
