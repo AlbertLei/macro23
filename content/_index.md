@@ -12,15 +12,16 @@
 
 ## 投影片
 
-我用 marp 制作投影片, 以下同时提供源文本和生成的 PDF.
+我用 marp 制作投影片, 以下同时提供 PDF 和源文本, 并备注上课时间.
+(例: 0213 表示2月13号的课堂)
 
-- 课程简介:
-[PDF](slides/00-intro.pdf),
-[source](slides/00-intro.marp)   
+1. 0213:
+[课程简介](slides/00-intro.pdf)
+([source](slides/00-intro.marp)).
+[GDP 定义](slides/01-gdp.pdf)
+([source](slides/01-gdp.marp)).
 
-- GDP 定义:
-[PDF](slides/01-gdp.pdf),
-[source](slides/01-gdp.marp)   
+1. 0216:
 
 
 ## 讲义
