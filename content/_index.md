@@ -12,6 +12,8 @@
 
 ## 投影片
 
+我用 marp 制作投影片, 以下同时提供源文本和生成的 PDF.
+
 - 课程简介:
 [PDF](slides/00-intro.pdf),
 [source](slides/00-intro.marp)   
@@ -23,8 +25,9 @@
 
 ## 讲义
 
-- 待添加
+- 凯恩斯交叉
 
+- IS-LM
 
 ## 阅读资料
 
