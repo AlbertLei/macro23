@@ -1,19 +1,54 @@
 # 宏观经济学 --- 2023春
 
-湖南大学课程, 数字经济 2201, 2202 班.
+湖南大学课程, 数字经济 2201, 2202 班. [课程说明](syllabus)
 
-[Syllabus](syllabus)
+- 教材[第一版 PDF](https://wwe.lanzoux.com/iC0Enm6ievg).
+我手头没有最新版教材的电子版.
+
+- 推荐阅读: 《宏观经济学》 by Mankiw, 第七版中文翻译
+ 
+   - [9到14章](https://wwe.lanzoux.com/idSGSmw8g4h) (18 Mb), 涉及凯恩斯交叉，IS-LM，AS-AD 模型部分
+   - [全书下载](https://wwe.lanzoux.com/iIwTPmw5dna) (58 Mb), 
+
+## 投影片
+
+- 课程简介:
+[PDF](slides/00-intro.pdf),
+[source](slides/00-intro.marp)   
+
+- GDP 定义:
+[PDF](slides/01-gdp.pdf),
+[source](slides/01-gdp.marp)   
 
 
+## 讲义
+
+- 待添加
 
 
-<!-- 
-[Testing Quarto](test-quarto),
-[source](test-quarto/index.qmd) 
--->
+## 阅读资料
 
+[1] 《宏观经济学》，Mankiw (曼昆)。中文第七版，[PDF](https://wwe.lanzoux.com/iIwTPmw5dna)
 
-## 往年教学网站
+- 注：曼昆的教材体系和马工程基本一致，尤其是 IS-LM 和 AS-AD 的相关推导。我推荐同学们看这本书的9至14章。
 
-[2022](https://www.cnblogs.com/albertlei/p/macro22.html),
-[2021](https://www.cnblogs.com/albertlei/p/macro21.html).
+[2] 《宏观经济学》，Williamson (威廉森)，中文版下载 Part I [PDF](https://wwe.lanzoux.com/iocjrnfa6aj), Part II [PDF](https://wwe.lanzoux.com/iRXFOnfa6fe)
+
+- 注：和曼昆的书不同，威廉森没有使用 IS-LM 的分析框架。也就是说，曼昆的教材和课程内容更相关，威廉森仅推荐学有余力的同学阅读。
+
+[3] 《宏观经济学》, Blanchard (布兰查德), 英文第七版 [PDF](https://wwe.lanzoux.com/iYdV4nte2jc)
+
+- 注：我个人认为最好的宏观经济学入门书，可惜没有中文翻译版。作者 Blanchard 是法国人，曾担任国际货币基金组织(IMF)首席经济学家。
+
+[4] 《经济学（宏观分册）》，Acemoglu (阿西莫格鲁), Laibson (莱布森), and List (李斯特)。英文版 [PDF](https://wwe.lanzoux.com/igNlbm6joxe)
+
+- 书本身很好读，英文好的同学可以当宏观故事书看。
+
+## 其他
+
+[往年期末考题](https://wwe.lanzoux.com/iyPfvm9bg4h)，供参考。
+
+往年教学网站
+
+- [2022春(精算班)](https://www.cnblogs.com/albertlei/p/macro22.html),
+- [2021春(电商班)](https://www.cnblogs.com/albertlei/p/macro21.html).

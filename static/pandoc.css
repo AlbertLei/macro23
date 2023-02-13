@@ -21,14 +21,12 @@
   }
   
   a {
-    color: #0645ad;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px dashed;
   }
   
-  a:visited {
-    color: #0b0080;
-  }
-  
-  a:hover {
+  /* a:hover {
     color: #06e;
   }
   
@@ -38,7 +36,7 @@
   
   a:focus {
     outline: thin dotted;
-  }
+  } */
   
   *::-moz-selection {
     background: rgba(255, 255, 0, 0.3);
