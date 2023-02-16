@@ -1,0 +1,254 @@
+---
+marp: true
+theme: gaia
+paginate: true
+math: katex
+---
+
+<style>
+:root {
+  font-family: "Fira Sans", "Noto Sans CJK SC Medium" , "PingFang SC", "LXGW WenKai", "Noto Sans CJK SC", "Sans";
+  font-size: 36px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+h1, h2 {
+  font-size: 1.1em;
+  font-family: "Noto Sans CJK SC Bold", "Sans";  
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+b, strong {
+   color: red;
+   font-weight: normal;
+}
+
+em {
+   font-style: normal; 
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 3px dashed;
+}
+
+
+.columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+</style>    
+
+<!-- _class: lead invert -->
+
+# 《宏观经济学》
+#  价格指数, 通胀
+
+雷浩然 湖南大学经贸学院
+
+---
+
+## **Real** GDP v.s. **nominal** GDP
+
+实际 GDP 与名义 GDP
+
+- 某些书会把 real 翻译成*真实.* 这里我们沿用教材, 翻译成*实际.*
+
+我们前面讨论的都是实际 GDP, 因为涉及到的都是 *实实在在的产出*
+
+- 产出的例子: 一万吨大米, 一千台 iPhone, 一百艘火箭, ...
+
+- 用它们的**市场价值**来统一衡量
+
+---
+
+## **Real** GDP v.s. **nominal** GDP
+
+- 具体地, 我们用“钱”来作为衡量产出市场价值的单位
+
+- 但“钱”的价值会变。
+  - 同样的*一碗米粉*，十年前卖1元，现在卖3元。
+  - 实际产出没变（仍然是*一碗米粉*），名义 GDP 变了
+
+---
+
+## Real GDP v.s. nominal GDP
+
+可能的解决方法：固定价格，来计算 GDP.
+
+
+|          | 2020年 | 2021年 |
+| -------- | ------ | ------ |
+| 苹果产量 | 2000   | 2200   |
+| 苹果价格 | 0.25   | 0.3    |
+| 橘子产量 | 1000   | 1200   |
+| 橘子价格 | 0.5    | 0.7    |
+| 名义GDP  | 1000   | 1500   |
+
+---
+
+固定 2020 的价格 （以2020年为基期）
+  - 2021 实际 GDP: $2200\times0.25 + 1200\times0.5$
+
+|          | 2020年 | 2021年 |
+| -------- | ------ | ------ |
+| 苹果产量 | 2000   | **2200**   |
+| 苹果价格 | **0.25**   | 0.3    |
+| 橘子产量 | 1000   | **1200**   |
+| 橘子价格 | **0.5**    | 0.7    |
+
+---
+
+## Real GDP v.s. nominal GDP
+
+实际应用中，real GDP 的计算可能有哪些问题？
+
+
+---
+
+
+## Real GDP v.s. nominal GDP
+
+实际应用中，real GDP 的计算可能有哪些问题？
+
+- 每年都会有新产品出现和旧产品退出市场
+- 选择的“基期”不同，结果也不同
+
+---
+
+## GDP deflator (平减指数)
+
+
+$$
+\text{平减指数} = \frac{\text{nomial GDP}}{\text{real GDP}}
+$$
+
+GDP 平减指数，可用来反映物价水平。
+- 为什么？
+
+
+
+---
+
+## 其他价格指数
+
+- GDP 平减指数的计算用到了市场上“所有商品”。
+
+- 另一种思路，我们先选好 *一篮子商品*
+  - 消费者价格指数 (CPI, Consumer Price Index)
+  - 生产者价格指数 (PPI, Producer Price Index)
+
+---
+
+## 计算 CPI
+
+1. 固定“一篮子商品”
+1. 确定篮子里商品的价格和消费占比
+1. 计算 CPI
+   - 基期价格下购买“一篮子”产品的总支出为 $I_0$
+   - 当期价格下购买“一篮子”产品的总支出为 $I$
+   - CPI = $I/I_0$
+
+---
+
+## 计算 CPI
+
+- CPI 计算思想和 GDP deflator “几乎”一样
+
+不同点
+
+- CPI 的篮子是固定的, 
+- GDP deflator 的篮子不固定
+
+---
+
+| 篮子      | 2020 年价格（基期） | 2021 年价格 |
+| --------- | ------------------ | ---------- |
+| 橙子 * 10 | 1                  | 2          |
+| 柚子 * 5  | 4                  | 3          |
+| 猪肉  * 2 | 10                 | 5          |
+
+
+
+
+计算 2021 年的 CPI.
+
+
+---
+
+<!-- _class: lead invert -->
+
+
+## ![width:700px](cpi.png)
+
+中国的 CPI “篮子”
+
+
+---
+
+## 通货膨胀
+
+通货膨胀的定义: 价格水平上升
+
+通货膨胀率:
+
+$$
+\pi_t = \frac{p_t - p_{t-1}}{p_{t-1}} ×100 \%
+$$
+
+$p_t$: 价格指数 (*GDP 平减指数*或 *CPI*)
+
+
+---
+
+## **Hyperinflation** 恶性通货膨胀
+
+人类历史上知名的 hyperinflation:
+
+- 德国马克，魏玛共和国时期 (1918 - 1924)
+
+- 国民党时期的中国 (1938 - 1949)
+
+- 中国古代的几乎每次改朝换代
+
+---
+
+<!-- _class: lead invert -->
+
+最近的 hyperinflation
+
+![width:900](hyper.png)
+
+---
+
+## 通胀是坏事么？
+
+经济学家对此看法并不统一。
+
+- Friedman: 通货膨胀始终是一种“货币现象”
+  - 取决于人们对货币的供给和需求
+
+- 今天人们的 *主流观点*: 良性的通胀 (低于3%) 是好的, 它有利于经济发展
+
+---
+
+<!-- _class: lead -->
+思考：如果政府不额外印钱，还会存在通胀么？
+
+
+---
+
+
+<!-- _class: lead -->
+思考：如果政府不额外印钱，还会存在通胀么？
+
+
+- “通胀”是个很有意思，同时也非常重要的话题
+- 我们现在还没有掌握足够的工具来分析这个问题, 先暂且放下

@@ -7,27 +7,32 @@
 
 - 推荐阅读: 《宏观经济学》 by Mankiw, 第七版中文翻译
  
-   - [9到14章](https://wwe.lanzoux.com/idSGSmw8g4h) (18 Mb), 涉及凯恩斯交叉，IS-LM，AS-AD 模型部分
-   - [全书下载](https://wwe.lanzoux.com/iIwTPmw5dna) (58 Mb), 
+   - [9到14章](https://wwe.lanzoux.com/idSGSmw8g4h) (18 Mb), 涉及凯恩斯交叉，IS-LM，AS-AD 模型部分;
+   - [全书下载](https://wwe.lanzoux.com/iIwTPmw5dna) (58 Mb).
 
 ## 投影片
 
 我用 marp 制作投影片, 以下同时提供 PDF 和源文本, 并备注上课时间.
 (例: 0213 表示2月13号的课堂)
 
-1. 0213:
-[课程简介](slides/00-intro.pdf)
-([source](slides/00-intro.marp)).
-[GDP 定义](slides/01-gdp.pdf)
-([source](slides/01-gdp.marp)).
+1. 0213
+课程简介 [PDF](slides/00-intro.pdf),
+[source](slides/00-intro.marp);
+GDP 的定义 [PDF](slides/01-gdp.pdf),
+[source](slides/01-gdp.marp).
 
 1. 0216:
-待添加
+GDP 的衡量 [PDF](slides/02-gdp-cal.pdf),
+[source](slides/02-gdp-cal.marp);
+价格指数和通胀 [PDF](slides/02-2.pdf),
+[source](slides/02-2.marp);
+失业 [PDF](slides/03.pdf),
+[source](slides/03.marp).
+
 
 ## 讲义
 
 - 凯恩斯交叉
-
 - IS-LM
 
 ## 阅读资料
