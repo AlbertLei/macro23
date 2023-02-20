@@ -23,11 +23,14 @@ GDP 的定义 [PDF](slides/01-gdp.pdf),
 
 1. 0216:
 GDP 的衡量 [PDF](slides/02-gdp-cal.pdf),
-[source](slides/02-gdp-cal.marp);
+[source](slides/02-gdp-cal.marp).
+
+1. 0220:
 价格指数和通胀 [PDF](slides/02-2.pdf),
 [source](slides/02-2.marp);
 失业 [PDF](slides/03.pdf),
 [source](slides/03.marp).
+
 
 
 ## 讲义
