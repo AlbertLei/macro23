@@ -85,12 +85,22 @@ em {
 - 全职奶爸或家庭主妇
 - 丧失劳动能力的人
 
+
+---
+
+## 什么是失业?
+
+以下情况不算失业 
+
+- 沮丧劳动者 (discouraged worker, 常见于西方高福利国家)
+
+**农村户口**的中国公民, 即使没有工作, 也不计入失业 
+
 ---
 
 ## 什么是劳动力?
 
 劳动力 = 就业者 + 失业者
-
 
 
 ---
@@ -111,11 +121,11 @@ em {
 
 --- 
 
-相较于GDP, 西方国家领导人往往*更看重失业率*:
+相较于GDP, 西方国家领导人往往*更看重失业率*.
 
 美国总统拜登:
 
-- Jan 21, 2023: "The unemployment rate is **near a 50-year low**." 
+- 2023, Jan 21: "The unemployment rate is **near a 50-year low**." 
 
 - 2023, Feb 8: "Two years ago, our economy was reeling. Today, the nation's **unemployment rate is 3.4% — a 50-year low**." 
 
@@ -127,7 +137,7 @@ em {
 
 # 计算失业率
 
-$\footnotesize \text{失业率} = \frac{\footnotesize\text{失业人数}}{\footnotesize 劳动力人数} = \frac{\footnotesize\text{ 就业人数}}{\footnotesize \text{失业人数 + 就业人数}}$
+$\footnotesize \text{失业率} = \frac{\footnotesize\text{失业人数}}{\footnotesize 劳动力人数} = \frac{\footnotesize\text{ 失业人数}}{\footnotesize \text{失业人数 + 就业人数}}$
 
 
 ---
@@ -168,7 +178,10 @@ $\footnotesize \text{失业率} = \frac{\footnotesize\text{失业人数}}{\footn
 
 
 例子：人才市场的流动
+
 - 大学生从毕业到找工作期间
+
+
 
 ---
 
@@ -254,8 +267,6 @@ $\footnotesize \text{失业率} = \frac{\footnotesize\text{失业人数}}{\footn
 
 周期性失业
 
-
-
 ---
 
 
@@ -277,7 +288,6 @@ $\footnotesize \text{失业率} = \frac{\footnotesize\text{失业人数}}{\footn
 
 - 为分析短期宏观经济波动提供参照物
 - 利用充分就业的概念，定义**潜在 GDP**
-
 
 ---
 
