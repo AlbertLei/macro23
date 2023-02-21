@@ -31,7 +31,9 @@ GDP 的衡量 [PDF](slides/02-gdp-cal.pdf),
 失业 [PDF](slides/03.pdf),
 [source](slides/03.marp).
   
-  - 第九章练习题: [PPT](slides/ch9-review.pptx) 
+1. 0222:
+第九章练习. [练习1](slides/ch9-review1.pdf),
+[练习2](slides/ch9-review2.pdf)
 
 
 ## 讲义
