@@ -35,7 +35,9 @@ GDP 的衡量 [PDF](slides/02-gdp-cal.pdf),
 第九章练习. 练习1 [PDF](slides/ch9-review1.pdf),
 练习2 [PDF](slides/ch9-review2.pdf)
 
-   - 下一章我们正式进入凯恩斯经济学的内容. [说唱视频: 凯恩斯大战哈耶克](https://www.bilibili.com/video/BV1Zx411V7ec/)
+   - 下一章我们正式进入凯恩斯经济学的内容. 
+   - [说唱视频: 凯恩斯大战哈耶克](https://www.bilibili.com/video/BV1Zx411V7ec/)
+   - 视频文本 subtitle [TXT](notes/subtitle.txt)
 
 
 
