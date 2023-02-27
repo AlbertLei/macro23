@@ -10,7 +10,7 @@
    - [9到14章](https://wwe.lanzoux.com/idSGSmw8g4h) (18 Mb), 涉及凯恩斯交叉，IS-LM，AS-AD 模型部分;
    - [全书下载](https://wwe.lanzoux.com/iIwTPmw5dna) (58 Mb).
 
-## 投影片
+## 课堂阅读资料
 
 我用 marp 制作投影片, 以下同时提供 PDF 和源文本, 并备注上课时间.
 (例: 0213 表示2月13号的课堂)
@@ -45,7 +45,7 @@ GDP 的衡量 [PDF](slides/02-gdp-cal.pdf),
 (易老师代上)
 
 1. 0302:
-凯恩斯交叉和乘数效应, [讲义 PDF]((notes/ch10.pdf))
+凯恩斯交叉和乘数效应, 见讲义.
 
 
 ## 讲义
