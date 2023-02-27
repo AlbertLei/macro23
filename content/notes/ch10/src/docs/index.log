@@ -1,0 +1,4382 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.19)  28 FEB 2023 03:29
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex"
+(/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count185
+\l__pdf_internal_box=\box50
+) (docs/index.aux)
+\openout1 = `index.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 1.
+LaTeX Font Info:    ... okay on input line 1.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 1.
+LaTeX Font Info:    ... okay on input line 1.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 1.
+LaTeX Font Info:    ... okay on input line 1.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 1.
+LaTeX Font Info:    ... okay on input line 1.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 1.
+LaTeX Font Info:    ... okay on input line 1.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 1.
+LaTeX Font Info:    ... okay on input line 1.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 1.
+LaTeX Font Info:    ... okay on input line 1.
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:1: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:2: Undefined control sequence.
+l.2 \section
+            *{凯恩斯交叉和乘数效应}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:2: LaTeX Error: Unicode character 凯 (U+51EF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \section*{凯
+                 恩斯交叉和乘数效应}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:2: LaTeX Error: Unicode character 恩 (U+6069)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \section*{凯恩
+                    斯交叉和乘数效应}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:2: LaTeX Error: Unicode character 斯 (U+65AF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \section*{凯恩斯
+                       交叉和乘数效应}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:2: LaTeX Error: Unicode character 交 (U+4EA4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \section*{凯恩斯交
+                          叉和乘数效应}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:2: LaTeX Error: Unicode character 叉 (U+53C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \section*{凯恩斯交叉
+                             和乘数效应}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:2: LaTeX Error: Unicode character 和 (U+548C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \section*{凯恩斯交叉和
+                                乘数效应}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:2: LaTeX Error: Unicode character 乘 (U+4E58)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \section*{凯恩斯交叉和乘
+                                   数效应}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:2: LaTeX Error: Unicode character 数 (U+6570)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \section*{凯恩斯交叉和乘数
+                                      效应}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:2: LaTeX Error: Unicode character 效 (U+6548)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \section*{凯恩斯交叉和乘数效
+                                         应}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:2: LaTeX Error: Unicode character 应 (U+5E94)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \section*{凯恩斯交叉和乘数效应
+                                            }
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:4: LaTeX Error: Unicode character 凯 (U+51EF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 凯
+       恩斯交叉%
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:4: LaTeX Error: Unicode character 恩 (U+6069)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 凯恩
+          斯交叉%
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:4: LaTeX Error: Unicode character 斯 (U+65AF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 凯恩斯
+             交叉%
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:4: LaTeX Error: Unicode character 交 (U+4EA4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 凯恩斯交
+                叉%
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:4: LaTeX Error: Unicode character 叉 (U+53C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 凯恩斯交叉
+                   %
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 5.
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:5: Undefined control sequence.
+\@footnotetext ...tins {\reset@font \footnotesize 
+                                                  \interlinepenalty \interfo...
+l.5 ...e{教材称它为``收入—支出模型''}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:5: Undefined control sequence.
+\@footnotetext ...}\color@begingroup \@makefntext 
+                                                  {\rule \z@ \footnotesep \i...
+l.5 ...e{教材称它为``收入—支出模型''}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:5: LaTeX Error: Unicode character 教 (U+6559)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...e{教材称它为``收入—支出模型''}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:5: LaTeX Error: Unicode character 材 (U+6750)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...e{教材称它为``收入—支出模型''}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:5: LaTeX Error: Unicode character 称 (U+79F0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...e{教材称它为``收入—支出模型''}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:5: LaTeX Error: Unicode character 它 (U+5B83)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...e{教材称它为``收入—支出模型''}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:5: LaTeX Error: Unicode character 为 (U+4E3A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...e{教材称它为``收入—支出模型''}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:5: LaTeX Error: Unicode character 收 (U+6536)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...e{教材称它为``收入—支出模型''}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:5: LaTeX Error: Unicode character 入 (U+5165)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...e{教材称它为``收入—支出模型''}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:5: LaTeX Error: Unicode character 支 (U+652F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...e{教材称它为``收入—支出模型''}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:5: LaTeX Error: Unicode character 出 (U+51FA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...e{教材称它为``收入—支出模型''}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:5: LaTeX Error: Unicode character 模 (U+6A21)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...e{教材称它为``收入—支出模型''}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:5: LaTeX Error: Unicode character 型 (U+578B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...e{教材称它为``收入—支出模型''}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 是 (U+662F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 是
+       我们这门课的第一个模型, 它决定了短期内的均衡国�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 我 (U+6211)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 是我
+          们这门课的第一个模型, 它决定了短期内的均衡国�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 们 (U+4EEC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 是我们
+             这门课的第一个模型, 它决定了短期内的均衡国�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 这 (U+8FD9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 是我们这
+                门课的第一个模型, 它决定了短期内的均衡国�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 门 (U+95E8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 是我们这门
+                   课的第一个模型, 它决定了短期内的均衡国�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 课 (U+8BFE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 是我们这门课
+                      的第一个模型, 它决定了短期内的均衡国�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 的 (U+7684)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 是我们这门课的
+                         第一个模型, 它决定了短期内的均衡国�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 第 (U+7B2C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 是我们这门课的第
+                            一个模型, 它决定了短期内的均衡国�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 一 (U+4E00)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 是我们这门课的第一
+                               个模型, 它决定了短期内的均衡国�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 个 (U+4E2A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 是我们这门课的第一个
+                                  模型, 它决定了短期内的均衡国�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 模 (U+6A21)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 是我们这门课的第一个模
+                                     型, 它决定了短期内的均衡国�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 型 (U+578B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 是我们这门课的第一个模型
+                                        , 它决定了短期内的均衡国�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 它 (U+5B83)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 是我们这门课的第一个模型, 它
+                                             决定了短期内的均衡国�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 决 (U+51B3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 是我们这门课的第一个模型, 它决
+                                                定了短期内的均衡国�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 定 (U+5B9A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...��们这门课的第一个模型, 它决定
+                                                  了短期内的均衡国�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 了 (U+4E86)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...��这门课的第一个模型, 它决定了
+                                                  短期内的均衡国民�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 短 (U+77ED)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...��门课的第一个模型, 它决定了短
+                                                  期内的均衡国民收入,
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 期 (U+671F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...��课的第一个模型, 它决定了短期
+                                                  内的均衡国民收入,
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 内 (U+5185)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...��的第一个模型, 它决定了短期内
+                                                  的均衡国民收入,
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 的 (U+7684)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...��第一个模型, 它决定了短期内的
+                                                  均衡国民收入,
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 均 (U+5747)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...��一个模型, 它决定了短期内的均
+                                                  衡国民收入,
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 衡 (U+8861)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...��个模型, 它决定了短期内的均衡
+                                                  国民收入,
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 国 (U+56FD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...��模型, 它决定了短期内的均衡国
+                                                  民收入,
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 民 (U+6C11)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...��型, 它决定了短期内的均衡国民
+                                                  收入,
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 收 (U+6536)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...��, 它决定了短期内的均衡国民收
+                                                  入,
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:6: LaTeX Error: Unicode character 入 (U+5165)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ... 它决定了短期内的均衡国民收入
+                                                  ,
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:7: LaTeX Error: Unicode character 同 (U+540C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 同
+       时也是下一章 IS-LM 模型的基础.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:7: LaTeX Error: Unicode character 时 (U+65F6)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 同时
+          也是下一章 IS-LM 模型的基础.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:7: LaTeX Error: Unicode character 也 (U+4E5F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 同时也
+             是下一章 IS-LM 模型的基础.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:7: LaTeX Error: Unicode character 是 (U+662F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 同时也是
+                下一章 IS-LM 模型的基础.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:7: LaTeX Error: Unicode character 下 (U+4E0B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 同时也是下
+                   一章 IS-LM 模型的基础.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:7: LaTeX Error: Unicode character 一 (U+4E00)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 同时也是下一
+                      章 IS-LM 模型的基础.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:7: LaTeX Error: Unicode character 章 (U+7AE0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 同时也是下一章
+                          IS-LM 模型的基础.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:7: LaTeX Error: Unicode character 模 (U+6A21)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 同时也是下一章 IS-LM 模
+                                   型的基础.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:7: LaTeX Error: Unicode character 型 (U+578B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 同时也是下一章 IS-LM 模型
+                                      的基础.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:7: LaTeX Error: Unicode character 的 (U+7684)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 同时也是下一章 IS-LM 模型的
+                                         基础.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:7: LaTeX Error: Unicode character 基 (U+57FA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 同时也是下一章 IS-LM 模型的基
+                                            础.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:7: LaTeX Error: Unicode character 础 (U+7840)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 同时也是下一章 IS-LM 模型的基础
+                                               .
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:19: Undefined control sequence.
+l.19 \paragraph
+               {计划支出}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:19: LaTeX Error: Unicode character 计 (U+8BA1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \paragraph{计
+                   划支出}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:19: LaTeX Error: Unicode character 划 (U+5212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \paragraph{计划
+                      支出}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:19: LaTeX Error: Unicode character 支 (U+652F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \paragraph{计划支
+                         出}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:19: LaTeX Error: Unicode character 出 (U+51FA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \paragraph{计划支出
+                            }
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:20: LaTeX Error: Unicode character 类 (U+7C7B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 类
+        比计算 GDP 的支出法, 我们将计划支出分解为四个部分:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:20: LaTeX Error: Unicode character 比 (U+6BD4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 类比
+           计算 GDP 的支出法, 我们将计划支出分解为四个部分:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:20: LaTeX Error: Unicode character 计 (U+8BA1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 类比计
+              算 GDP 的支出法, 我们将计划支出分解为四个部分:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:20: LaTeX Error: Unicode character 算 (U+7B97)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 类比计算
+                  GDP 的支出法, 我们将计划支出分解为四个部分:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:20: LaTeX Error: Unicode character 的 (U+7684)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 类比计算 GDP 的
+                         支出法, 我们将计划支出分解为四个部分:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:20: LaTeX Error: Unicode character 支 (U+652F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 类比计算 GDP 的支
+                            出法, 我们将计划支出分解为四个部分:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:20: LaTeX Error: Unicode character 出 (U+51FA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 类比计算 GDP 的支出
+                               法, 我们将计划支出分解为四个部分:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:20: LaTeX Error: Unicode character 法 (U+6CD5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 类比计算 GDP 的支出法
+                                  , 我们将计划支出分解为四个部分:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:20: LaTeX Error: Unicode character 我 (U+6211)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 类比计算 GDP 的支出法, 我
+                                       们将计划支出分解为四个部分:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:20: LaTeX Error: Unicode character 们 (U+4EEC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 类比计算 GDP 的支出法, 我们
+                                          将计划支出分解为四个部分:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:20: LaTeX Error: Unicode character 将 (U+5C06)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 类比计算 GDP 的支出法, 我们将
+                                             计划支出分解为四个部分:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:20: LaTeX Error: Unicode character 计 (U+8BA1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 类比计算 GDP 的支出法, 我们将计
+                                                划支出分解为四个部分:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:20: LaTeX Error: Unicode character 划 (U+5212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...��计算 GDP 的支出法, 我们将计划
+                                                  支出分解为四个部分:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:20: LaTeX Error: Unicode character 支 (U+652F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...��算 GDP 的支出法, 我们将计划支
+                                                  出分解为四个部分:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:20: LaTeX Error: Unicode character 出 (U+51FA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...�� GDP 的支出法, 我们将计划支出
+                                                  分解为四个部分:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:20: LaTeX Error: Unicode character 分 (U+5206)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...GDP 的支出法, 我们将计划支出分
+                                                  解为四个部分:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:20: LaTeX Error: Unicode character 解 (U+89E3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ... 的支出法, 我们将计划支出分解
+                                                  为四个部分:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:20: LaTeX Error: Unicode character 为 (U+4E3A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...�支出法, 我们将计划支出分解为
+                                                  四个部分:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:20: LaTeX Error: Unicode character 四 (U+56DB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...�出法, 我们将计划支出分解为四
+                                                  个部分:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:20: LaTeX Error: Unicode character 个 (U+4E2A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...�法, 我们将计划支出分解为四个
+                                                  部分:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:20: LaTeX Error: Unicode character 部 (U+90E8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...�, 我们将计划支出分解为四个部
+                                                  分:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:20: LaTeX Error: Unicode character 分 (U+5206)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...我们将计划支出分解为四个部分
+                                                  :
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 这 (U+8FD9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27   这
+          里等号左边的 $E$ 表示``计划支出''. 后面定义消费�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 里 (U+91CC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27   这里
+             等号左边的 $E$ 表示``计划支出''. 后面定义消费�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 等 (U+7B49)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27   这里等
+                号左边的 $E$ 表示``计划支出''. 后面定义消费�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 号 (U+53F7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27   这里等号
+                   左边的 $E$ 表示``计划支出''. 后面定义消费�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 左 (U+5DE6)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27   这里等号左
+                      边的 $E$ 表示``计划支出''. 后面定义消费�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 边 (U+8FB9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27   这里等号左边
+                         的 $E$ 表示``计划支出''. 后面定义消费�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 的 (U+7684)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27   这里等号左边的
+                             $E$ 表示``计划支出''. 后面定义消费�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 表 (U+8868)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27   这里等号左边的 $E$ 表
+                                    示``计划支出''. 后面定义消费�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 示 (U+793A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27   这里等号左边的 $E$ 表示
+                                       ``计划支出''. 后面定义消费�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 计 (U+8BA1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27   这里等号左边的 $E$ 表示``计
+                                            划支出''. 后面定义消费�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 划 (U+5212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27   这里等号左边的 $E$ 表示``计划
+                                               支出''. 后面定义消费�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 支 (U+652F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27   这里等号左边的 $E$ 表示``计划支
+                                                  出''. 后面定义消费�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 出 (U+51FA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...��等号左边的 $E$ 表示``计划支出
+                                                  ''. 后面定义消费函�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 后 (U+540E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...�左边的 $E$ 表示``计划支出''. 后
+                                                  面定义消费函数时, ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 面 (U+9762)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...�边的 $E$ 表示``计划支出''. 后面
+                                                  定义消费函数时, 我...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 定 (U+5B9A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...�的 $E$ 表示``计划支出''. 后面定
+                                                  义消费函数时, 我们...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 义 (U+4E49)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...� $E$ 表示``计划支出''. 后面定义
+                                                  消费函数时, 我们还...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 消 (U+6D88)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...E$ 表示``计划支出''. 后面定义消
+                                                  费函数时, 我们还会...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 费 (U+8D39)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...表示``计划支出''. 后面定义消费
+                                                  函数时, 我们还会用...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 函 (U+51FD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...示``计划支出''. 后面定义消费函
+                                                  数时, 我们还会用到...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 数 (U+6570)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...``计划支出''. 后面定义消费函数
+                                                  时, 我们还会用到``�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 时 (U+65F6)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...��划支出''. 后面定义消费函数时
+                                                  , 我们还会用到``实�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 我 (U+6211)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...支出''. 后面定义消费函数时, 我
+                                                  们还会用到``实际支...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 们 (U+4EEC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...出''. 后面定义消费函数时, 我们
+                                                  还会用到``实际支出...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 还 (U+8FD8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...''. 后面定义消费函数时, 我们还
+                                                  会用到``实际支出'',...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 会 (U+4F1A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ... 后面定义消费函数时, 我们还会
+                                                  用到``实际支出'', �...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 用 (U+7528)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...�面定义消费函数时, 我们还会用
+                                                  到``实际支出'', 它�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 到 (U+5230)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...�定义消费函数时, 我们还会用到
+                                                  ``实际支出'', 它表�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 实 (U+5B9E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...��消费函数时, 我们还会用到``实
+                                                  际支出'', 它表示为�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 际 (U+9645)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...��费函数时, 我们还会用到``实际
+                                                  支出'', 它表示为字�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 支 (U+652F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...��函数时, 我们还会用到``实际支
+                                                  出'', 它表示为字母 ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 出 (U+51FA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...��数时, 我们还会用到``实际支出
+                                                  '', 它表示为字母 $Y$.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 它 (U+5B83)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...�, 我们还会用到``实际支出'', 它
+                                                  表示为字母 $Y$.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 表 (U+8868)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...我们还会用到``实际支出'', 它表
+                                                  示为字母 $Y$.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 示 (U+793A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...们还会用到``实际支出'', 它表示
+                                                  为字母 $Y$.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 为 (U+4E3A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...还会用到``实际支出'', 它表示为
+                                                  字母 $Y$.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 字 (U+5B57)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...会用到``实际支出'', 它表示为字
+                                                  母 $Y$.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:27: LaTeX Error: Unicode character 母 (U+6BCD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...用到``实际支出'', 它表示为字母
+                                                   $Y$.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 由 (U+7531)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29   由
+          衡量 GDP 的会计恒等式可知, $Y$ 既是总支出, 也是�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 衡 (U+8861)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29   由衡
+             量 GDP 的会计恒等式可知, $Y$ 既是总支出, 也是�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 量 (U+91CF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29   由衡量
+                 GDP 的会计恒等式可知, $Y$ 既是总支出, 也是�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 的 (U+7684)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29   由衡量 GDP 的
+                        会计恒等式可知, $Y$ 既是总支出, 也是�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 会 (U+4F1A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29   由衡量 GDP 的会
+                           计恒等式可知, $Y$ 既是总支出, 也是�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 计 (U+8BA1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29   由衡量 GDP 的会计
+                              恒等式可知, $Y$ 既是总支出, 也是�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 恒 (U+6052)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29   由衡量 GDP 的会计恒
+                                 等式可知, $Y$ 既是总支出, 也是�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 等 (U+7B49)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29   由衡量 GDP 的会计恒等
+                                    式可知, $Y$ 既是总支出, 也是�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 式 (U+5F0F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29   由衡量 GDP 的会计恒等式
+                                       可知, $Y$ 既是总支出, 也是�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 可 (U+53EF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29   由衡量 GDP 的会计恒等式可
+                                          知, $Y$ 既是总支出, 也是�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 知 (U+77E5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29   由衡量 GDP 的会计恒等式可知
+                                             , $Y$ 既是总支出, 也是�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 既 (U+65E2)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...�量 GDP 的会计恒等式可知, $Y$ 既
+                                                  是总支出, 也是总收...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 是 (U+662F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...� GDP 的会计恒等式可知, $Y$ 既是
+                                                  总支出, 也是总收入...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 总 (U+603B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...DP 的会计恒等式可知, $Y$ 既是总
+                                                  支出, 也是总收入, �...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 支 (U+652F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...的会计恒等式可知, $Y$ 既是总支
+                                                  出, 也是总收入, 也�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 出 (U+51FA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...会计恒等式可知, $Y$ 既是总支出
+                                                  , 也是总收入, 也是�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 也 (U+4E5F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...�恒等式可知, $Y$ 既是总支出, 也
+                                                  是总收入, 也是总产...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 是 (U+662F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...�等式可知, $Y$ 既是总支出, 也是
+                                                  总收入, 也是总产出.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 总 (U+603B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...�式可知, $Y$ 既是总支出, 也是总
+                                                  收入, 也是总产出.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 收 (U+6536)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...�可知, $Y$ 既是总支出, 也是总收
+                                                  入, 也是总产出.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 入 (U+5165)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...�知, $Y$ 既是总支出, 也是总收入
+                                                  , 也是总产出.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 也 (U+4E5F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ... $Y$ 既是总支出, 也是总收入, 也
+                                                  是总产出.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 是 (U+662F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...$ 既是总支出, 也是总收入, 也是
+                                                  总产出.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 总 (U+603B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...��是总支出, 也是总收入, 也是总
+                                                  产出.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 产 (U+4EA7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...��总支出, 也是总收入, 也是总产
+                                                  出.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:29: LaTeX Error: Unicode character 出 (U+51FA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...��支出, 也是总收入, 也是总产出
+                                                  .
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:31: LaTeX Error: Unicode character 方 (U+65B9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31   方
+          程~\eqref{eq:planned}中的 $\bar{I}$ 表示计划投资, 教材�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:31: LaTeX Error: Unicode character 程 (U+7A0B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31   方程
+             ~\eqref{eq:planned}中的 $\bar{I}$ 表示计划投资, 教材�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:31: Undefined control sequence.
+l.31   方程~\eqref
+                    {eq:planned}中的 $\bar{I}$ 表示计划投资, 教材�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:31: LaTeX Error: Unicode character 中 (U+4E2D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31   方程~\eqref{eq:planned}中
+                                   的 $\bar{I}$ 表示计划投资, 教材�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:31: LaTeX Error: Unicode character 的 (U+7684)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31   方程~\eqref{eq:planned}中的
+                                       $\bar{I}$ 表示计划投资, 教材�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:31: LaTeX Error: Unicode character 表 (U+8868)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...程~\eqref{eq:planned}中的 $\bar{I}$ 表
+                                                  示计划投资, 教材也...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:31: LaTeX Error: Unicode character 示 (U+793A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...~\eqref{eq:planned}中的 $\bar{I}$ 表示
+                                                  计划投资, 教材也把...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:31: LaTeX Error: Unicode character 计 (U+8BA1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...qref{eq:planned}中的 $\bar{I}$ 表示计
+                                                  划投资, 教材也把它...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:31: LaTeX Error: Unicode character 划 (U+5212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...f{eq:planned}中的 $\bar{I}$ 表示计划
+                                                  投资, 教材也把它称...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:31: LaTeX Error: Unicode character 投 (U+6295)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...q:planned}中的 $\bar{I}$ 表示计划投
+                                                  资, 教材也把它称为...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:31: LaTeX Error: Unicode character 资 (U+8D44)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...lanned}中的 $\bar{I}$ 表示计划投资
+                                                  , 教材也把它称为固...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:31: LaTeX Error: Unicode character 教 (U+6559)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...d}中的 $\bar{I}$ 表示计划投资, 教
+                                                  材也把它称为固定�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:31: LaTeX Error: Unicode character 材 (U+6750)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...��的 $\bar{I}$ 表示计划投资, 教材
+                                                  也把它称为固定投资.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:31: LaTeX Error: Unicode character 也 (U+4E5F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...�� $\bar{I}$ 表示计划投资, 教材也
+                                                  把它称为固定投资.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:31: LaTeX Error: Unicode character 把 (U+628A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...$\bar{I}$ 表示计划投资, 教材也把
+                                                  它称为固定投资.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:31: LaTeX Error: Unicode character 它 (U+5B83)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...ar{I}$ 表示计划投资, 教材也把它
+                                                  称为固定投资.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:31: LaTeX Error: Unicode character 称 (U+79F0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...I}$ 表示计划投资, 教材也把它称
+                                                  为固定投资.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:31: LaTeX Error: Unicode character 为 (U+4E3A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ... 表示计划投资, 教材也把它称为
+                                                  固定投资.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:31: LaTeX Error: Unicode character 固 (U+56FA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...�示计划投资, 教材也把它称为固
+                                                  定投资.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:31: LaTeX Error: Unicode character 定 (U+5B9A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...�计划投资, 教材也把它称为固定
+                                                  投资.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:31: LaTeX Error: Unicode character 投 (U+6295)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...�划投资, 教材也把它称为固定投
+                                                  资.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:31: LaTeX Error: Unicode character 资 (U+8D44)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...�投资, 教材也把它称为固定投资
+                                                  .
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: LaTeX Error: Unicode character 除 (U+9664)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 除
+        了计划投资, 实际投资支出 $I$ 还包括``非计划投资''...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: LaTeX Error: Unicode character 了 (U+4E86)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 除了
+           计划投资, 实际投资支出 $I$ 还包括``非计划投资''...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: LaTeX Error: Unicode character 计 (U+8BA1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 除了计
+              划投资, 实际投资支出 $I$ 还包括``非计划投资''...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: LaTeX Error: Unicode character 划 (U+5212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 除了计划
+                 投资, 实际投资支出 $I$ 还包括``非计划投资''...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: LaTeX Error: Unicode character 投 (U+6295)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 除了计划投
+                    资, 实际投资支出 $I$ 还包括``非计划投资''...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: LaTeX Error: Unicode character 资 (U+8D44)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 除了计划投资
+                       , 实际投资支出 $I$ 还包括``非计划投资''...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: LaTeX Error: Unicode character 实 (U+5B9E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 除了计划投资, 实
+                            际投资支出 $I$ 还包括``非计划投资''...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: LaTeX Error: Unicode character 际 (U+9645)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 除了计划投资, 实际
+                               投资支出 $I$ 还包括``非计划投资''...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: LaTeX Error: Unicode character 投 (U+6295)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 除了计划投资, 实际投
+                                  资支出 $I$ 还包括``非计划投资''...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: LaTeX Error: Unicode character 资 (U+8D44)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 除了计划投资, 实际投资
+                                     支出 $I$ 还包括``非计划投资''...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: LaTeX Error: Unicode character 支 (U+652F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 除了计划投资, 实际投资支
+                                        出 $I$ 还包括``非计划投资''...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: LaTeX Error: Unicode character 出 (U+51FA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 除了计划投资, 实际投资支出
+                                            $I$ 还包括``非计划投资''...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: LaTeX Error: Unicode character 还 (U+8FD8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...��计划投资, 实际投资支出 $I$ 还
+                                                  包括``非计划投资'':...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: LaTeX Error: Unicode character 包 (U+5305)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...��划投资, 实际投资支出 $I$ 还包
+                                                  括``非计划投资'': $I...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: LaTeX Error: Unicode character 括 (U+62EC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...��投资, 实际投资支出 $I$ 还包括
+                                                  ``非计划投资'': $I = ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: LaTeX Error: Unicode character 非 (U+975E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...资, 实际投资支出 $I$ 还包括``非
+                                                  计划投资'': $I = \bar{...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: LaTeX Error: Unicode character 计 (U+8BA1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ..., 实际投资支出 $I$ 还包括``非计
+                                                  划投资'': $I = \bar{I} ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: LaTeX Error: Unicode character 划 (U+5212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...��际投资支出 $I$ 还包括``非计划
+                                                  投资'': $I = \bar{I} + I...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: LaTeX Error: Unicode character 投 (U+6295)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...��投资支出 $I$ 还包括``非计划投
+                                                  资'': $I = \bar{I} + I_{\...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: LaTeX Error: Unicode character 资 (U+8D44)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...��资支出 $I$ 还包括``非计划投资
+                                                  '': $I = \bar{I} + I_{\tex...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: Undefined control sequence.
+l.34 ...非计划投资'': $I = \bar{I} + I_{\text
+                                                  {非计划}}$.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: LaTeX Error: Unicode character 非 (U+975E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...��划投资'': $I = \bar{I} + I_{\text{非
+                                                  计划}}$.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: LaTeX Error: Unicode character 计 (U+8BA1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...��投资'': $I = \bar{I} + I_{\text{非计
+                                                  划}}$.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:34: LaTeX Error: Unicode character 划 (U+5212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...��资'': $I = \bar{I} + I_{\text{非计划
+                                                  }}$.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:35: LaTeX Error: Unicode character 教 (U+6559)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 教
+        材也把 $I_{\text{非计划}}$ 称为存货投资.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:35: LaTeX Error: Unicode character 材 (U+6750)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 教材
+           也把 $I_{\text{非计划}}$ 称为存货投资.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:35: LaTeX Error: Unicode character 也 (U+4E5F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 教材也
+              把 $I_{\text{非计划}}$ 称为存货投资.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:35: LaTeX Error: Unicode character 把 (U+628A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 教材也把
+                  $I_{\text{非计划}}$ 称为存货投资.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:35: Undefined control sequence.
+l.35 教材也把 $I_{\text
+                           {非计划}}$ 称为存货投资.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:35: LaTeX Error: Unicode character 非 (U+975E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 教材也把 $I_{\text{非
+                               计划}}$ 称为存货投资.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:35: LaTeX Error: Unicode character 计 (U+8BA1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 教材也把 $I_{\text{非计
+                                  划}}$ 称为存货投资.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:35: LaTeX Error: Unicode character 划 (U+5212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 教材也把 $I_{\text{非计划
+                                     }}$ 称为存货投资.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:35: LaTeX Error: Unicode character 称 (U+79F0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 教材也把 $I_{\text{非计划}}$ 称
+                                            为存货投资.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:35: LaTeX Error: Unicode character 为 (U+4E3A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 教材也把 $I_{\text{非计划}}$ 称为
+                                               存货投资.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:35: LaTeX Error: Unicode character 存 (U+5B58)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 教材也把 $I_{\text{非计划}}$ 称为存
+                                                  货投资.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:35: LaTeX Error: Unicode character 货 (U+8D27)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 ...也把 $I_{\text{非计划}}$ 称为存货
+                                                  投资.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:35: LaTeX Error: Unicode character 投 (U+6295)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 ...把 $I_{\text{非计划}}$ 称为存货投
+                                                  资.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:35: LaTeX Error: Unicode character 资 (U+8D44)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 ... $I_{\text{非计划}}$ 称为存货投资
+                                                  .
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:38: Undefined control sequence.
+l.38 \paragraph
+               {消费函数} $C = \alpha + \beta  Y$. 总消费($C$)是总�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:38: LaTeX Error: Unicode character 消 (U+6D88)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 \paragraph{消
+                   费函数} $C = \alpha + \beta  Y$. 总消费($C$)是总�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:38: LaTeX Error: Unicode character 费 (U+8D39)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 \paragraph{消费
+                      函数} $C = \alpha + \beta  Y$. 总消费($C$)是总�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:38: LaTeX Error: Unicode character 函 (U+51FD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 \paragraph{消费函
+                         数} $C = \alpha + \beta  Y$. 总消费($C$)是总�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:38: LaTeX Error: Unicode character 数 (U+6570)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 \paragraph{消费函数
+                            } $C = \alpha + \beta  Y$. 总消费($C$)是总�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:38: LaTeX Error: Unicode character 总 (U+603B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...消费函数} $C = \alpha + \beta  Y$. 总
+                                                  消费($C$)是总收入($Y...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:38: LaTeX Error: Unicode character 消 (U+6D88)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...费函数} $C = \alpha + \beta  Y$. 总消
+                                                  费($C$)是总收入($Y$)�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:38: LaTeX Error: Unicode character 费 (U+8D39)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...函数} $C = \alpha + \beta  Y$. 总消费
+                                                  ($C$)是总收入($Y$)的�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:38: LaTeX Error: Unicode character 是 (U+662F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...$C = \alpha + \beta  Y$. 总消费($C$)是
+                                                  总收入($Y$)的函数.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:38: LaTeX Error: Unicode character 总 (U+603B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...= \alpha + \beta  Y$. 总消费($C$)是总
+                                                  收入($Y$)的函数.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:38: LaTeX Error: Unicode character 收 (U+6536)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...alpha + \beta  Y$. 总消费($C$)是总收
+                                                  入($Y$)的函数.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:38: LaTeX Error: Unicode character 入 (U+5165)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...ha + \beta  Y$. 总消费($C$)是总收入
+                                                  ($Y$)的函数.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:38: LaTeX Error: Unicode character 的 (U+7684)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...ta  Y$. 总消费($C$)是总收入($Y$)的
+                                                  函数.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:38: LaTeX Error: Unicode character 函 (U+51FD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ... Y$. 总消费($C$)是总收入($Y$)的函
+                                                  数.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:38: LaTeX Error: Unicode character 数 (U+6570)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 .... 总消费($C$)是总收入($Y$)的函数
+                                                  .
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 严 (U+4E25)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 \item 严
+              格来说, 消费应为\textbf{可支配收入}的函数. 若�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 格 (U+683C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 \item 严格
+                 来说, 消费应为\textbf{可支配收入}的函数. 若�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 来 (U+6765)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 \item 严格来
+                    说, 消费应为\textbf{可支配收入}的函数. 若�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 说 (U+8BF4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 \item 严格来说
+                       , 消费应为\textbf{可支配收入}的函数. 若�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 消 (U+6D88)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 \item 严格来说, 消
+                            费应为\textbf{可支配收入}的函数. 若�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 费 (U+8D39)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 \item 严格来说, 消费
+                               应为\textbf{可支配收入}的函数. 若�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 应 (U+5E94)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 \item 严格来说, 消费应
+                                  为\textbf{可支配收入}的函数. 若�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 为 (U+4E3A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 \item 严格来说, 消费应为
+                                     \textbf{可支配收入}的函数. 若�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 可 (U+53EF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...�说, 消费应为\textbf{可支配收入}
+                                                  的函数. 若考虑政府...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 支 (U+652F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...�说, 消费应为\textbf{可支配收入}
+                                                  的函数. 若考虑政府...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 配 (U+914D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...�说, 消费应为\textbf{可支配收入}
+                                                  的函数. 若考虑政府...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 收 (U+6536)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...�说, 消费应为\textbf{可支配收入}
+                                                  的函数. 若考虑政府...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 入 (U+5165)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...�说, 消费应为\textbf{可支配收入}
+                                                  的函数. 若考虑政府...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 的 (U+7684)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...�, 消费应为\textbf{可支配收入}的
+                                                  函数. 若考虑政府税...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 函 (U+51FD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...消费应为\textbf{可支配收入}的函
+                                                  数. 若考虑政府税收...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 数 (U+6570)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...费应为\textbf{可支配收入}的函数
+                                                  . 若考虑政府税收, �...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 若 (U+82E5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...�为\textbf{可支配收入}的函数. 若
+                                                  考虑政府税收, 则消...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 考 (U+8003)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...�\textbf{可支配收入}的函数. 若考
+                                                  虑政府税收, 则消费...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 虑 (U+8651)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...extbf{可支配收入}的函数. 若考虑
+                                                  政府税收, 则消费函...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 政 (U+653F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...bf{可支配收入}的函数. 若考虑政
+                                                  府税收, 则消费函数...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 府 (U+5E9C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...可支配收入}的函数. 若考虑政府
+                                                  税收, 则消费函数应...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 税 (U+7A0E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...支配收入}的函数. 若考虑政府税
+                                                  收, 则消费函数应写作
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 收 (U+6536)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...配收入}的函数. 若考虑政府税收
+                                                  , 则消费函数应写作
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 则 (U+5219)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...�入}的函数. 若考虑政府税收, 则
+                                                  消费函数应写作
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 消 (U+6D88)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...�}的函数. 若考虑政府税收, 则消
+                                                  费函数应写作
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 费 (U+8D39)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...��函数. 若考虑政府税收, 则消费
+                                                  函数应写作
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 函 (U+51FD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...��数. 若考虑政府税收, 则消费函
+                                                  数应写作
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 数 (U+6570)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...��. 若考虑政府税收, 则消费函数
+                                                  应写作
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 应 (U+5E94)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ... 若考虑政府税收, 则消费函数应
+                                                  写作
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 写 (U+5199)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...�考虑政府税收, 则消费函数应写
+                                                  作
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:41: LaTeX Error: Unicode character 作 (U+4F5C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...�虑政府税收, 则消费函数应写作
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:43: Undefined control sequence.
+l.43 C = \alpha + \beta  (Y-T),  \text
+                                      { 其中 $T$ 表示税收. }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:43: LaTeX Error: Unicode character 其 (U+5176)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 C = \alpha + \beta  (Y-T),  \text{ 其
+                                           中 $T$ 表示税收. }
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:43: LaTeX Error: Unicode character 中 (U+4E2D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 C = \alpha + \beta  (Y-T),  \text{ 其中
+                                               $T$ 表示税收. }
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:43: Missing } inserted.
+<inserted text> 
+                }
+l.43 C = \alpha + \beta  (Y-T),  \text{ 其中 $
+                                                T$ 表示税收. }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:43: Display math should end with $$.
+<to be read again> 
+                   T
+l.43 C = \alpha + \beta  (Y-T),  \text{ 其中 $T
+                                                 $ 表示税收. }
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:43: LaTeX Error: Unicode character 表 (U+8868)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 ...pha + \beta  (Y-T),  \text{ 其中 $T$ 表
+                                                  示税收. }
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:43: LaTeX Error: Unicode character 示 (U+793A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 ... + \beta  (Y-T),  \text{ 其中 $T$ 表示
+                                                  税收. }
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:43: LaTeX Error: Unicode character 税 (U+7A0E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 ...\beta  (Y-T),  \text{ 其中 $T$ 表示税
+                                                  收. }
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:43: LaTeX Error: Unicode character 收 (U+6536)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 ...ta  (Y-T),  \text{ 其中 $T$ 表示税收
+                                                  . }
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:43: Extra }, or forgotten $.
+l.43 ... (Y-T),  \text{ 其中 $T$ 表示税收. }
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:45: LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 \item
+          
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   �
+        ��费函数由凯恩斯在《通论》一书里提出, 函数中的 ...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   �
+        ��费函数由凯恩斯在《通论》一书里提出, 函数中的 ...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 消 (U+6D88)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   消
+          费函数由凯恩斯在《通论》一书里提出, 函数中的 ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 费 (U+8D39)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   消费
+             函数由凯恩斯在《通论》一书里提出, 函数中的 ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 函 (U+51FD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   消费函
+                数由凯恩斯在《通论》一书里提出, 函数中的 ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 数 (U+6570)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   消费函数
+                   由凯恩斯在《通论》一书里提出, 函数中的 ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 由 (U+7531)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   消费函数由
+                      凯恩斯在《通论》一书里提出, 函数中的 ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 凯 (U+51EF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   消费函数由凯
+                         恩斯在《通论》一书里提出, 函数中的 ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 恩 (U+6069)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   消费函数由凯恩
+                            斯在《通论》一书里提出, 函数中的 ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 斯 (U+65AF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   消费函数由凯恩斯
+                               在《通论》一书里提出, 函数中的 ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 在 (U+5728)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   消费函数由凯恩斯在
+                                  《通论》一书里提出, 函数中的 ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 《 (U+300A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   消费函数由凯恩斯在《
+                                     通论》一书里提出, 函数中的 ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 通 (U+901A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   消费函数由凯恩斯在《通
+                                        论》一书里提出, 函数中的 ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 论 (U+8BBA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   消费函数由凯恩斯在《通论
+                                           》一书里提出, 函数中的 ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 》 (U+300B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   消费函数由凯恩斯在《通论》
+                                              一书里提出, 函数中的 ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 一 (U+4E00)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   消费函数由凯恩斯在《通论》一
+                                                 书里提出, 函数中的 ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 书 (U+4E66)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...费函数由凯恩斯在《通论》一书
+                                                  里提出, 函数中的 $\...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 里 (U+91CC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...函数由凯恩斯在《通论》一书里
+                                                  提出, 函数中的 $\bet...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 提 (U+63D0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...数由凯恩斯在《通论》一书里提
+                                                  出, 函数中的 $\beta$ ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 出 (U+51FA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...由凯恩斯在《通论》一书里提出
+                                                  , 函数中的 $\beta$ 被...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 函 (U+51FD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...�恩斯在《通论》一书里提出, 函
+                                                  数中的 $\beta$ 被称�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 数 (U+6570)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...�斯在《通论》一书里提出, 函数
+                                                  中的 $\beta$ 被称为``...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 中 (U+4E2D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...�在《通论》一书里提出, 函数中
+                                                  的 $\beta$ 被称为``边...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 的 (U+7684)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...�《通论》一书里提出, 函数中的
+                                                   $\beta$ 被称为``边际...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: Missing $ inserted.
+<inserted text> 
+                $
+l.46 ...论》一书里提出, 函数中的 $\beta
+                                                  $ 被称为``边际消费�...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 被 (U+88AB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...�一书里提出, 函数中的 $\beta$ 被
+                                                  称为``边际消费倾向...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 称 (U+79F0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...�书里提出, 函数中的 $\beta$ 被称
+                                                  为``边际消费倾向'' ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 为 (U+4E3A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...�里提出, 函数中的 $\beta$ 被称为
+                                                  ``边际消费倾向'' (MP...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 边 (U+8FB9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...��出, 函数中的 $\beta$ 被称为``边
+                                                  际消费倾向'' (MPC, \t...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 际 (U+9645)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...��, 函数中的 $\beta$ 被称为``边际
+                                                  消费倾向'' (MPC, \text...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 消 (U+6D88)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ... 函数中的 $\beta$ 被称为``边际消
+                                                  费倾向'' (MPC, \textit{...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 费 (U+8D39)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...�数中的 $\beta$ 被称为``边际消费
+                                                  倾向'' (MPC, \textit{Mar...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 倾 (U+503E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...�中的 $\beta$ 被称为``边际消费倾
+                                                  向'' (MPC, \textit{Margin...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:46: LaTeX Error: Unicode character 向 (U+5411)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...�的 $\beta$ 被称为``边际消费倾向
+                                                  '' (MPC, \textit{Marginal ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:47: LaTeX Error: Environment quote undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47   \begin{quote}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: Undefined control sequence.
+l.48     {\it
+              ``无论我们是从现已了解的人类本性上看, 还是�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 无 (U+65E0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48     {\it ``无
+                   论我们是从现已了解的人类本性上看, 还是�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 论 (U+8BBA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48     {\it ``无论
+                      我们是从现已了解的人类本性上看, 还是�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 我 (U+6211)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48     {\it ``无论我
+                         们是从现已了解的人类本性上看, 还是�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 们 (U+4EEC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48     {\it ``无论我们
+                            是从现已了解的人类本性上看, 还是�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 是 (U+662F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48     {\it ``无论我们是
+                               从现已了解的人类本性上看, 还是�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 从 (U+4ECE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48     {\it ``无论我们是从
+                                  现已了解的人类本性上看, 还是�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 现 (U+73B0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48     {\it ``无论我们是从现
+                                     已了解的人类本性上看, 还是�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 已 (U+5DF2)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48     {\it ``无论我们是从现已
+                                        了解的人类本性上看, 还是�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 了 (U+4E86)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48     {\it ``无论我们是从现已了
+                                           解的人类本性上看, 还是�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 解 (U+89E3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48     {\it ``无论我们是从现已了解
+                                              的人类本性上看, 还是�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 的 (U+7684)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48     {\it ``无论我们是从现已了解的
+                                                 人类本性上看, 还是�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 人 (U+4EBA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...\it ``无论我们是从现已了解的人
+                                                  类本性上看, 还是从...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 类 (U+7C7B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ... ``无论我们是从现已了解的人类
+                                                  本性上看, 还是从经...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 本 (U+672C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...无论我们是从现已了解的人类本
+                                                  性上看, 还是从经验...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 性 (U+6027)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...论我们是从现已了解的人类本性
+                                                  上看, 还是从经验中...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 上 (U+4E0A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...我们是从现已了解的人类本性上
+                                                  看, 还是从经验中的...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 看 (U+770B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...们是从现已了解的人类本性上看
+                                                  , 还是从经验中的具...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 还 (U+8FD8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...�从现已了解的人类本性上看, 还
+                                                  是从经验中的具体�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 是 (U+662F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...�现已了解的人类本性上看, 还是
+                                                  从经验中的具体事�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 从 (U+4ECE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...�已了解的人类本性上看, 还是从
+                                                  经验中的具体事实�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 经 (U+7ECF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...�了解的人类本性上看, 还是从经
+                                                  验中的具体事实来�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 验 (U+9A8C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...�解的人类本性上看, 还是从经验
+                                                  中的具体事实来看, ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 中 (U+4E2D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...�的人类本性上看, 还是从经验中
+                                                  的具体事实来看, 我...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 的 (U+7684)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...�人类本性上看, 还是从经验中的
+                                                  具体事实来看, 我们...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 具 (U+5177)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...�类本性上看, 还是从经验中的具
+                                                  体事实来看, 我们可...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48: LaTeX Error: Unicode character 体 (U+4F53)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...�本性上看, 还是从经验中的具体
+                                                  事实来看, 我们可以...
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 336 strings out of 478268
+ 6289 string characters out of 5846346
+ 296173 words of memory out of 5000000
+ 18635 multiletter control sequences out of 15000+600000
+ 469913 words of font info for 30 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 24i,5n,34p,498b,128s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+/Users/lhr45678/Documents/OneDrive - hnu.edu.cn/WORK/macro23spring-hugo/content/notes/ch10/src/index.tex:48:  ==> Fatal error occurred, no output PDF file produced!

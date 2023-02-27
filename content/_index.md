@@ -53,12 +53,15 @@ GDP 的衡量 [PDF](slides/02-gdp-cal.pdf),
 
 ## 讲义
 
-我使用 LaTeX 排版讲义, 你可以[从这里]获取 TeX 源码.
+我用 LaTeX 排版讲义, 以下同时提供 PDF 和源文本.
 
-[从这里]: https://www.overleaf.com/read/pqjgfpksbtcy
+- 凯恩斯交叉与乘数效应:
+[PDF](notes/ch10/build/index/index.pdf)
+[TeX](notes/ch10/src/index.tex)
 
-- [凯恩斯交叉与乘数效应](notes/ch10.pdf)
+
 - IS-LM
+
 
 ## 阅读资料
 
