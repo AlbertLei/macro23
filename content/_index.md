@@ -31,7 +31,7 @@ GDP 的衡量 [PDF](slides/02-gdp-cal.pdf),
 失业 [PDF](slides/03.pdf),
 [source](slides/03.marp).
   
-1. 0222:
+1. 0223:
 第九章练习. 练习1 [PDF](slides/ch9-review1.pdf),
 练习2 [PDF](slides/ch9-review2.pdf)
 
@@ -39,11 +39,22 @@ GDP 的衡量 [PDF](slides/02-gdp-cal.pdf),
    - [说唱视频: 凯恩斯大战哈耶克](https://www.bilibili.com/video/BV1Zx411V7ec/)
    - 视频文本 subtitle [TXT](notes/subtitle.txt)
 
+1. 0227:
+国民收入均衡, 消费函数
+[PDF](slides/ch10-slides.pdf).
+(易老师代上)
+
+1. 0302:
+凯恩斯交叉和乘数效应, [讲义 PDF]((notes/ch10.pdf))
 
 
 ## 讲义
 
-- 凯恩斯交叉
+我使用 LaTeX 排版讲义, 你可以[从这里]获取 TeX 源码.
+
+[从这里]: https://www.overleaf.com/read/pqjgfpksbtcy
+
+- [凯恩斯交叉与乘数效应](notes/ch10.pdf)
 - IS-LM
 
 ## 阅读资料
