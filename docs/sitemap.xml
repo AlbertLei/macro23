@@ -5,10 +5,26 @@
     <loc>/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>/slides/07/</loc>
+  </url><url>
+    <loc>/slides/08/</loc>
+  </url><url>
+    <loc>/slides/09-re/</loc>
+  </url><url>
+    <loc>/slides/09/</loc>
+  </url><url>
+    <loc>/slides/10/</loc>
+  </url><url>
+    <loc>/slides/11/</loc>
+  </url><url>
+    <loc>/slides/12-as/</loc>
+  </url><url>
     <loc>/syllabus/</loc>
     <priority>0</priority>
   </url><url>
     <loc>/categories/</loc>
+  </url><url>
+    <loc>/slides/</loc>
   </url><url>
     <loc>/tags/</loc>
   </url>

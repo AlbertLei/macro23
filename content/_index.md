@@ -47,9 +47,11 @@ GDP 的衡量 [PDF](slides/02-gdp-cal.pdf),
 1. 0302:
 凯恩斯交叉和乘数效应, 见讲义.
 
+1. 0202:
+凯恩斯交叉均衡动态演示 [PPT](slides/keynes-cross-dynamic.pptx),
+消费和投资需求的决定
+[PDF](slides/06.pdf)
 
-
-[marp]: https://github.com/marp-team/marp
 
 ## 讲义
 
@@ -87,3 +89,6 @@ GDP 的衡量 [PDF](slides/02-gdp-cal.pdf),
 
 - [2022春(精算班)](https://www.cnblogs.com/albertlei/p/macro22.html),
 - [2021春(电商班)](https://www.cnblogs.com/albertlei/p/macro21.html).
+
+
+[marp]: https://github.com/marp-team/marp
