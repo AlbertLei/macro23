@@ -50,10 +50,7 @@ GDP 的衡量 [PDF](slides/02-gdp-cal.pdf),
 1. 0202:
 凯恩斯交叉均衡动态演示 [PPT](slides/keynes-cross-dynamic.pptx),
 消费和投资需求的决定
-[PDF](slides/06.pdf);
-投资
-[PDF](slides/investment.pdf)
-
+[PDF](slides/06.pdf).
 
 
 ## 讲义
