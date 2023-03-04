@@ -47,21 +47,27 @@ GDP 的衡量 [PDF](slides/02-gdp-cal.pdf),
 1. 0302:
 凯恩斯交叉和乘数效应, 见讲义.
 
-1. 0202:
+1. 0303:
 凯恩斯交叉均衡动态演示 [PPT](slides/keynes-cross-dynamic.pptx),
 消费和投资需求的决定
-[PDF](slides/06.pdf).
+[PDF](slides/06.pdf),
+[source](slides/06.marp).
 
+1. 0306:
+IS-LM 模型, 见讲义.
 
 ## 讲义
 
-我用 [Quarto](https://quarto.org/) 排版讲义, 以下同时提供 PDF 和源文本.
+我用 [Quarto](https://quarto.org/) 编辑讲义, 
+其排版引擎是 LaTeX, 有时我也直接使用 LaTeX
+编辑讲义.
 
 - 凯恩斯交叉与乘数效应:
 [PDF](notes/qmd/ch10-crossing.pdf),
 [source](notes/qmd/ch10-crossing.qmd).
 
-- IS-LM
+- IS-LM: [PDF](notes/qmd/IS-LM.pdf),
+[source](notes/qmd/IS-LM.tex).
 
 ## 阅读资料
 
