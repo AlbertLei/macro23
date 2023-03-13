@@ -56,6 +56,15 @@ GDP 的衡量 [PDF](slides/02-gdp-cal.pdf),
 1. 0306:
 IS-LM 模型, 见讲义.
 
+1. 0309:
+IS-LM 模型的应用, 见讲义;
+练习题 [PPT](slides/IS-LM-exr.pptx)
+
+1. 0313:
+[课程小结1](slides/课程小结-1.pptx); 
+[课程小结2](slides/课程小结-2-凯恩斯经济学.pdf);
+[习题(凯恩斯交叉)](slides/习题-凯恩斯交叉.pdf)
+
 ## 讲义
 
 我用 [Quarto](https://quarto.org/) 编辑讲义, 
@@ -68,6 +77,11 @@ IS-LM 模型, 见讲义.
 
 - IS-LM: [PDF](notes/qmd/IS-LM.pdf),
 [source](notes/qmd/IS-LM.tex).
+
+- IS-LM 的应用 (分析财政政策和货币政策):
+[PDF](notes/qmd/IS-LM_app.pdf),
+[source](notes/qmd/IS-LM_app.tex).
+
 
 ## 阅读资料
 
