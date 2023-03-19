@@ -84,29 +84,17 @@ IS 曲线向下倾斜 IS 曲线概括了产品市场均衡时的 $(Y,r)$ 流动�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/slides/10/</guid>
-      <description>第十讲 《宏观经济学》 雷浩然 湖南大学经贸学院
-2021-04-08
-Review 教学顺序上，很多内容是递进的。前面学过的内容，是后面内容的基础
-凯恩斯交叉 $\Rightarrow$ IS 曲线 流动性偏好理论 $\Rightarrow$ LM 曲线 IS-LM $\Rightarrow$ 总需求曲线 出于学习方便，先将央行政策简化为通过“控制名义货币供给 M 来决定利率 r”，实际中经常是通过控制利率 r 来调整货币供给。 三种理解方式 文字，公式，画图 我们之前理解的产品市场均衡：
-E = Y, 它表示“计划支出=实际支出”，或“需求=生产” 另一种角度理解 IS: 投资 = 储蓄
+      <description>《宏观经济学》 雷浩然 湖南大学经贸学院
+课程回顾
+知识体系 教学顺序上，很多内容是递进的。前面学过的内容，是后面内容的基础
+凯恩斯交叉 $\Rightarrow$ IS 曲线 流动性偏好理论 $\Rightarrow$ LM 曲线 IS-LM $\Rightarrow$ 总需求曲线 教学时, 我们先将央行政策简化为通过“控制名义货币供给 M 来决定利率 r”，实际中经常是通过控制利率 r 来调整货币供给。
+三种理解方式 文字，公式，画图 我们之前理解的产品市场均衡：
+E = Y, 它表示“计划支出=实际支出” 另一种角度理解 IS: (计划)投资 = 储蓄
 家庭储蓄：$S = {\color{red}{Y_D}} - C = {\color{red}{Y - T}}-C$
 $Y_D$: 可支配收入 (disposable income) 政府储蓄：$T-G$
 家庭储蓄：$S = {\color{red}{Y_D}} - C = {\color{red}{Y - T}}-C$
 $Y_D$: 可支配收入 (disposable income) 政府储蓄：$T-G$
 产品市场均衡：$E = Y \Rightarrow C + I + G = Y$</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/slides/11/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/slides/11/</guid>
-      <description>第十一讲 《宏观经济学》 总需求理论 雷浩然 湖南大学经贸学院
-2021-04-13
-从 IS-LM 到总需求曲线 从 IS-LM 到总需求曲线 IS-LM：价格水平 P 不变 总需求曲线：价格水平 P 可变 总需求：Aggregate Demand 总需求曲线 产品市场和货币市场均衡时，产出和价格水平的关系 P 和 Y 负相关 P $\uparrow$ $\Rightarrow$ $M \over P$ $\downarrow$ $\Rightarrow$ LM 上移 $\Rightarrow$ 均衡产量 Y $\downarrow$ 可类比“紧缩货币政策”理解 图示 文字说明 价格水平 P 上升，导致实际货币余额供给 $M\over P$ 下降 由流动性偏好理论，这会导致利率 r 上升 较高的利率抑制了投资，导致均衡产出下降 文字说明 价格水平 P 上升，导致实际货币余额供给 $M\over P$ 下降 由流动性偏好理论，这会导致利率 r 上升 较高的利率抑制了投资，导致均衡产出下降 课本称为利率效应
-课本的其他效应 效应二、 财富效应/实际余额效应
-P 上升，导致人们持有的货币价值下降，进而导致消费水平下降 课本的其他效应 效应二、 财富效应/实际余额效应</description>
     </item>
     
     <item>

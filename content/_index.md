@@ -62,13 +62,17 @@ IS-LM 模型的应用, 见讲义;
 
 1. 0313:
 课程小结1 [PPT](slides/课程小结-1.pptx); 
-课程小结2 [PDF](slides/课程小结-2-凯恩斯经济学.pdf);
+课程小结2 [PDF](slides/课程小结-2-凯恩斯经济学.pdf)
+
+1. 0316:
+答疑 [PDF](slides/10.pdf);
 习题(凯恩斯交叉) [PDF](slides/习题-凯恩斯交叉.pdf)
 
 
-1. 0316:
-课程小结 [PDF](slides/10.pdf),
-AD [PDF](slides/11.pdf)
+1. 0320:
+总需求 AD [PDF](slides/11.pdf),
+[source](slides/11.marp);
+总供给 AS, 见讲义
 
 ## 讲义
 
@@ -86,6 +90,11 @@ AD [PDF](slides/11.pdf)
 - IS-LM 的应用 (分析财政政策和货币政策):
 [PDF](notes/qmd/IS-LM_app.pdf),
 [source](notes/qmd/IS-LM_app.tex).
+
+
+- 总供给:
+[PDF](notes/qmd/AS.pdf),
+[source](notes/qmd/AS.tex).
 
 
 ## 阅读资料
