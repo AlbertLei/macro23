@@ -1,14 +1,17 @@
 # 宏观经济学 --- 2023春
 
+**期中考试:** 二教201, 4月22日, 15:00-17:00.
+
 湖南大学课程, 数字经济 2201, 2202 班. [课程说明](syllabus)
 
-- 教材[第一版 PDF](https://wwe.lanzoux.com/iC0Enm6ievg).
+教材[第一版 PDF](https://wwe.lanzoux.com/iC0Enm6ievg).
 我手头没有最新版教材的电子版.
 
-- 推荐阅读: 《宏观经济学》 by Mankiw, 第七版中文翻译
+推荐阅读: 《宏观经济学》 by Mankiw, 第七版中文翻译
  
-   - [9到14章](https://wwe.lanzoux.com/idSGSmw8g4h) (18 Mb), 涉及凯恩斯交叉，IS-LM，AS-AD 模型部分;
-   - [全书下载](https://wwe.lanzoux.com/iIwTPmw5dna) (58 Mb).
+- [9到14章](https://wwe.lanzoux.com/idSGSmw8g4h) (18 Mb), 涉及凯恩斯交叉，IS-LM，AS-AD 模型部分;
+- [全书下载](https://wwe.lanzoux.com/iIwTPmw5dna) (58 Mb).
+
 
 ## 课堂资料
 
@@ -68,11 +71,17 @@ IS-LM 模型的应用, 见讲义;
 答疑 [PDF](slides/10.pdf);
 习题(凯恩斯交叉) [PDF](slides/习题-凯恩斯交叉.pdf)
 
-
 1. 0320:
 总需求 AD [PDF](slides/11.pdf),
 [source](slides/11.marp);
 总供给 AS, 见讲义
+
+1. 0323:
+AD-AS补充 [PDF](slides/AD-AS-extra.pdf);
+课堂展示说明 [PDF](notes/小组展示-macro2023.pdf)
+
+1. 0326:
+
 
 ## 讲义
 
