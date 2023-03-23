@@ -35,10 +35,9 @@ GDP 的衡量 [PDF](slides/02-gdp-cal.pdf),
 [source](slides/03.marp).
   
 1. 0223:
-第九章练习. 练习1 [PDF](slides/ch9-review1.pdf),
-练习2 [PDF](slides/ch9-review2.pdf)
-
-[说唱视频: 凯恩斯大战哈耶克](https://www.bilibili.com/video/BV1Zx411V7ec/);
+第九章练习. 练习1 [PDF](slides/ch9-review1.pdf);
+练习2 [PDF](slides/ch9-review2.pdf);
+凯恩斯大战哈耶克 [视频](https://www.bilibili.com/video/BV1Zx411V7ec/);
 视频文本 subtitle [TXT](notes/subtitle.txt)
 
 1. 0227:
