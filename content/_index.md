@@ -82,6 +82,7 @@ AD-AS 补充 [PDF](slides/AD-AS-extra.pdf)
 
 1. 0330:
 AD-AS 习题 [PDF](slides/AS-AD-exercise.pdf)
+IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 
 ## 讲义
 
