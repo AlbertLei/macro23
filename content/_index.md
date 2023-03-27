@@ -79,6 +79,7 @@ AD-AS补充 [PDF](slides/AD-AS-extra.pdf);
 课堂展示说明 [PDF](notes/小组展示-macro2023.pdf)
 
 1. 0326:
+AD-AS 习题 [PDF](slides/AS-AD-exercise.pdf)
 
 
 ## 讲义
