@@ -75,12 +75,13 @@ IS-LM 模型的应用, 见讲义;
 总供给 AS, 见讲义
 
 1. 0323:
-AD-AS补充 [PDF](slides/AD-AS-extra.pdf);
 课堂展示说明 [PDF](notes/小组展示-macro2023.pdf)
 
-1. 0326:
-AD-AS 习题 [PDF](slides/AS-AD-exercise.pdf)
+1. 0327:
+AD-AS 补充 [PDF](slides/AD-AS-extra.pdf)
 
+1. 0330:
+AD-AS 习题 [PDF](slides/AS-AD-exercise.pdf)
 
 ## 讲义
 
