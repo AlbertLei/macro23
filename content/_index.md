@@ -84,6 +84,18 @@ AD-AS 补充 [PDF](slides/AD-AS-extra.pdf)
 AD-AS 习题 [PDF](slides/AS-AD-exercise.pdf)
 IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 
+
+1. 0331:
+周五课堂小报告
+
+1. 0403:
+失业、通货膨胀和经济周期
+[PPT](slides/macro-ch13.pptx)
+
+1. 0406:
+菲利普斯曲线 
+[PDF](notes/macro-PC.pdf)
+
 ## 讲义
 
 我用 [Quarto](https://quarto.org/) 编辑讲义, 
@@ -105,6 +117,8 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 - 总供给:
 [PDF](notes/qmd/AS.pdf),
 [source](notes/qmd/AS.tex).
+
+
 
 
 ## 阅读资料
