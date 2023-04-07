@@ -93,8 +93,7 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 [PPT](slides/macro-ch13.pptx)
 
 1. 0406:
-菲利普斯曲线 
-[PDF](notes/macro-PC.pdf)
+菲利普斯曲线, 见讲义
 
 ## 讲义
 
@@ -113,13 +112,12 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 [PDF](notes/qmd/IS-LM_app.pdf),
 [source](notes/qmd/IS-LM_app.tex).
 
-
 - 总供给:
 [PDF](notes/qmd/AS.pdf),
 [source](notes/qmd/AS.tex).
 
-
-
+- 菲利普斯曲线: 
+[PDF](notes/macro-PC.pdf)
 
 ## 阅读资料
 
@@ -133,11 +131,24 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 
 [3] 《宏观经济学》, Blanchard (布兰查德), 英文第七版 [PDF](https://wwe.lanzoux.com/iYdV4nte2jc)
 
-- 注：我个人认为最好的宏观经济学入门书，可惜没有中文翻译版。作者 Blanchard 是法国人，曾担任国际货币基金组织(IMF)首席经济学家。
+- 注：我个人认为最好的宏观经济学入门书, 可惜没有中文翻译版. 作者 Blanchard 是法国人, 曾担任国际货币基金组织(IMF)首席经济学家. 这本书关于 LM 曲线的介绍很有特色, Blanchard 认为 LM 曲线应该是水平的. 欲知背后原因, 请阅读原书.
 
 [4] 《经济学（宏观分册）》，Acemoglu (阿西莫格鲁), Laibson (莱布森), and List (李斯特)。英文版 [PDF](https://wwe.lanzoux.com/igNlbm6joxe)
 
-- 书本身很好读，英文好的同学可以当宏观故事书看。
+- 注: 在某本非常畅销的经济学教科书中, 曼昆列出了所谓的"[经济学十大原理]".
+相比之下, 这本教材列出的原理只有三个: 最优化, 均衡和经验主义.
+三位作者在写这本书时, 非常强调"经验主义". 
+我推荐大家读读第二章的 "model and data",
+和每章末的 Evidence-based economics.
+对于大一同学, 还可以读读第一章的"Is economics good for you?",
+或许可以解答一些关于专业选择上的疑惑.
+
+
+[5] 《宏观经济学通识课》, 谢丹阳.
+
+- 注：这本书的定位应该是"科普书", 而非严肃的教科书. 推荐此书的原因在于它的案例很多, 可以作为课堂的补充.
+同学们可以通过湖南大学账号, 登陆"京东读书专业版", 免费阅读此书.
+
 
 ## 其他
 
@@ -150,3 +161,6 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 
 
 [marp]: https://github.com/marp-team/marp
+
+
+[经济学十大原理]: https://baike.baidu.com/item/%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%8D%81%E5%A4%A7%E5%8E%9F%E7%90%86/8771596
