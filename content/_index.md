@@ -95,6 +95,11 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 1. 0406:
 菲利普斯曲线, 见讲义
 
+1. 0410
+预期与菲利普斯曲线, 经济周期
+[PPT](slides/0410-ch13.pptx)
+
+
 ## 讲义
 
 我用 [Quarto](https://quarto.org/) 编辑讲义, 
@@ -139,7 +144,7 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 相比之下, 这本教材列出的原理只有三个: 最优化, 均衡和经验主义.
 三位作者在写这本书时, 非常强调"经验主义". 
 我推荐大家读读第二章的 "model and data",
-和每章末的 Evidence-based economics.
+和每章末的 "Evidence-based economics."
 对于大一同学, 还可以读读第一章的"Is economics good for you?",
 或许可以解答一些关于专业选择上的疑惑.
 
