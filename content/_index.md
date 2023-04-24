@@ -3,8 +3,6 @@
 **期中考试:** 二教201, 4月22日, 15:00-17:00.   
 [前三章名词解释](notes/macro-jargon)
 
-
-
 湖南大学课程, 数字经济 2201, 2202 班. [课程说明](syllabus)
 
 教材[第一版 PDF](https://wwe.lanzoux.com/iC0Enm6ievg).
@@ -14,7 +12,6 @@
  
 - [9到14章](https://wwe.lanzoux.com/idSGSmw8g4h) (18 Mb), 涉及凯恩斯交叉，IS-LM，AS-AD 模型部分;
 - [全书下载](https://wwe.lanzoux.com/iIwTPmw5dna) (58 Mb).
-
 
 ## 课堂资料
 
@@ -87,7 +84,6 @@ AD-AS 补充 [PDF](slides/AD-AS-extra.pdf)
 AD-AS 习题 [PDF](slides/AS-AD-exercise.pdf)
 IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 
-
 1. 0331:
 周五课堂小报告
 
@@ -98,9 +94,17 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 1. 0406:
 菲利普斯曲线, 见讲义
 
-1. 0410
+1. 0410:
 预期与菲利普斯曲线, 经济周期
 [PPT](slides/0410-ch13.pptx)
+
+1. 0413, 0417, 0420:
+十三章剩余内容 + 期中复习.
+
+1. 0424:
+- 开放经济体 [PDF](slides/open.pdf),
+[source](slides/open.marp)
+
 
 
 ## 讲义
@@ -126,6 +130,8 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 
 - 菲利普斯曲线: 
 [PDF](notes/macro-PC.pdf)
+
+
 
 ## 阅读资料
 
