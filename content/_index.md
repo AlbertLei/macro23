@@ -102,9 +102,10 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 十三章剩余内容 + 期中复习.
 
 1. 0424:
-- 开放经济体 [PDF](slides/open.pdf),
+开放经济体 [PDF](slides/open.pdf),
 [source](slides/open.marp)
 
+1. 0427: IS*-LM* 模型, 见讲义
 
 
 ## 讲义
@@ -130,8 +131,6 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 
 - 菲利普斯曲线: 
 [PDF](notes/macro-PC.pdf)
-
-
 
 ## 阅读资料
 

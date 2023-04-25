@@ -22,8 +22,12 @@
   </url><url>
     <loc>/categories/</loc>
   </url><url>
+    <loc>/notes/</loc>
+  </url><url>
     <loc>/slides/</loc>
   </url><url>
     <loc>/tags/</loc>
+  </url><url>
+    <loc>/notes/macro-jargon/</loc>
   </url>
 </urlset>

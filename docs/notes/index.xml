@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on 宏经 | Macro Econ</title>
+    <link>/notes/</link>
+    <description>Recent content in Notes on 宏经 | Macro Econ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>前三章名词解释</title>
+      <link>/notes/macro-jargon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/macro-jargon/</guid>
+      <description>Ch9: 基本指标 国内生产总值 (GDP): 一个国家或地区在一定时期内生产的最终产品与服务的市场价值.
+国民生产总值 (GNP): 一个国家或地区的公民在一定时期内生产的最终产品与服务的市场价值.
+国内生产净值 (NDP): GDP 减去折旧.
+国民净产值 (NNP): GNP 减去折旧.
+国民收入 (NI): 与国民净产值近似相等, 等于 国民净产值(NNP) 减统计误差.
+价格水平 (价格指数): 同一组产品或服务在某年的费用额度与基期年费用额之比
+GDP平减指数: 名义GDP和实际GDP之比
+消费价格指数 (CPI): 现期时一篮子商品的费用与基期时一篮子商品的费用之比
+通货膨胀: 经济体在一定时期内, 价格水平持续, 普遍上涨.
+通货膨胀率: 一个时期到另一时期价格水平的变动百分比.
+失业: 有工作意愿, 愿意接受当下劳动力市场的薪水, 但没有工作.
+劳动力: 包括就业者和失业者.
+失业率: 失业人数与劳动力人数之比.
+就业率: 就业人数与劳动力人数之比.
+劳动参与率: 劳动力人数与劳动年龄人口数之比.
+摩擦性失业: 工人与工作之间匹配过程所引起的失业 (由劳动力市场摩擦导致).
+结构性失业: 工人技能与工作要求持续不匹配导致的失业 (由产业结构变化导致).
+周期性失业: 随经济衰退上升, 经济扩张而下降的失业 (由经济周期导致).
+充分就业: 不包括周期性失业.
+自然失业率: 充分就业状况下的失业率
+潜在 GDP: 充分就业状况下的 GDP
+滞涨: 经济停滞与通胀并存
+Ch10: 短期内国民收入的决定 (凯恩斯交叉模型) 储蓄投资恒等式: 实际储蓄等于实际投资</description>
+    </item>
+    
+  </channel>
+</rss>
