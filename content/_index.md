@@ -132,6 +132,9 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 - 菲利普斯曲线: 
 [PDF](notes/macro-PC.pdf)
 
+- IS*-LM* 模型 (also known as 蒙代尔-弗莱明模型)
+[PDF](notes/mundell.pdf)
+
 ## 阅读资料
 
 [1] 《宏观经济学》，Mankiw (曼昆)。中文第七版，[PDF](https://wwe.lanzoux.com/iIwTPmw5dna)
