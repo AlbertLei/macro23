@@ -130,10 +130,12 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 [source](notes/qmd/AS.tex).
 
 - 菲利普斯曲线: 
-[PDF](notes/macro-PC.pdf)
+[PDF](notes/qmd/macro-PC.pdf)
 
 - IS*-LM* 模型 (also known as 蒙代尔-弗莱明模型)
-[PDF](notes/mundell.pdf)
+[PDF](notes/qmd/mundell.pdf)
+
+
 
 ## 阅读资料
 
