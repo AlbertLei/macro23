@@ -107,12 +107,14 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 
 1. 0427: IS*-LM* 模型, 见讲义
 
+1. 0504: IS*-LM* 模型
+
+1. 0508: 开放经济体小结+练习 [PDF](slides/mundell-review.pdf)
+
 
 ## 讲义
 
-我用 [Quarto](https://quarto.org/) 编辑讲义, 
-其排版引擎是 LaTeX, 有时我也直接使用 LaTeX
-编辑讲义.
+教师使用 LaTeX 排版讲义.
 
 - 凯恩斯交叉与乘数效应:
 [PDF](notes/qmd/ch10-crossing.pdf),
