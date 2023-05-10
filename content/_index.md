@@ -84,9 +84,6 @@ AD-AS 补充 [PDF](slides/AD-AS-extra.pdf)
 AD-AS 习题 [PDF](slides/AS-AD-exercise.pdf)
 IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 
-1. 0331:
-周五课堂小报告
-
 1. 0403:
 失业、通货膨胀和经济周期
 [PPT](slides/macro-ch13.pptx)
@@ -105,12 +102,24 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 开放经济体 [PDF](slides/open.pdf),
 [source](slides/open.marp)
 
-1. 0427: IS*-LM* 模型, 见讲义
+1. 0427: IS*-LM* 模型, 见讲义    
 
 1. 0504: IS*-LM* 模型
 
 1. 0508: 开放经济体小结+练习 [PDF](slides/mundell-review.pdf)
 
+1. 0511, 0515, 0518: 宏观经济政策 [PDF](slides/policy.pdf), [PPT](slides/policy.pptx)
+
+1. 0522, 0525, 0529, 0601: 经济增长
+
+1. 0605, 0608: 期末复习
+
+## 指导课 (周五)
+
+- 0303: 正常教学
+- 0331: 第一次小组报告
+- 0428: 使用 LaTeX (或 Markdown) 排版文章和幻灯片
+- 0526: 第二次小组报告
 
 ## 讲义
 
