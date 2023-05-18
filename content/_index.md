@@ -110,7 +110,7 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 
 1. 0511, 0515, 0518: 宏观经济政策 [PDF](slides/policy.pdf), [PPT](slides/policy.pptx)
 
-1. 0522, 0525, 0529, 0601: 经济增长
+1. 0522, 0525, 0529, 0601: 经济增长 [PDF](slides/growth.pdf), [PPT](slides/growth.pptx)
 
 1. 0605, 0608: 期末复习
 
