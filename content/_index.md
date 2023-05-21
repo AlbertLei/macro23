@@ -102,7 +102,7 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 开放经济体 [PDF](slides/open.pdf),
 [source](slides/open.marp)
 
-1. 0427: IS*-LM* 模型, 见讲义    
+1. 0427: IS*-LM* 模型, 见讲义
 
 1. 0504: IS*-LM* 模型
 
@@ -143,9 +143,11 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 - 菲利普斯曲线: 
 [PDF](notes/qmd/macro-PC.pdf)
 
-- IS*-LM* 模型 (also known as 蒙代尔-弗莱明模型)
+- IS*-LM* 模型 (also known as 蒙代尔-弗莱明模型):
 [PDF](notes/qmd/mundell.pdf)
 
+- 增长模型: 
+[PDF](notes/qmd/growth.pdf)
 
 
 ## 阅读资料
