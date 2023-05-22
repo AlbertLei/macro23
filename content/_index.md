@@ -1,7 +1,11 @@
 # 宏观经济学 --- 2023春
 
-**期中考试:** 二教201, 4月22日, 15:00-17:00.   
+**期末考试:** 二教 301,
+6月7日, 上午 09:00-11:00.
+
 [前三章名词解释](notes/macro-jargon)
+
+<!-- **期中考试:** 二教201, 4月22日, 15:00-17:00. -->
 
 湖南大学课程, 数字经济 2201, 2202 班. [课程说明](syllabus)
 
@@ -108,14 +112,14 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 
 1. 0508: 开放经济体小结+练习 [PDF](slides/mundell-review.pdf)
 
-1. 0511, 0515, 0518: 宏观经济政策 [PDF](slides/policy.pdf), [PPT](slides/policy.pptx)
+1. 0511, 0515: 宏观经济政策 [PDF](slides/policy.pdf), [PPT](slides/policy.pptx)
 
-1. 0522: 经济增长 [PDF](slides/growth.pdf), [PPT](slides/growth.pptx)
+1. 0518: 经济增长 [PDF](slides/growth.pdf), [PPT](slides/growth.pptx)
 
-1. 0525, 0529, 0601: 经济增长理论, 见讲义.
+1. 0522, 0525: 经济增长理论, 见讲义.
 [为什么你必须学好增长模型.png](slides/fig/solow.png)
 
-1. 0605, 0608: 期末复习
+1. 0529, 0601: 期末复习
 
 ## 指导课 (周五)
 
