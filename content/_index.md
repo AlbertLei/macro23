@@ -106,9 +106,7 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 开放经济体 [PDF](slides/open.pdf),
 [source](slides/open.marp)
 
-1. 0427: IS*-LM* 模型, 见讲义
-
-1. 0504: IS*-LM* 模型
+1. 0427, 0504: IS*-LM* 模型, 见讲义
 
 1. 0508: 开放经济体小结+练习 [PDF](slides/mundell-review.pdf)
 
