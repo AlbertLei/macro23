@@ -117,7 +117,12 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 1. 0522, 0525: 经济增长理论, 见讲义.
 [为什么你必须学好增长模型.png](slides/fig/solow.png)
 
-1. 0529, 0601: 期末复习
+1. 0529: 增长习题+补充内容 [PDF](slides/growth-exr.pdf),
+[PPT](slides/growth-exr.pptx);
+期末复习建议 [PPT](slides/macro_final_advice_2023.pptx);
+期末复习资料1 [PDF](slides/macro_review_2023.pdf)
+
+
 
 ## 指导课 (周五)
 
