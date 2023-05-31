@@ -3,8 +3,8 @@
 **期末考试:** 二教 301,
 6月7日, 上午 09:00-11:00.
 
-[前三章名词解释](notes/macro-jargon);
-[期末名词解释](notes/macro-jargon2).
+- [期末名词解释](notes/macro-jargon2)
+- [前三章名词解释](notes/macro-jargon)
 
 
 <!-- **期中考试:** 二教201, 4月22日, 15:00-17:00. -->
