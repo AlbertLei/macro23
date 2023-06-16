@@ -1,7 +1,7 @@
 /*
  * https://gist.github.com/killercup/5917178
  */
-
+ 
  html {
     font-size: 100%;
     overflow-y: scroll;
@@ -66,12 +66,20 @@
     max-width: 100%;
   }
   
+  h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
   h1, h2, h3, h4, h5, h6 {
     color: chocolate;
     line-height: 125%;
     margin-top: 2em;
     font-weight: normal;
-    font-family: charter, Georgia, 'Times New Roman', Times, serif;
   }
   
   h4, h5, h6 {
