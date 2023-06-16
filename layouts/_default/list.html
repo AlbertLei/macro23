@@ -7,7 +7,30 @@
   <link rel="stylesheet" href="/pandoc.css">
 </head>
 
-<body>
+<!-- <body>
+  {{ .TableOfContents }}
   {{ .Content }}
-</body>
+</body> -->
+
+
+<main>
+  <article>
+  <header>
+      <h1>{{ .Title }}</h1>
+  </header>
+  <hr/>
+  <p>
+      页面目录:
+  <p>  
+  
+    {{ .TableOfContents }}
+  <hr/>
+
+    {{ .Content }}
+  </article>
+
+</main>
+
+
+
 </html>

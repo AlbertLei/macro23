@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
-    <priority>0</priority>
-  </url><url>
     <loc>/slides/07/</loc>
   </url><url>
     <loc>/slides/08/</loc>
@@ -29,6 +26,8 @@
     <loc>/tags/</loc>
   </url><url>
     <loc>/notes/macro-jargon/</loc>
+  </url><url>
+    <loc>/</loc>
   </url><url>
     <loc>/notes/macro-jargon2/</loc>
   </url>

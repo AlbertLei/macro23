@@ -1,22 +1,30 @@
-# 宏观经济学 --- 2023春
+---
+title: 宏观经济学 --- 2023春
+--- 
 
-**期末考试:** 二教 301,
-6月7日, 上午 09:00-11:00.
+## 课程信息
+
+湖南大学课程, 数字经济 2201, 2202 班. [课程说明](syllabus)
+
+教材: 马工程西方经济学
+
+- [第一版 PDF](https://wwe.lanzoux.com/iC0Enm6ievg). 我手头没有最新版教材的电子版.
+
+推荐阅读: 《宏观经济学》 by Mankiw, 第七版中文翻译
+ 
+- [9到14章](https://wwe.lanzoux.com/idSGSmw8g4h) (18 Mb), 涉及凯恩斯交叉，IS-LM，AS-AD 模型部分;
+- [全书下载](https://wwe.lanzoux.com/iIwTPmw5dna) (58 Mb).
+
+
+### 期末考试
+
+时间地点: 二教 301, 6月7日, 上午 09:00-11:00.
 
 - [期末名词解释](notes/macro-jargon2)
 - [前三章名词解释](notes/macro-jargon)
 
 <!-- **期中考试:** 二教201, 4月22日, 15:00-17:00. -->
 
-湖南大学课程, 数字经济 2201, 2202 班. [课程说明](syllabus)
-
-教材[第一版 PDF](https://wwe.lanzoux.com/iC0Enm6ievg).
-我手头没有最新版教材的电子版.
-
-推荐阅读: 《宏观经济学》 by Mankiw, 第七版中文翻译
- 
-- [9到14章](https://wwe.lanzoux.com/idSGSmw8g4h) (18 Mb), 涉及凯恩斯交叉，IS-LM，AS-AD 模型部分;
-- [全书下载](https://wwe.lanzoux.com/iIwTPmw5dna) (58 Mb).
 
 ## 课堂资料
 
@@ -123,15 +131,6 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 期末复习建议 [PPT](slides/macro_final_advice_2023.pptx);
 期末复习资料1 [PDF](slides/macro_review_2023.pdf)
 
-
-
-## 指导课 (周五)
-
-- 0303: 正常教学
-- 0331: 第一次小组报告
-- 0428: 使用 LaTeX (或 Markdown) 排版文章和幻灯片
-- 0526: 第二次小组报告
-
 ## 讲义
 
 教师使用 LaTeX 排版讲义.
@@ -191,7 +190,6 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 - 注：这本书的定位应该是"科普书", 而非严肃的教科书. 推荐此书的原因在于它的案例很多, 可以作为课堂的补充.
 同学们可以通过湖南大学账号, 登陆"京东读书专业版", 免费阅读此书.
 
-
 ## 其他
 
 [往年期末考题](https://wwe.lanzoux.com/iyPfvm9bg4h)，供参考。
@@ -200,6 +198,11 @@ IS-LM 习题 [PPT](slides/IS_LM_exercise.pptx)
 
 - [2022春(精算班)](https://www.cnblogs.com/albertlei/p/macro22.html),
 - [2021春(电商班)](https://www.cnblogs.com/albertlei/p/macro21.html).
+
+
+---
+
+[返回页面顶部](/#)
 
 
 [marp]: https://github.com/marp-team/marp
