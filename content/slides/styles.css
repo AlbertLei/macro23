@@ -1,0 +1,32 @@
+h1, h2, h3 {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-size: 1.1em;
+  font-family: "Noto Sans CJK SC Bold", "Sans";  
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+b, strong {
+   color: red;
+   font-weight: normal;
+}
+
+em {
+   font-style: normal; 
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 3px dashed;
+}
+
+
+.columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }

@@ -6,10 +6,10 @@ math: katex
 ---
 
 <style>
-:root {
+/* :root {
   font-family: "Fira Sans", "Noto Sans CJK SC Medium" , "PingFang SC", "LXGW WenKai", "Noto Sans CJK SC";
   font-size: 36px;
-}
+} */
 
 h1, h2, h3 {
   text-align: center;
