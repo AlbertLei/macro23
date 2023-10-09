@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/slides/00-intro_files/libs/revealjs/plugin/notes/speaker-view/</loc>
+  </url><url>
+    <loc>/slides/00-intro_files/libs/revealjs/plugin/reveal-chalkboard/readme/</loc>
+  </url><url>
     <loc>/slides/07/</loc>
   </url><url>
     <loc>/slides/08/</loc>
@@ -13,6 +17,10 @@
     <loc>/slides/10/</loc>
   </url><url>
     <loc>/slides/12-as/</loc>
+  </url><url>
+    <loc>/slides/revealjs/plugin/notes/speaker-view/</loc>
+  </url><url>
+    <loc>/slides/slidev/</loc>
   </url><url>
     <loc>/syllabus/</loc>
     <priority>0</priority>

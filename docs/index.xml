@@ -8,6 +8,25 @@
     <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
+      <link>/slides/00-intro_files/libs/revealjs/plugin/notes/speaker-view/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slides/00-intro_files/libs/revealjs/plugin/notes/speaker-view/</guid>
+      <description> reveal.js - Speaker View Loading speaker view... Upcoming Time Click to Reset 0:00 AM 00:00:00 Pacing – Time to finish current slide 00:00:00 Notes </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/slides/00-intro_files/libs/revealjs/plugin/reveal-chalkboard/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slides/00-intro_files/libs/revealjs/plugin/reveal-chalkboard/readme/</guid>
+      <description>Chalkboard With this plugin you can add a chalkboard to reveal.js. The plugin provides two possibilities to include handwritten notes to your presentation:
+you can make notes directly on the slides, e.g. to comment on certain aspects, you can open a chalkboard or whiteboard on which you can make notes. The main use case in mind when implementing the plugin is classroom usage in which you may want to explain some course content and quickly need to make some notes.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>/slides/07/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -116,6 +135,25 @@ $M/P = L(r,Y) \quad {(\text{LM})}$
 Review: 从 IS-LM 到总需求曲线 $Y = C + I + G \quad,, {(\text{IS})}$
 $M/P = L(r,Y) \quad {(\text{LM})}$
 总需求曲线：不同 P 下均衡产出 $Y$ 的变化 总需求：Aggregate Demand 总需求曲线：图示 总需求曲线：文字说明 价格水平 P 上升，导致实际货币余额供给 $M\over P$ 下降 由于 LM 曲线向下倾斜，这会导致利率 r 上升 较高的利率抑制了投资，导致均衡产出下降 课本称为利率效应</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/slides/revealjs/plugin/notes/speaker-view/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slides/revealjs/plugin/notes/speaker-view/</guid>
+      <description> reveal.js - Speaker View Loading speaker view... Upcoming Time Click to Reset 0:00 AM 00:00:00 Pacing – Time to finish current slide 00:00:00 Notes </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/slides/slidev/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slides/slidev/</guid>
+      <description>Welcome to Slidev! Presentation Slides for Developers
+Page 2 📄 Write slides in a single Markdown file 🌈 Themes, code blocks, interactive components 😎 Read the docs to learn more!| </description>
     </item>
     
     <item>

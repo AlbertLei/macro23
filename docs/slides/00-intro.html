@@ -1,130 +1,417 @@
-<!DOCTYPE html><html lang="en-US"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"><meta name="apple-mobile-web-app-capable" content="yes"><meta http-equiv="X-UA-Compatible" content="ie=edge"><meta property="og:type" content="website"><meta name="twitter:card" content="summary"><style>@media screen{body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button{-webkit-tap-highlight-color:transparent;-webkit-appearance:none;appearance:none;background-color:initial;border:0;color:inherit;cursor:pointer;font-size:inherit;opacity:.8;outline:none;padding:0;transition:opacity .2s linear}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button:disabled,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button:disabled,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button:disabled,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button:disabled{cursor:not-allowed;opacity:.15!important}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button:hover,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button:hover,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button:hover,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button:hover{opacity:1}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button:hover:active,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button:hover:active,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button:hover:active,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button:hover:active{opacity:.6}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button:hover:not(:disabled),body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button:hover:not(:disabled),body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button:hover:not(:disabled),body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button:hover:not(:disabled){transition:none}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=prev],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=prev],body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button.bespoke-marp-presenter-info-page-prev{background:#0000 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI1IiBkPSJNNjggOTAgMjggNTBsNDAtNDAiLz48L3N2Zz4=") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=next],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=next],body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button.bespoke-marp-presenter-info-page-next{background:#0000 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI1IiBkPSJtMzIgOTAgNDAtNDAtNDAtNDAiLz48L3N2Zz4=") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=fullscreen],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=fullscreen]{background:#0000 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48ZGVmcz48c3R5bGU+LmF7ZmlsbDpub25lO3N0cm9rZTojZmZmO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2Utd2lkdGg6NXB4fTwvc3R5bGU+PC9kZWZzPjxyZWN0IGNsYXNzPSJhIiB4PSIxMCIgeT0iMjAiIHdpZHRoPSI4MCIgaGVpZ2h0PSI2MCIgcng9IjUuNjciLz48cGF0aCBjbGFzcz0iYSIgZD0iTTQwIDcwSDIwVjUwbTIwIDBMMjAgNzBtNDAtNDBoMjB2MjBtLTIwIDAgMjAtMjAiLz48L3N2Zz4=") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button.exit[data-bespoke-marp-osc=fullscreen],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button.exit[data-bespoke-marp-osc=fullscreen]{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48ZGVmcz48c3R5bGU+LmF7ZmlsbDpub25lO3N0cm9rZTojZmZmO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2Utd2lkdGg6NXB4fTwvc3R5bGU+PC9kZWZzPjxyZWN0IGNsYXNzPSJhIiB4PSIxMCIgeT0iMjAiIHdpZHRoPSI4MCIgaGVpZ2h0PSI2MCIgcng9IjUuNjciLz48cGF0aCBjbGFzcz0iYSIgZD0iTTIwIDUwaDIwdjIwbS0yMCAwIDIwLTIwbTQwIDBINjBWMzBtMjAgMEw2MCA1MCIvPjwvc3ZnPg==")}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=presenter],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=presenter]{background:#0000 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBkPSJNODcuOCA0Ny41Qzg5IDUwIDg3LjcgNTIgODUgNTJIMzVhOC43IDguNyAwIDAgMS03LjItNC41bC0xNS42LTMxQzExIDE0IDEyLjIgMTIgMTUgMTJoNTBhOC44IDguOCAwIDAgMSA3LjIgNC41ek02MCA1MnYzNm0tMTAgMGgyME00NSA0MmgyMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iNSIvPjwvc3ZnPg==") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button.bespoke-marp-presenter-note-bigger{background:#0000 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBkPSJNMTIgNTBoODBNNTIgOTBWMTAiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjUiLz48L3N2Zz4=") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button.bespoke-marp-presenter-note-smaller{background:#0000 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBkPSJNMTIgNTBoODAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjUiLz48L3N2Zz4=") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}}@keyframes __bespoke_marp_transition_reduced_outgoing__{0%{opacity:1}to{opacity:0}}@keyframes __bespoke_marp_transition_reduced_incoming__{0%{mix-blend-mode:plus-lighter;opacity:0}to{mix-blend-mode:plus-lighter;opacity:1}}.bespoke-marp-note,.bespoke-marp-osc,.bespoke-progress-parent{display:none;transition:none}@media screen{::view-transition-group(*){animation-duration:var(--marp-bespoke-transition-animation-duration,.5s);animation-timing-function:ease}::view-transition-new(*),::view-transition-old(*){animation-delay:0s;animation-direction:var(--marp-bespoke-transition-animation-direction,normal);animation-duration:var(--marp-bespoke-transition-animation-duration,.5s);animation-fill-mode:both;animation-name:var(--marp-bespoke-transition-animation-name,var(--marp-bespoke-transition-animation-name-fallback,__bespoke_marp_transition_no_animation__));mix-blend-mode:normal}::view-transition-old(*){--marp-bespoke-transition-animation-name-fallback:__bespoke_marp_transition_reduced_outgoing__;animation-timing-function:ease}::view-transition-new(*){--marp-bespoke-transition-animation-name-fallback:__bespoke_marp_transition_reduced_incoming__;animation-timing-function:ease}::view-transition-new(root),::view-transition-old(root){animation-timing-function:linear}::view-transition-new(__bespoke_marp_transition_osc__),::view-transition-old(__bespoke_marp_transition_osc__){animation-duration:0s!important;animation-name:__bespoke_marp_transition_osc__!important}::view-transition-new(__bespoke_marp_transition_osc__){opacity:0!important}.bespoke-marp-transition-warming-up::view-transition-group(*),.bespoke-marp-transition-warming-up::view-transition-new(*),.bespoke-marp-transition-warming-up::view-transition-old(*){animation-play-state:paused!important}body,html{height:100%;margin:0}body{background:#000;overflow:hidden}svg.bespoke-marp-slide{content-visibility:hidden;opacity:0;pointer-events:none;z-index:-1}svg.bespoke-marp-slide:not(.bespoke-marp-active) *{view-transition-name:none!important}svg.bespoke-marp-slide.bespoke-marp-active{content-visibility:visible;opacity:1;pointer-events:auto;z-index:0}svg.bespoke-marp-slide.bespoke-marp-active.bespoke-marp-active-ready *{animation-name:__bespoke_marp__!important}@supports not (content-visibility:hidden){svg.bespoke-marp-slide[data-bespoke-marp-load=hideable]{display:none}svg.bespoke-marp-slide[data-bespoke-marp-load=hideable].bespoke-marp-active{display:block}}}@media screen and (prefers-reduced-motion:reduce){svg.bespoke-marp-slide *{view-transition-name:none!important}}@media screen{[data-bespoke-marp-fragment=inactive]{visibility:hidden}body[data-bespoke-view=""] .bespoke-marp-parent,body[data-bespoke-view=next] .bespoke-marp-parent{bottom:0;left:0;position:absolute;right:0;top:0}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc{view-transition-name:__bespoke_marp_transition_osc__;background:#000000a6;border-radius:7px;bottom:50px;color:#fff;contain:paint;display:block;font-family:Helvetica,Arial,sans-serif;font-size:16px;left:50%;line-height:0;opacity:1;padding:12px;position:absolute;touch-action:manipulation;transform:translateX(-50%);transition:opacity .2s linear;-webkit-user-select:none;user-select:none;white-space:nowrap;will-change:transform;z-index:1}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>*,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>*{margin-left:6px}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>:first-child,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>:first-child{margin-left:0}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>span,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>span{opacity:.8}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>span[data-bespoke-marp-osc=page],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>span[data-bespoke-marp-osc=page]{display:inline-block;min-width:140px;text-align:center}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=fullscreen],body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=next],body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=presenter],body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=prev],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=fullscreen],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=next],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=presenter],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=prev]{height:32px;line-height:32px;width:32px}body[data-bespoke-view=""] .bespoke-marp-parent.bespoke-marp-inactive,body[data-bespoke-view=next] .bespoke-marp-parent.bespoke-marp-inactive{cursor:none}body[data-bespoke-view=""] .bespoke-marp-parent.bespoke-marp-inactive>.bespoke-marp-osc,body[data-bespoke-view=next] .bespoke-marp-parent.bespoke-marp-inactive>.bespoke-marp-osc{opacity:0;pointer-events:none}body[data-bespoke-view=""] svg.bespoke-marp-slide,body[data-bespoke-view=next] svg.bespoke-marp-slide{height:100%;left:0;position:absolute;top:0;width:100%}body[data-bespoke-view=""] .bespoke-progress-parent{background:#222;display:flex;height:5px;width:100%}body[data-bespoke-view=""] .bespoke-progress-parent+.bespoke-marp-parent{top:5px}body[data-bespoke-view=""] .bespoke-progress-parent .bespoke-progress-bar{background:#0288d1;flex:0 0 0;transition:flex-basis .2s cubic-bezier(0,1,1,1)}body[data-bespoke-view=next]{background:#0000}body[data-bespoke-view=presenter]{background:#161616}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container{display:grid;font-family:Helvetica,Arial,sans-serif;grid-template:"current dragbar next" minmax(140px,1fr) "current dragbar note" 2fr "info    dragbar note" 3em;grid-template-columns:minmax(3px,var(--bespoke-marp-presenter-split-ratio,66%)) 0 minmax(3px,1fr);height:100%;left:0;position:absolute;top:0;width:100%}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-parent{grid-area:current;overflow:hidden;position:relative}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-parent svg.bespoke-marp-slide{height:calc(100% - 40px);left:20px;pointer-events:none;position:absolute;top:20px;-webkit-user-select:none;user-select:none;width:calc(100% - 40px)}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-parent svg.bespoke-marp-slide.bespoke-marp-active{filter:drop-shadow(0 3px 10px rgba(0,0,0,.5))}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-dragbar-container{background:#0288d1;cursor:col-resize;grid-area:dragbar;margin-left:-3px;opacity:0;position:relative;transition:opacity .4s linear .1s;width:6px;z-index:10}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-dragbar-container:hover{opacity:1}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-dragbar-container.active{opacity:1;transition-delay:0s}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-next-container{background:#222;cursor:pointer;display:none;grid-area:next;overflow:hidden;position:relative}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-next-container.active{display:block}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-next-container iframe.bespoke-marp-presenter-next{background:#0000;border:0;display:block;filter:drop-shadow(0 3px 10px rgba(0,0,0,.5));height:calc(100% - 40px);left:20px;pointer-events:none;position:absolute;top:20px;-webkit-user-select:none;user-select:none;width:calc(100% - 40px)}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container{background:#222;color:#eee;grid-area:note;position:relative;z-index:1}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button{height:1.5em;line-height:1.5em;width:1.5em}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-presenter-note-wrapper{bottom:0;display:block;left:0;position:absolute;right:0;top:0}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-presenter-note-buttons{background:#000000a6;border-radius:4px;bottom:0;display:flex;gap:4px;margin:12px;opacity:0;padding:6px;pointer-events:none;position:absolute;right:0;transition:opacity .2s linear}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-presenter-note-buttons:focus-within,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-presenter-note-wrapper:focus-within+.bespoke-marp-presenter-note-buttons,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container:hover .bespoke-marp-presenter-note-buttons{opacity:1;pointer-events:auto}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note{word-wrap:break-word;box-sizing:border-box;font-size:calc(1.1em*var(--bespoke-marp-note-font-scale, 1));height:calc(100% - 40px);margin:20px;overflow:auto;padding-right:3px;scrollbar-color:#eeeeee80 #0000;scrollbar-width:thin;white-space:pre-wrap;width:calc(100% - 40px)}}@media screen{body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note::-webkit-scrollbar{width:6px}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note::-webkit-scrollbar-track{background:#0000}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note::-webkit-scrollbar-thumb{background:#eeeeee80;border-radius:6px}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note:empty{pointer-events:none}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note.active{display:block}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note p:first-child{margin-top:0}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note p:last-child{margin-bottom:0}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container{align-items:center;box-sizing:border-box;color:#eee;display:flex;flex-wrap:nowrap;grid-area:info;justify-content:center;overflow:hidden;padding:0 10px}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-page,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-time,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-timer{box-sizing:border-box;display:block;padding:0 10px;white-space:nowrap;width:100%}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button{height:1.5em;line-height:1.5em;width:1.5em}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-page{order:2;text-align:center}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-page .bespoke-marp-presenter-info-page-text{display:inline-block;min-width:120px;text-align:center}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-time{color:#999;order:1;text-align:left}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-timer{color:#999;order:3;text-align:right}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-timer:hover{cursor:pointer}}@media print{.bespoke-marp-presenter-info-container,.bespoke-marp-presenter-next-container,.bespoke-marp-presenter-note-container{display:none}}</style><style>@charset "UTF-8";@import "https://fonts.bunny.net/css?family=Lato:400,900|Roboto+Mono:400,700&display=swap";div#p>svg>foreignObject>section{width:1280px;height:720px;box-sizing:border-box;overflow:hidden;position:relative;scroll-snap-align:center center}div#p>svg>foreignObject>section:after{bottom:0;content:attr(data-marpit-pagination);padding:inherit;pointer-events:none;position:absolute;right:0}div#p>svg>foreignObject>section:not([data-marpit-pagination]):after{display:none}/* Normalization */div#p>svg>foreignObject>section :is(h1,marp-h1){font-size:2em;margin:0.67em 0}div#p>svg>foreignObject>section video::-webkit-media-controls{will-change:transform}@page{size:1280px 720px;margin:0}@media print{body,html{background-color:#fff;margin:0;page-break-inside:avoid;break-inside:avoid-page}div#p>svg>foreignObject>section{page-break-before:always;break-before:page}div#p>svg>foreignObject>section,div#p>svg>foreignObject>section *{-webkit-print-color-adjust:exact!important;animation-delay:0s!important;animation-duration:0s!important;color-adjust:exact!important;transition:none!important}div#p>svg[data-marpit-svg]{display:block;height:100vh;width:100vw}}@font-face{font-family:KaTeX_AMS;font-style:normal;font-weight:400;src:url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_AMS-Regular.woff2') format("woff2"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_AMS-Regular.woff') format("woff"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_AMS-Regular.ttf') format("truetype")}@font-face{font-family:KaTeX_Caligraphic;font-style:normal;font-weight:700;src:url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Caligraphic-Bold.woff2') format("woff2"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Caligraphic-Bold.woff') format("woff"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Caligraphic-Bold.ttf') format("truetype")}@font-face{font-family:KaTeX_Caligraphic;font-style:normal;font-weight:400;src:url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Caligraphic-Regular.woff2') format("woff2"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Caligraphic-Regular.woff') format("woff"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Caligraphic-Regular.ttf') format("truetype")}@font-face{font-family:KaTeX_Fraktur;font-style:normal;font-weight:700;src:url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Fraktur-Bold.woff2') format("woff2"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Fraktur-Bold.woff') format("woff"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Fraktur-Bold.ttf') format("truetype")}@font-face{font-family:KaTeX_Fraktur;font-style:normal;font-weight:400;src:url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Fraktur-Regular.woff2') format("woff2"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Fraktur-Regular.woff') format("woff"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Fraktur-Regular.ttf') format("truetype")}@font-face{font-family:KaTeX_Main;font-style:normal;font-weight:700;src:url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Main-Bold.woff2') format("woff2"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Main-Bold.woff') format("woff"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Main-Bold.ttf') format("truetype")}@font-face{font-family:KaTeX_Main;font-style:italic;font-weight:700;src:url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Main-BoldItalic.woff2') format("woff2"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Main-BoldItalic.woff') format("woff"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Main-BoldItalic.ttf') format("truetype")}@font-face{font-family:KaTeX_Main;font-style:italic;font-weight:400;src:url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Main-Italic.woff2') format("woff2"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Main-Italic.woff') format("woff"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Main-Italic.ttf') format("truetype")}@font-face{font-family:KaTeX_Main;font-style:normal;font-weight:400;src:url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Main-Regular.woff2') format("woff2"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Main-Regular.woff') format("woff"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Main-Regular.ttf') format("truetype")}@font-face{font-family:KaTeX_Math;font-style:italic;font-weight:700;src:url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Math-BoldItalic.woff2') format("woff2"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Math-BoldItalic.woff') format("woff"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Math-BoldItalic.ttf') format("truetype")}@font-face{font-family:KaTeX_Math;font-style:italic;font-weight:400;src:url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Math-Italic.woff2') format("woff2"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Math-Italic.woff') format("woff"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Math-Italic.ttf') format("truetype")}@font-face{font-family:"KaTeX_SansSerif";font-style:normal;font-weight:700;src:url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_SansSerif-Bold.woff2') format("woff2"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_SansSerif-Bold.woff') format("woff"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_SansSerif-Bold.ttf') format("truetype")}@font-face{font-family:"KaTeX_SansSerif";font-style:italic;font-weight:400;src:url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_SansSerif-Italic.woff2') format("woff2"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_SansSerif-Italic.woff') format("woff"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_SansSerif-Italic.ttf') format("truetype")}@font-face{font-family:"KaTeX_SansSerif";font-style:normal;font-weight:400;src:url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_SansSerif-Regular.woff2') format("woff2"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_SansSerif-Regular.woff') format("woff"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_SansSerif-Regular.ttf') format("truetype")}@font-face{font-family:KaTeX_Script;font-style:normal;font-weight:400;src:url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Script-Regular.woff2') format("woff2"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Script-Regular.woff') format("woff"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Script-Regular.ttf') format("truetype")}@font-face{font-family:KaTeX_Size1;font-style:normal;font-weight:400;src:url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Size1-Regular.woff2') format("woff2"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Size1-Regular.woff') format("woff"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Size1-Regular.ttf') format("truetype")}@font-face{font-family:KaTeX_Size2;font-style:normal;font-weight:400;src:url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Size2-Regular.woff2') format("woff2"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Size2-Regular.woff') format("woff"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Size2-Regular.ttf') format("truetype")}@font-face{font-family:KaTeX_Size3;font-style:normal;font-weight:400;src:url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Size3-Regular.woff2') format("woff2"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Size3-Regular.woff') format("woff"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Size3-Regular.ttf') format("truetype")}@font-face{font-family:KaTeX_Size4;font-style:normal;font-weight:400;src:url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Size4-Regular.woff2') format("woff2"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Size4-Regular.woff') format("woff"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Size4-Regular.ttf') format("truetype")}@font-face{font-family:KaTeX_Typewriter;font-style:normal;font-weight:400;src:url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Typewriter-Regular.woff2') format("woff2"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Typewriter-Regular.woff') format("woff"),url('https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/fonts/KaTeX_Typewriter-Regular.ttf') format("truetype")}div#p>svg>foreignObject>section .katex{font:normal 1.21em KaTeX_Main,Times New Roman,serif;line-height:1.2;text-indent:0;text-rendering:auto}div#p>svg>foreignObject>section .katex *{-ms-high-contrast-adjust:none!important;border-color:currentColor}div#p>svg>foreignObject>section .katex .katex-version:after{content:"0.16.4"}div#p>svg>foreignObject>section .katex .katex-mathml{clip:rect(1px,1px,1px,1px);border:0;height:1px;overflow:hidden;padding:0;position:absolute;width:1px}div#p>svg>foreignObject>section .katex .katex-html>.newline{display:block}div#p>svg>foreignObject>section .katex .base{position:relative;white-space:nowrap;width:-moz-min-content;width:min-content}div#p>svg>foreignObject>section .katex .base,div#p>svg>foreignObject>section .katex .strut{display:inline-block}div#p>svg>foreignObject>section .katex .textbf{font-weight:700}div#p>svg>foreignObject>section .katex .textit{font-style:italic}div#p>svg>foreignObject>section .katex .textrm{font-family:KaTeX_Main}div#p>svg>foreignObject>section .katex .textsf{font-family:KaTeX_SansSerif}div#p>svg>foreignObject>section .katex .texttt{font-family:KaTeX_Typewriter}div#p>svg>foreignObject>section .katex .mathnormal{font-family:KaTeX_Math;font-style:italic}div#p>svg>foreignObject>section .katex .mathit{font-family:KaTeX_Main;font-style:italic}div#p>svg>foreignObject>section .katex .mathrm{font-style:normal}div#p>svg>foreignObject>section .katex .mathbf{font-family:KaTeX_Main;font-weight:700}div#p>svg>foreignObject>section .katex .boldsymbol{font-family:KaTeX_Math;font-style:italic;font-weight:700}div#p>svg>foreignObject>section .katex .amsrm,div#p>svg>foreignObject>section .katex .mathbb,div#p>svg>foreignObject>section .katex .textbb{font-family:KaTeX_AMS}div#p>svg>foreignObject>section .katex .mathcal{font-family:KaTeX_Caligraphic}div#p>svg>foreignObject>section .katex .mathfrak,div#p>svg>foreignObject>section .katex .textfrak{font-family:KaTeX_Fraktur}div#p>svg>foreignObject>section .katex .mathtt{font-family:KaTeX_Typewriter}div#p>svg>foreignObject>section .katex .mathscr,div#p>svg>foreignObject>section .katex .textscr{font-family:KaTeX_Script}div#p>svg>foreignObject>section .katex .mathsf,div#p>svg>foreignObject>section .katex .textsf{font-family:KaTeX_SansSerif}div#p>svg>foreignObject>section .katex .mathboldsf,div#p>svg>foreignObject>section .katex .textboldsf{font-family:KaTeX_SansSerif;font-weight:700}div#p>svg>foreignObject>section .katex .mathitsf,div#p>svg>foreignObject>section .katex .textitsf{font-family:KaTeX_SansSerif;font-style:italic}div#p>svg>foreignObject>section .katex .mainrm{font-family:KaTeX_Main;font-style:normal}div#p>svg>foreignObject>section .katex .vlist-t{border-collapse:collapse;display:inline-table;table-layout:fixed}div#p>svg>foreignObject>section .katex .vlist-r{display:table-row}div#p>svg>foreignObject>section .katex .vlist{display:table-cell;position:relative;vertical-align:bottom}div#p>svg>foreignObject>section .katex .vlist>:is(span,marp-span){display:block;height:0;position:relative}div#p>svg>foreignObject>section .katex .vlist>:is(span,marp-span)>:is(span,marp-span){display:inline-block}div#p>svg>foreignObject>section .katex .vlist>:is(span,marp-span)>.pstrut{overflow:hidden;width:0}div#p>svg>foreignObject>section .katex .vlist-t2{margin-right:-2px}div#p>svg>foreignObject>section .katex .vlist-s{display:table-cell;font-size:1px;min-width:2px;vertical-align:bottom;width:2px}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.vlist-s{--marpit-root-font-size:1px}div#p>svg>foreignObject>section .katex .vbox{align-items:baseline;display:inline-flex;flex-direction:column}div#p>svg>foreignObject>section .katex .hbox{width:100%}div#p>svg>foreignObject>section .katex .hbox,div#p>svg>foreignObject>section .katex .thinbox{display:inline-flex;flex-direction:row}div#p>svg>foreignObject>section .katex .thinbox{max-width:0;width:0}div#p>svg>foreignObject>section .katex .msupsub{text-align:left}div#p>svg>foreignObject>section .katex .mfrac>:is(span,marp-span)>:is(span,marp-span){text-align:center}div#p>svg>foreignObject>section .katex .mfrac .frac-line{border-bottom-style:solid;display:inline-block;width:100%}div#p>svg>foreignObject>section .katex .hdashline,div#p>svg>foreignObject>section .katex .hline,div#p>svg>foreignObject>section .katex .mfrac .frac-line,div#p>svg>foreignObject>section .katex .overline .overline-line,div#p>svg>foreignObject>section .katex .rule,div#p>svg>foreignObject>section .katex .underline .underline-line{min-height:1px}div#p>svg>foreignObject>section .katex .mspace{display:inline-block}div#p>svg>foreignObject>section .katex .clap,div#p>svg>foreignObject>section .katex .llap,div#p>svg>foreignObject>section .katex .rlap{position:relative;width:0}div#p>svg>foreignObject>section .katex .clap>.inner,div#p>svg>foreignObject>section .katex .llap>.inner,div#p>svg>foreignObject>section .katex .rlap>.inner{position:absolute}div#p>svg>foreignObject>section .katex .clap>.fix,div#p>svg>foreignObject>section .katex .llap>.fix,div#p>svg>foreignObject>section .katex .rlap>.fix{display:inline-block}div#p>svg>foreignObject>section .katex .llap>.inner{right:0}div#p>svg>foreignObject>section .katex .clap>.inner,div#p>svg>foreignObject>section .katex .rlap>.inner{left:0}div#p>svg>foreignObject>section .katex .clap>.inner>:is(span,marp-span){margin-left:-50%;margin-right:50%}div#p>svg>foreignObject>section .katex .rule{border:0 solid;display:inline-block;position:relative}div#p>svg>foreignObject>section .katex .hline,div#p>svg>foreignObject>section .katex .overline .overline-line,div#p>svg>foreignObject>section .katex .underline .underline-line{border-bottom-style:solid;display:inline-block;width:100%}div#p>svg>foreignObject>section .katex .hdashline{border-bottom-style:dashed;display:inline-block;width:100%}div#p>svg>foreignObject>section .katex .sqrt>.root{margin-left:.27777778em;margin-right:-.55555556em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size1.size1,div#p>svg>foreignObject>section .katex .sizing.reset-size1.size1{font-size:1em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size1.size1,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size1.size1{--marpit-root-font-size:1em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size1.size2,div#p>svg>foreignObject>section .katex .sizing.reset-size1.size2{font-size:1.2em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size1.size2,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size1.size2{--marpit-root-font-size:1.2em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size1.size3,div#p>svg>foreignObject>section .katex .sizing.reset-size1.size3{font-size:1.4em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size1.size3,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size1.size3{--marpit-root-font-size:1.4em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size1.size4,div#p>svg>foreignObject>section .katex .sizing.reset-size1.size4{font-size:1.6em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size1.size4,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size1.size4{--marpit-root-font-size:1.6em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size1.size5,div#p>svg>foreignObject>section .katex .sizing.reset-size1.size5{font-size:1.8em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size1.size5,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size1.size5{--marpit-root-font-size:1.8em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size1.size6,div#p>svg>foreignObject>section .katex .sizing.reset-size1.size6{font-size:2em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size1.size6,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size1.size6{--marpit-root-font-size:2em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size1.size7,div#p>svg>foreignObject>section .katex .sizing.reset-size1.size7{font-size:2.4em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size1.size7,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size1.size7{--marpit-root-font-size:2.4em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size1.size8,div#p>svg>foreignObject>section .katex .sizing.reset-size1.size8{font-size:2.88em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size1.size8,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size1.size8{--marpit-root-font-size:2.88em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size1.size9,div#p>svg>foreignObject>section .katex .sizing.reset-size1.size9{font-size:3.456em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size1.size9,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size1.size9{--marpit-root-font-size:3.456em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size1.size10,div#p>svg>foreignObject>section .katex .sizing.reset-size1.size10{font-size:4.148em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size1.size10,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size1.size10{--marpit-root-font-size:4.148em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size1.size11,div#p>svg>foreignObject>section .katex .sizing.reset-size1.size11{font-size:4.976em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size1.size11,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size1.size11{--marpit-root-font-size:4.976em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size2.size1,div#p>svg>foreignObject>section .katex .sizing.reset-size2.size1{font-size:.83333333em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size2.size1,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size2.size1{--marpit-root-font-size:.83333333em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size2.size2,div#p>svg>foreignObject>section .katex .sizing.reset-size2.size2{font-size:1em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size2.size2,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size2.size2{--marpit-root-font-size:1em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size2.size3,div#p>svg>foreignObject>section .katex .sizing.reset-size2.size3{font-size:1.16666667em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size2.size3,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size2.size3{--marpit-root-font-size:1.16666667em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size2.size4,div#p>svg>foreignObject>section .katex .sizing.reset-size2.size4{font-size:1.33333333em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size2.size4,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size2.size4{--marpit-root-font-size:1.33333333em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size2.size5,div#p>svg>foreignObject>section .katex .sizing.reset-size2.size5{font-size:1.5em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size2.size5,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size2.size5{--marpit-root-font-size:1.5em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size2.size6,div#p>svg>foreignObject>section .katex .sizing.reset-size2.size6{font-size:1.66666667em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size2.size6,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size2.size6{--marpit-root-font-size:1.66666667em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size2.size7,div#p>svg>foreignObject>section .katex .sizing.reset-size2.size7{font-size:2em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size2.size7,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size2.size7{--marpit-root-font-size:2em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size2.size8,div#p>svg>foreignObject>section .katex .sizing.reset-size2.size8{font-size:2.4em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size2.size8,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size2.size8{--marpit-root-font-size:2.4em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size2.size9,div#p>svg>foreignObject>section .katex .sizing.reset-size2.size9{font-size:2.88em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size2.size9,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size2.size9{--marpit-root-font-size:2.88em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size2.size10,div#p>svg>foreignObject>section .katex .sizing.reset-size2.size10{font-size:3.45666667em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size2.size10,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size2.size10{--marpit-root-font-size:3.45666667em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size2.size11,div#p>svg>foreignObject>section .katex .sizing.reset-size2.size11{font-size:4.14666667em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size2.size11,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size2.size11{--marpit-root-font-size:4.14666667em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size3.size1,div#p>svg>foreignObject>section .katex .sizing.reset-size3.size1{font-size:.71428571em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size3.size1,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size3.size1{--marpit-root-font-size:.71428571em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size3.size2,div#p>svg>foreignObject>section .katex .sizing.reset-size3.size2{font-size:.85714286em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size3.size2,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size3.size2{--marpit-root-font-size:.85714286em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size3.size3,div#p>svg>foreignObject>section .katex .sizing.reset-size3.size3{font-size:1em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size3.size3,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size3.size3{--marpit-root-font-size:1em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size3.size4,div#p>svg>foreignObject>section .katex .sizing.reset-size3.size4{font-size:1.14285714em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size3.size4,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size3.size4{--marpit-root-font-size:1.14285714em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size3.size5,div#p>svg>foreignObject>section .katex .sizing.reset-size3.size5{font-size:1.28571429em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size3.size5,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size3.size5{--marpit-root-font-size:1.28571429em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size3.size6,div#p>svg>foreignObject>section .katex .sizing.reset-size3.size6{font-size:1.42857143em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size3.size6,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size3.size6{--marpit-root-font-size:1.42857143em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size3.size7,div#p>svg>foreignObject>section .katex .sizing.reset-size3.size7{font-size:1.71428571em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size3.size7,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size3.size7{--marpit-root-font-size:1.71428571em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size3.size8,div#p>svg>foreignObject>section .katex .sizing.reset-size3.size8{font-size:2.05714286em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size3.size8,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size3.size8{--marpit-root-font-size:2.05714286em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size3.size9,div#p>svg>foreignObject>section .katex .sizing.reset-size3.size9{font-size:2.46857143em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size3.size9,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size3.size9{--marpit-root-font-size:2.46857143em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size3.size10,div#p>svg>foreignObject>section .katex .sizing.reset-size3.size10{font-size:2.96285714em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size3.size10,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size3.size10{--marpit-root-font-size:2.96285714em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size3.size11,div#p>svg>foreignObject>section .katex .sizing.reset-size3.size11{font-size:3.55428571em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size3.size11,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size3.size11{--marpit-root-font-size:3.55428571em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size4.size1,div#p>svg>foreignObject>section .katex .sizing.reset-size4.size1{font-size:.625em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size4.size1,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size4.size1{--marpit-root-font-size:.625em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size4.size2,div#p>svg>foreignObject>section .katex .sizing.reset-size4.size2{font-size:.75em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size4.size2,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size4.size2{--marpit-root-font-size:.75em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size4.size3,div#p>svg>foreignObject>section .katex .sizing.reset-size4.size3{font-size:.875em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size4.size3,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size4.size3{--marpit-root-font-size:.875em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size4.size4,div#p>svg>foreignObject>section .katex .sizing.reset-size4.size4{font-size:1em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size4.size4,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size4.size4{--marpit-root-font-size:1em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size4.size5,div#p>svg>foreignObject>section .katex .sizing.reset-size4.size5{font-size:1.125em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size4.size5,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size4.size5{--marpit-root-font-size:1.125em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size4.size6,div#p>svg>foreignObject>section .katex .sizing.reset-size4.size6{font-size:1.25em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size4.size6,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size4.size6{--marpit-root-font-size:1.25em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size4.size7,div#p>svg>foreignObject>section .katex .sizing.reset-size4.size7{font-size:1.5em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size4.size7,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size4.size7{--marpit-root-font-size:1.5em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size4.size8,div#p>svg>foreignObject>section .katex .sizing.reset-size4.size8{font-size:1.8em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size4.size8,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size4.size8{--marpit-root-font-size:1.8em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size4.size9,div#p>svg>foreignObject>section .katex .sizing.reset-size4.size9{font-size:2.16em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size4.size9,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size4.size9{--marpit-root-font-size:2.16em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size4.size10,div#p>svg>foreignObject>section .katex .sizing.reset-size4.size10{font-size:2.5925em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size4.size10,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size4.size10{--marpit-root-font-size:2.5925em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size4.size11,div#p>svg>foreignObject>section .katex .sizing.reset-size4.size11{font-size:3.11em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size4.size11,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size4.size11{--marpit-root-font-size:3.11em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size5.size1,div#p>svg>foreignObject>section .katex .sizing.reset-size5.size1{font-size:.55555556em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size5.size1,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size5.size1{--marpit-root-font-size:.55555556em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size5.size2,div#p>svg>foreignObject>section .katex .sizing.reset-size5.size2{font-size:.66666667em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size5.size2,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size5.size2{--marpit-root-font-size:.66666667em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size5.size3,div#p>svg>foreignObject>section .katex .sizing.reset-size5.size3{font-size:.77777778em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size5.size3,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size5.size3{--marpit-root-font-size:.77777778em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size5.size4,div#p>svg>foreignObject>section .katex .sizing.reset-size5.size4{font-size:.88888889em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size5.size4,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size5.size4{--marpit-root-font-size:.88888889em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size5.size5,div#p>svg>foreignObject>section .katex .sizing.reset-size5.size5{font-size:1em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size5.size5,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size5.size5{--marpit-root-font-size:1em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size5.size6,div#p>svg>foreignObject>section .katex .sizing.reset-size5.size6{font-size:1.11111111em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size5.size6,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size5.size6{--marpit-root-font-size:1.11111111em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size5.size7,div#p>svg>foreignObject>section .katex .sizing.reset-size5.size7{font-size:1.33333333em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size5.size7,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size5.size7{--marpit-root-font-size:1.33333333em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size5.size8,div#p>svg>foreignObject>section .katex .sizing.reset-size5.size8{font-size:1.6em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size5.size8,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size5.size8{--marpit-root-font-size:1.6em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size5.size9,div#p>svg>foreignObject>section .katex .sizing.reset-size5.size9{font-size:1.92em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size5.size9,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size5.size9{--marpit-root-font-size:1.92em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size5.size10,div#p>svg>foreignObject>section .katex .sizing.reset-size5.size10{font-size:2.30444444em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size5.size10,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size5.size10{--marpit-root-font-size:2.30444444em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size5.size11,div#p>svg>foreignObject>section .katex .sizing.reset-size5.size11{font-size:2.76444444em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size5.size11,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size5.size11{--marpit-root-font-size:2.76444444em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size6.size1,div#p>svg>foreignObject>section .katex .sizing.reset-size6.size1{font-size:.5em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size6.size1,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size6.size1{--marpit-root-font-size:.5em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size6.size2,div#p>svg>foreignObject>section .katex .sizing.reset-size6.size2{font-size:.6em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size6.size2,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size6.size2{--marpit-root-font-size:.6em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size6.size3,div#p>svg>foreignObject>section .katex .sizing.reset-size6.size3{font-size:.7em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size6.size3,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size6.size3{--marpit-root-font-size:.7em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size6.size4,div#p>svg>foreignObject>section .katex .sizing.reset-size6.size4{font-size:.8em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size6.size4,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size6.size4{--marpit-root-font-size:.8em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size6.size5,div#p>svg>foreignObject>section .katex .sizing.reset-size6.size5{font-size:.9em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size6.size5,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size6.size5{--marpit-root-font-size:.9em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size6.size6,div#p>svg>foreignObject>section .katex .sizing.reset-size6.size6{font-size:1em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size6.size6,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size6.size6{--marpit-root-font-size:1em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size6.size7,div#p>svg>foreignObject>section .katex .sizing.reset-size6.size7{font-size:1.2em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size6.size7,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size6.size7{--marpit-root-font-size:1.2em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size6.size8,div#p>svg>foreignObject>section .katex .sizing.reset-size6.size8{font-size:1.44em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size6.size8,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size6.size8{--marpit-root-font-size:1.44em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size6.size9,div#p>svg>foreignObject>section .katex .sizing.reset-size6.size9{font-size:1.728em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size6.size9,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size6.size9{--marpit-root-font-size:1.728em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size6.size10,div#p>svg>foreignObject>section .katex .sizing.reset-size6.size10{font-size:2.074em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size6.size10,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size6.size10{--marpit-root-font-size:2.074em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size6.size11,div#p>svg>foreignObject>section .katex .sizing.reset-size6.size11{font-size:2.488em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size6.size11,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size6.size11{--marpit-root-font-size:2.488em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size7.size1,div#p>svg>foreignObject>section .katex .sizing.reset-size7.size1{font-size:.41666667em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size7.size1,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size7.size1{--marpit-root-font-size:.41666667em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size7.size2,div#p>svg>foreignObject>section .katex .sizing.reset-size7.size2{font-size:.5em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size7.size2,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size7.size2{--marpit-root-font-size:.5em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size7.size3,div#p>svg>foreignObject>section .katex .sizing.reset-size7.size3{font-size:.58333333em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size7.size3,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size7.size3{--marpit-root-font-size:.58333333em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size7.size4,div#p>svg>foreignObject>section .katex .sizing.reset-size7.size4{font-size:.66666667em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size7.size4,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size7.size4{--marpit-root-font-size:.66666667em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size7.size5,div#p>svg>foreignObject>section .katex .sizing.reset-size7.size5{font-size:.75em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size7.size5,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size7.size5{--marpit-root-font-size:.75em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size7.size6,div#p>svg>foreignObject>section .katex .sizing.reset-size7.size6{font-size:.83333333em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size7.size6,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size7.size6{--marpit-root-font-size:.83333333em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size7.size7,div#p>svg>foreignObject>section .katex .sizing.reset-size7.size7{font-size:1em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size7.size7,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size7.size7{--marpit-root-font-size:1em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size7.size8,div#p>svg>foreignObject>section .katex .sizing.reset-size7.size8{font-size:1.2em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size7.size8,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size7.size8{--marpit-root-font-size:1.2em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size7.size9,div#p>svg>foreignObject>section .katex .sizing.reset-size7.size9{font-size:1.44em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size7.size9,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size7.size9{--marpit-root-font-size:1.44em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size7.size10,div#p>svg>foreignObject>section .katex .sizing.reset-size7.size10{font-size:1.72833333em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size7.size10,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size7.size10{--marpit-root-font-size:1.72833333em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size7.size11,div#p>svg>foreignObject>section .katex .sizing.reset-size7.size11{font-size:2.07333333em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size7.size11,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size7.size11{--marpit-root-font-size:2.07333333em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size8.size1,div#p>svg>foreignObject>section .katex .sizing.reset-size8.size1{font-size:.34722222em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size8.size1,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size8.size1{--marpit-root-font-size:.34722222em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size8.size2,div#p>svg>foreignObject>section .katex .sizing.reset-size8.size2{font-size:.41666667em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size8.size2,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size8.size2{--marpit-root-font-size:.41666667em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size8.size3,div#p>svg>foreignObject>section .katex .sizing.reset-size8.size3{font-size:.48611111em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size8.size3,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size8.size3{--marpit-root-font-size:.48611111em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size8.size4,div#p>svg>foreignObject>section .katex .sizing.reset-size8.size4{font-size:.55555556em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size8.size4,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size8.size4{--marpit-root-font-size:.55555556em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size8.size5,div#p>svg>foreignObject>section .katex .sizing.reset-size8.size5{font-size:.625em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size8.size5,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size8.size5{--marpit-root-font-size:.625em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size8.size6,div#p>svg>foreignObject>section .katex .sizing.reset-size8.size6{font-size:.69444444em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size8.size6,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size8.size6{--marpit-root-font-size:.69444444em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size8.size7,div#p>svg>foreignObject>section .katex .sizing.reset-size8.size7{font-size:.83333333em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size8.size7,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size8.size7{--marpit-root-font-size:.83333333em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size8.size8,div#p>svg>foreignObject>section .katex .sizing.reset-size8.size8{font-size:1em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size8.size8,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size8.size8{--marpit-root-font-size:1em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size8.size9,div#p>svg>foreignObject>section .katex .sizing.reset-size8.size9{font-size:1.2em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size8.size9,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size8.size9{--marpit-root-font-size:1.2em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size8.size10,div#p>svg>foreignObject>section .katex .sizing.reset-size8.size10{font-size:1.44027778em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size8.size10,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size8.size10{--marpit-root-font-size:1.44027778em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size8.size11,div#p>svg>foreignObject>section .katex .sizing.reset-size8.size11{font-size:1.72777778em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size8.size11,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size8.size11{--marpit-root-font-size:1.72777778em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size9.size1,div#p>svg>foreignObject>section .katex .sizing.reset-size9.size1{font-size:.28935185em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size9.size1,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size9.size1{--marpit-root-font-size:.28935185em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size9.size2,div#p>svg>foreignObject>section .katex .sizing.reset-size9.size2{font-size:.34722222em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size9.size2,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size9.size2{--marpit-root-font-size:.34722222em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size9.size3,div#p>svg>foreignObject>section .katex .sizing.reset-size9.size3{font-size:.40509259em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size9.size3,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size9.size3{--marpit-root-font-size:.40509259em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size9.size4,div#p>svg>foreignObject>section .katex .sizing.reset-size9.size4{font-size:.46296296em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size9.size4,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size9.size4{--marpit-root-font-size:.46296296em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size9.size5,div#p>svg>foreignObject>section .katex .sizing.reset-size9.size5{font-size:.52083333em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size9.size5,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size9.size5{--marpit-root-font-size:.52083333em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size9.size6,div#p>svg>foreignObject>section .katex .sizing.reset-size9.size6{font-size:.5787037em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size9.size6,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size9.size6{--marpit-root-font-size:.5787037em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size9.size7,div#p>svg>foreignObject>section .katex .sizing.reset-size9.size7{font-size:.69444444em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size9.size7,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size9.size7{--marpit-root-font-size:.69444444em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size9.size8,div#p>svg>foreignObject>section .katex .sizing.reset-size9.size8{font-size:.83333333em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size9.size8,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size9.size8{--marpit-root-font-size:.83333333em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size9.size9,div#p>svg>foreignObject>section .katex .sizing.reset-size9.size9{font-size:1em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size9.size9,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size9.size9{--marpit-root-font-size:1em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size9.size10,div#p>svg>foreignObject>section .katex .sizing.reset-size9.size10{font-size:1.20023148em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size9.size10,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size9.size10{--marpit-root-font-size:1.20023148em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size9.size11,div#p>svg>foreignObject>section .katex .sizing.reset-size9.size11{font-size:1.43981481em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size9.size11,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size9.size11{--marpit-root-font-size:1.43981481em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size10.size1,div#p>svg>foreignObject>section .katex .sizing.reset-size10.size1{font-size:.24108004em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size10.size1,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size10.size1{--marpit-root-font-size:.24108004em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size10.size2,div#p>svg>foreignObject>section .katex .sizing.reset-size10.size2{font-size:.28929605em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size10.size2,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size10.size2{--marpit-root-font-size:.28929605em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size10.size3,div#p>svg>foreignObject>section .katex .sizing.reset-size10.size3{font-size:.33751205em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size10.size3,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size10.size3{--marpit-root-font-size:.33751205em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size10.size4,div#p>svg>foreignObject>section .katex .sizing.reset-size10.size4{font-size:.38572806em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size10.size4,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size10.size4{--marpit-root-font-size:.38572806em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size10.size5,div#p>svg>foreignObject>section .katex .sizing.reset-size10.size5{font-size:.43394407em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size10.size5,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size10.size5{--marpit-root-font-size:.43394407em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size10.size6,div#p>svg>foreignObject>section .katex .sizing.reset-size10.size6{font-size:.48216008em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size10.size6,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size10.size6{--marpit-root-font-size:.48216008em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size10.size7,div#p>svg>foreignObject>section .katex .sizing.reset-size10.size7{font-size:.57859209em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size10.size7,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size10.size7{--marpit-root-font-size:.57859209em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size10.size8,div#p>svg>foreignObject>section .katex .sizing.reset-size10.size8{font-size:.69431051em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size10.size8,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size10.size8{--marpit-root-font-size:.69431051em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size10.size9,div#p>svg>foreignObject>section .katex .sizing.reset-size10.size9{font-size:.83317261em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size10.size9,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size10.size9{--marpit-root-font-size:.83317261em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size10.size10,div#p>svg>foreignObject>section .katex .sizing.reset-size10.size10{font-size:1em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size10.size10,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size10.size10{--marpit-root-font-size:1em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size10.size11,div#p>svg>foreignObject>section .katex .sizing.reset-size10.size11{font-size:1.19961427em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size10.size11,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size10.size11{--marpit-root-font-size:1.19961427em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size11.size1,div#p>svg>foreignObject>section .katex .sizing.reset-size11.size1{font-size:.20096463em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size11.size1,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size11.size1{--marpit-root-font-size:.20096463em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size11.size2,div#p>svg>foreignObject>section .katex .sizing.reset-size11.size2{font-size:.24115756em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size11.size2,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size11.size2{--marpit-root-font-size:.24115756em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size11.size3,div#p>svg>foreignObject>section .katex .sizing.reset-size11.size3{font-size:.28135048em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size11.size3,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size11.size3{--marpit-root-font-size:.28135048em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size11.size4,div#p>svg>foreignObject>section .katex .sizing.reset-size11.size4{font-size:.32154341em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size11.size4,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size11.size4{--marpit-root-font-size:.32154341em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size11.size5,div#p>svg>foreignObject>section .katex .sizing.reset-size11.size5{font-size:.36173633em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size11.size5,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size11.size5{--marpit-root-font-size:.36173633em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size11.size6,div#p>svg>foreignObject>section .katex .sizing.reset-size11.size6{font-size:.40192926em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size11.size6,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size11.size6{--marpit-root-font-size:.40192926em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size11.size7,div#p>svg>foreignObject>section .katex .sizing.reset-size11.size7{font-size:.48231511em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size11.size7,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size11.size7{--marpit-root-font-size:.48231511em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size11.size8,div#p>svg>foreignObject>section .katex .sizing.reset-size11.size8{font-size:.57877814em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size11.size8,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size11.size8{--marpit-root-font-size:.57877814em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size11.size9,div#p>svg>foreignObject>section .katex .sizing.reset-size11.size9{font-size:.69453376em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size11.size9,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size11.size9{--marpit-root-font-size:.69453376em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size11.size10,div#p>svg>foreignObject>section .katex .sizing.reset-size11.size10{font-size:.83360129em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size11.size10,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size11.size10{--marpit-root-font-size:.83360129em}div#p>svg>foreignObject>section .katex .fontsize-ensurer.reset-size11.size11,div#p>svg>foreignObject>section .katex .sizing.reset-size11.size11{font-size:1em}div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.fontsize-ensurer.reset-size11.size11,div#p>svg>foreignObject>section .katex div#p>svg>foreignObject>section section.sizing.reset-size11.size11{--marpit-root-font-size:1em}div#p>svg>foreignObject>section .katex .delimsizing.size1{font-family:KaTeX_Size1}div#p>svg>foreignObject>section .katex .delimsizing.size2{font-family:KaTeX_Size2}div#p>svg>foreignObject>section .katex .delimsizing.size3{font-family:KaTeX_Size3}div#p>svg>foreignObject>section .katex .delimsizing.size4{font-family:KaTeX_Size4}div#p>svg>foreignObject>section .katex .delimsizing.mult .delim-size1>:is(span,marp-span){font-family:KaTeX_Size1}div#p>svg>foreignObject>section .katex .delimsizing.mult .delim-size4>:is(span,marp-span){font-family:KaTeX_Size4}div#p>svg>foreignObject>section .katex .nulldelimiter{display:inline-block;width:.12em}div#p>svg>foreignObject>section .katex .delimcenter,div#p>svg>foreignObject>section .katex .op-symbol{position:relative}div#p>svg>foreignObject>section .katex .op-symbol.small-op{font-family:KaTeX_Size1}div#p>svg>foreignObject>section .katex .op-symbol.large-op{font-family:KaTeX_Size2}div#p>svg>foreignObject>section .katex .accent>.vlist-t,div#p>svg>foreignObject>section .katex .op-limits>.vlist-t{text-align:center}div#p>svg>foreignObject>section .katex .accent .accent-body{position:relative}div#p>svg>foreignObject>section .katex .accent .accent-body:not(.accent-full){width:0}div#p>svg>foreignObject>section .katex .overlay{display:block}div#p>svg>foreignObject>section .katex .mtable .vertical-separator{display:inline-block;min-width:1px}div#p>svg>foreignObject>section .katex .mtable .arraycolsep{display:inline-block}div#p>svg>foreignObject>section .katex .mtable .col-align-c>.vlist-t{text-align:center}div#p>svg>foreignObject>section .katex .mtable .col-align-l>.vlist-t{text-align:left}div#p>svg>foreignObject>section .katex .mtable .col-align-r>.vlist-t{text-align:right}div#p>svg>foreignObject>section .katex .svg-align{text-align:left}div#p>svg>foreignObject>section .katex svg{fill:currentColor;stroke:currentColor;fill-rule:nonzero;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:block;height:inherit;position:absolute;width:100%}div#p>svg>foreignObject>section .katex svg path{stroke:none}div#p>svg>foreignObject>section .katex img{border-style:none;max-height:none;max-width:none;min-height:0;min-width:0}div#p>svg>foreignObject>section .katex .stretchy{display:block;overflow:hidden;position:relative;width:100%}div#p>svg>foreignObject>section .katex .stretchy:after,div#p>svg>foreignObject>section .katex .stretchy:before{content:""}div#p>svg>foreignObject>section .katex .hide-tail{overflow:hidden;position:relative;width:100%}div#p>svg>foreignObject>section .katex .halfarrow-left{left:0}div#p>svg>foreignObject>section .katex .halfarrow-left,div#p>svg>foreignObject>section .katex .halfarrow-right{overflow:hidden;position:absolute;width:50.2%}div#p>svg>foreignObject>section .katex .halfarrow-right{right:0}div#p>svg>foreignObject>section .katex .brace-left{left:0;overflow:hidden;position:absolute;width:25.1%}div#p>svg>foreignObject>section .katex .brace-center{left:25%;overflow:hidden;position:absolute;width:50%}div#p>svg>foreignObject>section .katex .brace-right{overflow:hidden;position:absolute;right:0;width:25.1%}div#p>svg>foreignObject>section .katex .x-arrow-pad{padding:0 .5em}div#p>svg>foreignObject>section .katex .cd-arrow-pad{padding:0 .55556em 0 .27778em}div#p>svg>foreignObject>section .katex .mover,div#p>svg>foreignObject>section .katex .munder,div#p>svg>foreignObject>section .katex .x-arrow{text-align:center}div#p>svg>foreignObject>section .katex .boxpad{padding:0 .3em}div#p>svg>foreignObject>section .katex .fbox,div#p>svg>foreignObject>section .katex .fcolorbox{border:.04em solid;box-sizing:border-box}div#p>svg>foreignObject>section .katex .cancel-pad{padding:0 .2em}div#p>svg>foreignObject>section .katex .cancel-lap{margin-left:-.2em;margin-right:-.2em}div#p>svg>foreignObject>section .katex .sout{border-bottom-style:solid;border-bottom-width:.08em}div#p>svg>foreignObject>section .katex .angl{border-right:.049em solid;border-top:.049em solid;box-sizing:border-box;margin-right:.03889em}div#p>svg>foreignObject>section .katex .anglpad{padding:0 .03889em}div#p>svg>foreignObject>section .katex .eqn-num:before{content:"(" counter(katexEqnNo) ")";counter-increment:katexEqnNo}div#p>svg>foreignObject>section .katex .mml-eqn-num:before{content:"(" counter(mmlEqnNo) ")";counter-increment:mmlEqnNo}div#p>svg>foreignObject>section .katex .mtr-glue{width:50%}div#p>svg>foreignObject>section .katex .cd-vert-arrow{display:inline-block;position:relative}div#p>svg>foreignObject>section .katex .cd-label-left{display:inline-block;position:absolute;right:calc(50% + .3em);text-align:left}div#p>svg>foreignObject>section .katex .cd-label-right{display:inline-block;left:calc(50% + .3em);position:absolute;text-align:right}div#p>svg>foreignObject>section .katex-display{display:block;margin:1em 0;text-align:center}div#p>svg>foreignObject>section .katex-display>.katex{display:block;text-align:center;white-space:nowrap}div#p>svg>foreignObject>section .katex-display>.katex>.katex-html{display:block;position:relative}div#p>svg>foreignObject>section .katex-display>.katex>.katex-html>.tag{position:absolute;right:0}div#p>svg>foreignObject>section .katex-display.leqno>.katex>.katex-html>.tag{left:0;right:auto}div#p>svg>foreignObject>section .katex-display.fleqn>.katex{padding-left:2em;text-align:left}div#p>svg>foreignObject>section body{counter-reset:katexEqnNo mmlEqnNo}div#p>svg>foreignObject>section .katex-display{margin:0}div#p>svg>foreignObject>section .katex .delimcenter,div#p>svg>foreignObject>section .katex .op-symbol{display:inline-block}div#p>svg>foreignObject>section img[data-marp-twemoji]{background:transparent;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em;width:1em}
-/*!
- * Marp / Marpit Gaia theme.
- *
- * @theme gaia
- * @author Yuki Hattori
- *
- * @auto-scaling true
- * @size 16:9 1280px 720px
- * @size 4:3 960px 720px
- */div#p>svg>foreignObject>section :is(pre,marp-pre) code.hljs{display:block;overflow-x:auto;padding:1em}div#p>svg>foreignObject>section code.hljs{padding:3px 5px}div#p>svg>foreignObject>section .hljs{background:#000;color:#f8f8f8}div#p>svg>foreignObject>section .hljs-comment,div#p>svg>foreignObject>section .hljs-quote{color:#aeaeae;font-style:italic}div#p>svg>foreignObject>section .hljs-keyword,div#p>svg>foreignObject>section .hljs-selector-tag,div#p>svg>foreignObject>section .hljs-type{color:#e28964}div#p>svg>foreignObject>section .hljs-string{color:#65b042}div#p>svg>foreignObject>section .hljs-subst{color:#daefa3}div#p>svg>foreignObject>section .hljs-link,div#p>svg>foreignObject>section .hljs-regexp{color:#e9c062}div#p>svg>foreignObject>section .hljs-name,div#p>svg>foreignObject>section .hljs-section,div#p>svg>foreignObject>section .hljs-tag,div#p>svg>foreignObject>section .hljs-title{color:#89bdff}div#p>svg>foreignObject>section .hljs-class .hljs-title,div#p>svg>foreignObject>section .hljs-doctag,div#p>svg>foreignObject>section .hljs-title.class_{text-decoration:underline}div#p>svg>foreignObject>section .hljs-bullet,div#p>svg>foreignObject>section .hljs-number,div#p>svg>foreignObject>section .hljs-symbol{color:#3387cc}div#p>svg>foreignObject>section .hljs-params,div#p>svg>foreignObject>section .hljs-template-variable,div#p>svg>foreignObject>section .hljs-variable{color:#3e87e3}div#p>svg>foreignObject>section .hljs-attribute{color:#cda869}div#p>svg>foreignObject>section .hljs-meta{color:#8996a8}div#p>svg>foreignObject>section .hljs-formula{background-color:#0e2231;color:#f8f8f8;font-style:italic}div#p>svg>foreignObject>section .hljs-addition{background-color:#253b22;color:#f8f8f8}div#p>svg>foreignObject>section .hljs-deletion{background-color:#420e09;color:#f8f8f8}div#p>svg>foreignObject>section .hljs-selector-class{color:#9b703f}div#p>svg>foreignObject>section .hljs-selector-id{color:#8b98ab}div#p>svg>foreignObject>section .hljs-emphasis{font-style:italic}div#p>svg>foreignObject>section .hljs-strong{font-weight:700}div#p>svg>foreignObject>section :is(h1,marp-h1),div#p>svg>foreignObject>section :is(h2,marp-h2),div#p>svg>foreignObject>section :is(h3,marp-h3),div#p>svg>foreignObject>section :is(h4,marp-h4),div#p>svg>foreignObject>section :is(h5,marp-h5),div#p>svg>foreignObject>section :is(h6,marp-h6){margin:.5em 0 0}div#p>svg>foreignObject>section :is(h1,marp-h1) strong,div#p>svg>foreignObject>section :is(h2,marp-h2) strong,div#p>svg>foreignObject>section :is(h3,marp-h3) strong,div#p>svg>foreignObject>section :is(h4,marp-h4) strong,div#p>svg>foreignObject>section :is(h5,marp-h5) strong,div#p>svg>foreignObject>section :is(h6,marp-h6) strong{font-weight:inherit}div#p>svg>foreignObject>section :is(h1,marp-h1)::part(auto-scaling),div#p>svg>foreignObject>section :is(h2,marp-h2)::part(auto-scaling),div#p>svg>foreignObject>section :is(h3,marp-h3)::part(auto-scaling),div#p>svg>foreignObject>section :is(h4,marp-h4)::part(auto-scaling),div#p>svg>foreignObject>section :is(h5,marp-h5)::part(auto-scaling),div#p>svg>foreignObject>section :is(h6,marp-h6)::part(auto-scaling){max-height:580px}div#p>svg>foreignObject>section :is(h1,marp-h1){font-size:1.8em}div#p>svg>foreignObject>section :is(h2,marp-h2){font-size:1.5em}div#p>svg>foreignObject>section :is(h3,marp-h3){font-size:1.3em}div#p>svg>foreignObject>section :is(h4,marp-h4){font-size:1.1em}div#p>svg>foreignObject>section :is(h5,marp-h5){font-size:1em}div#p>svg>foreignObject>section :is(h6,marp-h6){font-size:.9em}div#p>svg>foreignObject>section blockquote,div#p>svg>foreignObject>section p{margin:1em 0 0}div#p>svg>foreignObject>section ol>li,div#p>svg>foreignObject>section ul>li{margin:.3em 0 0}div#p>svg>foreignObject>section ol>li>p,div#p>svg>foreignObject>section ul>li>p{margin:.6em 0 0}div#p>svg>foreignObject>section code{display:inline-block;font-family:Roboto Mono,monospace;font-size:.8em;letter-spacing:0;margin:-.1em .15em;padding:.1em .2em;vertical-align:baseline}div#p>svg>foreignObject>section :is(pre,marp-pre){display:block;margin:1em 0 0;overflow:visible}div#p>svg>foreignObject>section :is(pre,marp-pre) code{box-sizing:border-box;font-size:.7em;margin:0;min-width:100%;padding:.5em}div#p>svg>foreignObject>section :is(pre,marp-pre)::part(auto-scaling){max-height:calc(580px - 1em)}div#p>svg>foreignObject>section blockquote{margin:1em 0 0;padding:0 1em;position:relative}div#p>svg>foreignObject>section blockquote:after,div#p>svg>foreignObject>section blockquote:before{content:"“";display:block;font-family:Times New Roman,serif;font-weight:700;position:absolute}div#p>svg>foreignObject>section blockquote:before{left:0;top:0}div#p>svg>foreignObject>section blockquote:after{bottom:0;right:0;transform:rotate(180deg)}div#p>svg>foreignObject>section blockquote>:first-child{margin-top:0}div#p>svg>foreignObject>section mark{background:transparent}div#p>svg>foreignObject>section table{border-collapse:collapse;border-spacing:0;margin:1em 0 0}div#p>svg>foreignObject>section table td,div#p>svg>foreignObject>section table th{border-style:solid;border-width:1px;padding:.2em .4em}div#p>svg>foreignObject>section footer,div#p>svg>foreignObject>section header,div#p>svg>foreignObject>section:after{box-sizing:border-box;font-size:66%;height:70px;line-height:50px;overflow:hidden;padding:10px 25px;position:absolute}div#p>svg>foreignObject>section:after{--marpit-root-font-size:66%}div#p>svg>foreignObject>section header{top:0}div#p>svg>foreignObject>section footer,div#p>svg>foreignObject>section header{left:0;right:0}div#p>svg>foreignObject>section footer{bottom:0}div#p>svg>foreignObject>section{word-wrap:break-word;--color-background:#fff8e1;--color-background-stripe:rgba(69,90,100,.1);--color-foreground:#455a64;--color-dimmed:#6a7a7d;--color-highlight:#0288d1;background-color:var(--color-background);background-image:linear-gradient(135deg,hsla(0,0%,53%,0),hsla(0,0%,53%,.02) 50%,hsla(0,0%,100%,0) 0,hsla(0,0%,100%,.05));color:var(--color-foreground);font-family:Lato,Avenir Next,Avenir,Trebuchet MS,Segoe UI,sans-serif;font-size:35px;height:720px;letter-spacing:1.25px;line-height:1.35;padding:70px;width:1280px}div#p>svg>foreignObject>section{--marpit-root-font-size:35px}div#p>svg>foreignObject>section:after{bottom:0;font-size:80%;right:0}div#p>svg>foreignObject>section:after{--marpit-root-font-size:80%}div#p>svg>foreignObject>section a,div#p>svg>foreignObject>section mark{color:var(--color-highlight)}div#p>svg>foreignObject>section code{background:var(--color-dimmed);color:var(--color-background)}div#p>svg>foreignObject>section :is(h1,marp-h1) strong,div#p>svg>foreignObject>section :is(h2,marp-h2) strong,div#p>svg>foreignObject>section :is(h3,marp-h3) strong,div#p>svg>foreignObject>section :is(h4,marp-h4) strong,div#p>svg>foreignObject>section :is(h5,marp-h5) strong,div#p>svg>foreignObject>section :is(h6,marp-h6) strong{color:var(--color-highlight)}div#p>svg>foreignObject>section :is(pre,marp-pre){background:var(--color-foreground)}div#p>svg>foreignObject>section :is(pre,marp-pre)>code{background:transparent}div#p>svg>foreignObject>section blockquote:after,div#p>svg>foreignObject>section blockquote:before,div#p>svg>foreignObject>section footer,div#p>svg>foreignObject>section header,div#p>svg>foreignObject>section section:after{color:var(--color-dimmed)}div#p>svg>foreignObject>section table td,div#p>svg>foreignObject>section table th{border-color:var(--color-foreground)}div#p>svg>foreignObject>section table thead th{background:var(--color-foreground);color:var(--color-background)}div#p>svg>foreignObject>section table tbody>tr:nth-child(odd) td,div#p>svg>foreignObject>section table tbody>tr:nth-child(odd) th{background:var(--color-background-stripe,transparent)}div#p>svg>foreignObject>section>:first-child,div#p>svg>foreignObject>section>header:first-child+*{margin-top:0}div#p>svg>foreignObject>section:where(.invert){--color-background:#455a64;--color-background-stripe:rgba(255,248,225,.1);--color-foreground:#fff8e1;--color-dimmed:#dad8c8;--color-highlight:#81d4fa}div#p>svg>foreignObject>section:where(.gaia){--color-background:#0288d1;--color-background-stripe:rgba(255,248,225,.1);--color-foreground:#fff8e1;--color-dimmed:#cce2de;--color-highlight:#81d4fa}div#p>svg>foreignObject>section:where(.lead){display:flex;flex-flow:column nowrap;justify-content:center}div#p>svg>foreignObject>section:where(.lead) :is(h1,marp-h1),div#p>svg>foreignObject>section:where(.lead) :is(h2,marp-h2),div#p>svg>foreignObject>section:where(.lead) :is(h3,marp-h3),div#p>svg>foreignObject>section:where(.lead) :is(h4,marp-h4),div#p>svg>foreignObject>section:where(.lead) :is(h5,marp-h5),div#p>svg>foreignObject>section:where(.lead) :is(h6,marp-h6){text-align:center}div#p>svg>foreignObject>section:where(.lead) p{text-align:center}div#p>svg>foreignObject>section:where(.lead) blockquote>:is(h1,marp-h1),div#p>svg>foreignObject>section:where(.lead) blockquote>:is(h2,marp-h2),div#p>svg>foreignObject>section:where(.lead) blockquote>:is(h3,marp-h3),div#p>svg>foreignObject>section:where(.lead) blockquote>:is(h4,marp-h4),div#p>svg>foreignObject>section:where(.lead) blockquote>:is(h5,marp-h5),div#p>svg>foreignObject>section:where(.lead) blockquote>:is(h6,marp-h6),div#p>svg>foreignObject>section:where(.lead) blockquote>p{text-align:left}div#p>svg>foreignObject>section:where(.lead) ol>li>p,div#p>svg>foreignObject>section:where(.lead) ul>li>p{text-align:left}div#p>svg>foreignObject>section:where(.lead) table{margin-left:auto;margin-right:auto}div#p>svg>foreignObject>:where(section):not([root]){font-family:"Fira Sans","Noto Sans CJK SC Medium","PingFang SC","LXGW WenKai","Noto Sans CJK SC";font-size:36px;color:#111}div#p>svg>foreignObject>:where(section):not([root]){--marpit-root-font-size:36px}div#p>svg>foreignObject>section :is(h1,marp-h1),div#p>svg>foreignObject>section :is(h2,marp-h2),div#p>svg>foreignObject>section :is(h3,marp-h3){text-align:center}div#p>svg>foreignObject>section :is(h1,marp-h1),div#p>svg>foreignObject>section :is(h2,marp-h2){font-size:1.1em;color:#555;font-family:"Noto Sans CJK SC Bold"}div#p>svg>foreignObject>section :is(h3,marp-h3){font-size:1em;font-weight:normal}div#p>svg>foreignObject>section{color:#222
-  /*background-color: white; */}div#p>svg>foreignObject>section b,div#p>svg>foreignObject>section strong{color:red;font-weight:normal}div#p>svg>foreignObject>section b,div#p>svg>foreignObject>section em{color:red}div#p>svg>foreignObject>section .columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:calc(var(--marpit-root-font-size, 1rem) * 1)}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]{columns:initial!important;display:block!important;padding:0!important}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]:after,div#p>svg>foreignObject>section[data-marpit-advanced-background=background]:before,div#p>svg>foreignObject>section[data-marpit-advanced-background=content]:after,div#p>svg>foreignObject>section[data-marpit-advanced-background=content]:before{display:none!important}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]{all:initial;display:flex;flex-direction:row;height:100%;overflow:hidden;width:100%}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container][data-marpit-advanced-background-direction=vertical]{flex-direction:column}div#p>svg>foreignObject>section[data-marpit-advanced-background=background][data-marpit-advanced-background-split]>div[data-marpit-advanced-background-container]{width:var(--marpit-advanced-background-split,50%)}div#p>svg>foreignObject>section[data-marpit-advanced-background=background][data-marpit-advanced-background-split=right]>div[data-marpit-advanced-background-container]{margin-left:calc(100% - var(--marpit-advanced-background-split, 50%))}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]>figure{all:initial;background-position:center;background-repeat:no-repeat;background-size:cover;flex:auto;margin:0}div#p>svg>foreignObject>section[data-marpit-advanced-background=content],div#p>svg>foreignObject>section[data-marpit-advanced-background=pseudo]{background:transparent!important}div#p>svg>foreignObject>section[data-marpit-advanced-background=pseudo],div#p>svg[data-marpit-svg]>foreignObject[data-marpit-advanced-background=pseudo]{pointer-events:none!important}div#p>svg>foreignObject>section[data-marpit-advanced-background-split]{width:100%;height:100%}</style></head><body><div class="bespoke-marp-osc"><button data-bespoke-marp-osc="prev" tabindex="-1" title="Previous slide">Previous slide</button><span data-bespoke-marp-osc="page"></span><button data-bespoke-marp-osc="next" tabindex="-1" title="Next slide">Next slide</button><button data-bespoke-marp-osc="fullscreen" tabindex="-1" title="Toggle fullscreen (f)">Toggle fullscreen</button><button data-bespoke-marp-osc="presenter" tabindex="-1" title="Open presenter view (p)">Open presenter view</button></div><div id="p"><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="1" data-paginate="true" data-theme="gaia" data-marpit-pagination="1" data-marpit-pagination-total="16" style="--paginate:true;--theme:gaia;">
-<p><br /><br /></p>
-<h1>《宏观经济学》</h1>
-<h1>第0讲：课程介绍</h1>
-<h2><strong>授课教师: 雷浩然</strong></h2>
-<h2><strong>湖南大学经济与贸易学院</strong></h2>
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="00-intro_files/libs/clipboard/clipboard.min.js"></script>
+<script src="00-intro_files/libs/quarto-html/tabby.min.js"></script>
+<script src="00-intro_files/libs/quarto-html/popper.min.js"></script>
+<script src="00-intro_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="00-intro_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="00-intro_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="00-intro_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="00-intro_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.3.353">
+
+  <meta name="author" content="雷浩然">
+  <title>第0讲：课程介绍</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="00-intro_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="00-intro_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="00-intro_files/libs/revealjs/dist/theme/quarto.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="00-intro_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="00-intro_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="00-intro_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="00-intro_files/libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="00-intro_files/libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="00-intro_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+
+  .callout {
+    margin-top: 1em;
+    margin-bottom: 1em;  
+    border-radius: .25rem;
+  }
+
+  .callout.callout-style-simple { 
+    padding: 0em 0.5em;
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    display: flex;
+  }
+
+  .callout.callout-style-default {
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+  }
+
+  .callout .callout-body-container {
+    flex-grow: 1;
+  }
+
+  .callout.callout-style-simple .callout-body {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-style-default .callout-body {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-titled.callout-style-simple .callout-body {
+    margin-top: 0.2em;
+  }
+
+  .callout:not(.callout-titled) .callout-body {
+      display: flex;
+  }
+
+  .callout:not(.no-icon).callout-titled.callout-style-simple .callout-content {
+    padding-left: 1.6em;
+  }
+
+  .callout.callout-titled .callout-header {
+    padding-top: 0.2em;
+    margin-bottom: -0.2em;
+  }
+
+  .callout.callout-titled .callout-title  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+    
+  .callout.callout-titled.callout-style-simple .callout-content  p {
+    margin-top: 0;
+  }
+
+  .callout.callout-titled.callout-style-default .callout-content  p {
+    margin-top: 0.7em;
+  }
+
+  .callout.callout-style-simple div.callout-title {
+    border-bottom: none;
+    font-size: .9rem;
+    font-weight: 600;
+    opacity: 75%;
+  }
+
+  .callout.callout-style-default  div.callout-title {
+    border-bottom: none;
+    font-weight: 600;
+    opacity: 85%;
+    font-size: 0.9rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-default div.callout-content {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-simple .callout-icon::before {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
+
+  .callout.callout-style-default .callout-icon::before {
+    height: 0.9rem;
+    width: 0.9rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+  }
+
+  .callout-title {
+    display: flex
+  }
+    
+  .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  .callout.no-icon::before {
+    display: none !important;
+  }
+
+  .callout.callout-titled .callout-body > .callout-content > :last-child {
+    margin-bottom: 0.5rem;
+  }
+
+  .callout.callout-titled .callout-icon::before {
+    margin-top: .5rem;
+    padding-right: .5rem;
+  }
+
+  .callout:not(.callout-titled) .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  /* Callout Types */
+
+  div.callout-note {
+    border-left-color: #4582ec !important;
+  }
+
+  div.callout-note .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEU0lEQVRYCcVXTWhcVRQ+586kSUMMxkyaElstCto2SIhitS5Ek8xUKV2poatCcVHtUlFQk8mbaaziwpWgglJwVaquitBOfhQXFlqlzSJpFSpIYyXNjBNiTCck7x2/8/LeNDOZxDuEkgOXe++553zfefee+/OYLOXFk3+1LLrRdiO81yNqZ6K9cG0P3MeFaMIQjXssE8Z1JzLO9ls20MBZX7oG8w9GxB0goaPrW5aNMp1yOZIa7Wv6o2ykpLtmAPs/vrG14Z+6d4jpbSKuhdcSyq9wGMPXjonwmESXrriLzFGOdDBLB8Y6MNYBu0dRokSygMA/mrun8MGFN3behm6VVAwg4WR3i6FvYK1T7MHo9BK7ydH+1uurECoouk5MPRyVSBrBHMYwVobG2aOXM07sWrn5qgB60rc6mcwIDJtQrnrEr44kmy+UO9r0u9O5/YbkS9juQckLed3DyW2XV/qWBBB3ptvI8EUY3I9p/67OW+g967TNr3Sotn3IuVlfMLVnsBwH4fsnebJvyGm5GeIUA3jljERmrv49SizPYuq+z7c2H/jlGC+Ghhupn/hcapqmcudB9jwJ/3jvnvu6vu5lVzF1fXyZuZZ7U8nRmVzytvT+H3kilYvH09mLWrQdwFSsFEsxFVs5fK7A0g8gMZjbif4ACpKbjv7gNGaD8bUrlk8x+KRflttr22JEMRUbTUwwDQScyzPgedQHZT0xnx7ujw2jfVfExwYHwOsDTjLdJ2ebmeQIlJ7neo41s/DrsL3kl+W2lWvAga0tR3zueGr6GL78M3ifH0rGXrBC2aAR8uYcIA5gwV8zIE8onoh8u0Fca/ciF7j1uOzEnqcIm59sEXoGc0+z6+H45V1CvAvHcD7THztu669cnp+L0okAeIc6zjbM/24LgGM1gZk7jnRu1aQWoU9sfUOuhrmtaPIO3YY1KLLWZaEO5TKUbMY5zx8W9UJ6elpLwKXbsaZ4EFl7B4bMtDv0iRipKoDQT2sNQI9b1utXFdYisi+wzZ/ri/1m7QfDgEuvgUUEIJPq3DhX/5DWNqIXDOweC2wvIR90Oq3lDpdMIgD2r0dXvGdsEW5H6x6HLRJYU7C69VefO1x8Gde1ZFSJLfWS1jbCnhtOPxmpfv2LXOA2Xk2tvnwKKPFuZ/oRmwBwqRQDcKNeVQkYcOjtWVBuM/JuYw5b6isojIkYxyYAFn5K7ZBF10fea52y8QltAg6jnMqNHFBmGkQ1j+U43HMi2xMar1Nv0zGsf1s8nUsmUtPOOrbFIR8bHFDMB5zL13Gmr/kGlCkUzedTzzmzsaJXhYawnA3UmARpiYj5ooJZiUoxFRtK3X6pgNPv+IZVPcnwbOl6f+aBaO1CNvPW9n9LmCp01nuSaTRF2YxHqZ8DYQT6WsXT+RD6eUztwYLZ8rM+rcPxamv1VQzFUkzFXvkiVrySGQgJNvXHJAxiU3/NwiC03rSf05VBaPtu/Z7/B8Yn/w7eguloAAAAAElFTkSuQmCC');
+  }
+
+  div.callout-note.callout-style-default .callout-title {
+    background-color: #dae6fb
+  }
+
+  div.callout-important {
+    border-left-color: #d9534f !important;
+  }
+
+  div.callout-important .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEKklEQVRYCcVXTWhcVRS+575MJym48A+hSRFr00ySRQhURRfd2HYjk2SSTokuBCkU2o0LoSKKraKIBTcuFCoidGFD08nkBzdREbpQ1EDNIv8qSGMFUboImMSZd4/f9zJv8ibJMC8xJQfO3HPPPef7zrvvvnvviIkpC9nsw0UttFunbUhpFzFtarSd6WJkStVMw5xyVqYTvkwfzuf/5FgtkVoB0729j1rjXwThS7Vio+Mo6DNnvLfahoZ+i/o32lULuJ3NNiz7q6+pyAUkJaFF6JwaM2lUJlV0MlnQn5aTRbEu0SEqHUa0A4AdiGuB1kFXRfVyg5d87+Dg4DL6m2TLAub60ilj7A1Ec4odSAc8X95sHh7+ZRPCFo6Fnp7HfU/fBng/hi10CjCnWnJjsxvDNxWw0NfV6Rv5GgP3I3jGWXumdTD/3cbEOP2ZbOZp69yniG3FQ9z1jD7bnBu9Fc2tKGC2q+uAJOQHBDRiZX1x36o7fWBs7J9ownbtO+n0/qWkvW7UPIfc37WgT6ZGR++EOJyeQDSb9UB+DZ1G6DdLDzyS+b/kBCYGsYgJbSQHuThGKRcw5xdeQf8YdNHsc6ePXrlSYMBuSIAFTGAtQo+VuALo4BX83N190NWZWbynBjhOHsmNfFWLeL6v+ynsA58zDvvAC8j5PkbOcXCMg2PZFk3q8MjI7WAG/Dp9AwP7jdGBOOQkAvlFUB+irtm16I1Zw9YBcpGTGXYmk3kQIC/Cds55l+iMI3jqhjAuaoe+am2Jw5GT3Nbz3CkE12NavmzN5+erJW7046n/CH1RO/RVa8lBLozXk9uqykkGAyRXLWlLv5jyp4RFsG5vGVzpDLnIjTWgnRy2Rr+tDKvRc7Y8AyZq10jj8DqXdnIRNtFZb+t/ZRtXcDiVnzpqx8mPcDWxgARUqx0W1QB9MeUZiNrV4qP+Ehc+BpNgATsTX8ozYKL2NtFYAHc84fG7ndxUPr+AR/iQSns7uSUufAymwDOb2+NjK27lEFocm/EE2WpyIy/Hi66MWuMKJn8RvxIcj87IM5Vh9663ziW36kR0HNenXuxmfaD8JC7tfKbrhFr7LiZCrMjrzTeGx+PmkosrkNzW94ObzwocJ7A1HokLolY+AvkTiD/q1H0cN48c5EL8Crkttsa/AXQVDmutfyku0E7jShx49XqV3MFK8IryDhYVbj7Sj2P2eBxwcXoe8T8idsKKPRcnZw1b+slFTubwUwhktrfnAt7J++jwQtLZcm3sr9LQrjRzz6cfMv9aLvgmnAGvpoaGLxM4mAEaLV7iAzQ3oU0IvD5x9ix3yF2RAAuYAOO2f7PEFWCXZ4C9Pb2UsgDeVnFSpbFK7/IWu7TPTvBqzbGdCHOJQSxiEjt6IyZmxQyEJHv6xyQsYk//moVFsN2zP6fRImjfq7/n/wFDguUQFNEwugAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-important.callout-style-default .callout-title {
+    background-color: #f7dddc
+  }
+
+  div.callout-warning {
+    border-left-color: #f0ad4e !important;
+  }
+
+  div.callout-warning .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAETklEQVRYCeVWW2gcVRg+58yaTUnizqbipZeX4uWhBEniBaoUX1Ioze52t7sRq6APio9V9MEaoWlVsFasRq0gltaAPuxms8lu0gcviE/FFOstVbSIxgcv6SU7EZqmdc7v9+9mJtNks51NTUH84ed889/PP+cmxP+d5FIbMJmNbpREu4WUkiTtCicKny0l1pIKmBzovF2S+hIJHX8iEu3hZJ5lNZGqyRrGSIQpq15AzF28jgpeY6yk6GVdrfFqdrD6Iw+QlB8g0YS2g7dyQmXM/IDhBhT0UCiRf59lfqmmDvzRt6kByV/m4JjtzuaujMUM2c5Z2d6JdKrRb3K2q6mA+oYVz8JnDdKPmmNthzkAk/lN63sYPgevrguc72aZX/L9C6x09GYyxBgCX4NlvyGUHOKELlm5rXeR1kchuChJt4SSwyddZRXgvwMGvYo4QSlk3/zkHD8UHxwVJA6zjZZqP8v8kK8OWLnIZtLyCAJagYC4rTGW/9Pqj92N/c+LUaAj27movwbi19tk/whRCIE7Q9vyI6yvRpftAKVTdUjOW40X3h5OXsKCdmFcx0xlLJoSuQngnrJe7Kcjm4OMq9FlC7CMmScQANuNvjfP3PjGXDBaUQmbp296S5L4DrpbrHN1T87ZVEZVCzg1FF0Ft+dKrlLukI+/c9ENo+TvlTDbYFvuKPtQ9+l052rXrgKoWkDAFnvh0wTOmYn8R5f4k/jN/fZiCM1tQx9jQQ4ANhqG4hiL0qIFTGViG9DKB7GYzgubnpofgYRwO+DFjh0Zin2m4b/97EDkXkc+f6xYAPX0KK2I/7fUQuwzuwo/L3AkcjugPNixC8cHf0FyPjWlItmLxWw4Ou9YsQCr5fijMGoD/zpdRy95HRysyXA74MWOnscpO4j2y3HAVisw85hX5+AFBRSHt4ShfLFkIMXTqyKFc46xdzQM6XbAi702a7sy04J0+feReMFKp5q9esYLCqAZYw/k14E/xcLLsFElaornTuJB0svMuJINy8xkIYuL+xPAlWRceH6+HX7THJ0djLUom46zREu7tTkxwmf/FdOZ/sh6Q8qvEAiHpm4PJ4a/doJe0gH1t+aHRgCzOvBvJedEK5OFE5jpm4AGP2a8Dxe3gGJ/pAutug9Gp6he92CsSsWBaEcxGx0FHytmIpuqGkOpldqNYQK8cSoXvd+xLxXADw0kf6UkJNFtdo5MOgaLjiQOQHcn+A6h5NuL2s0qsC2LOM75PcF3yr5STuBSAcGG+meA14K/CI21HcS4LBT6tv0QAh8Dr5l93AhZzG5ZJ4VxAqdZUEl9z7WJ4aN+svMvwHHL21UKTd1mqvChH7/Za5xzXBBKrUcB0TQ+Ulgkfbi/H/YT5EptrGzsEK7tR1B7ln9BBwckYfMiuSqklSznIuoIIOM42MQO+QnduCoFCI0bpkzjCjddHPN/F+2Yu+sd9bKNpVwHhbS3LluK/0zgfwD0xYI5dXuzlQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-warning.callout-style-default .callout-title {
+    background-color: #fcefdc
+  }
+
+  div.callout-tip {
+    border-left-color: #02b875 !important;
+  }
+
+  div.callout-tip .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAADr0lEQVRYCe1XTWgTQRj9ZjZV8a9SPIkKgj8I1bMHsUWrqYLVg4Ue6v9BwZOxSYsIerFao7UiUryIqJcqgtpimhbBXoSCVxUFe9CTiogUrUp2Pt+3aUI2u5vdNh4dmMzOzHvvezuz8xNFM0mjnbXaNu1MvFWRXkXEyE6aYOYJpdW4IXuA4r0fo8qqSMDBU0v1HJUgVieAXxzCsdE/YJTdFcVIZQNMyhruOMJKXYFoLfIfIvVIMWdsrd+Rpd86ZmyzzjJmLStqRn0v8lzkb4rVIXvnpScOJuAn2ACC65FkPzEdEy4TPWRLJ2h7z4cArXzzaOdKlbOvKKX25Wl00jSnrwVxAg3o4dRxhO13RBSdNvH0xSARv3adTXbBdTf64IWO2vH0LT+cv4GR1DJt+DUItaQogeBX/chhbTBxEiZ6gftlDNXTrvT7co4ub5A6gp9HIcHvzTa46OS5fBeP87Qm0fQkr4FsYgVQ7Qg+ZayaDg9jhg1GkWj8RG6lkeSacrrHgDaxdoBiZPg+NXV/KifMuB6//JmYH4CntVEHy/keA6x4h4CU5oFy8GzrBS18cLJMXcljAKB6INjWsRcuZBWVaS3GDrqB7rdapVIeA+isQ57Eev9eCqzqOa81CY05VLd6SamW2wA2H3SiTbnbSxmzfp7WtKZkqy4mdyAlGx7ennghYf8voqp9cLSgKdqNfa6RdRsAAkPwRuJZNbpByn+RrJi1RXTwdi8RQF6ymDwGMAtZ6TVE+4uoKh+MYkcLsT0Hk8eAienbiGdjJHZTpmNjlbFJNKDVAp2fJlYju6IreQxQ08UJDNYdoLSl6AadO+fFuCQqVMB1NJwPm69T04Wv5WhfcWyfXQB+wXRs1pt+nCknRa0LVzSA/2B+a9+zQJadb7IyyV24YAxKp2Jqs3emZTuNnKxsah+uabKbMk7CbTgJx/zIgQYErIeTKRQ9yD9wxVof5YolPHqaWo7TD6tJlh7jQnK5z2n3+fGdggIOx2kaa2YI9QWarc5Ce1ipNWMKeSG4DysFF52KBmTNMmn5HqCFkwy34rDg05gDwgH3bBi+sgFhN/e8QvRn8kbamCOhgrZ9GJhFDgfcMHzFb6BAtjKpFhzTjwv1KCVuxHvCbsSiEz4CANnj84cwHdFXAbAOJ4LTSAawGWFn5tDhLMYz6nWeU2wJfIhmIJBefcd/A5FWQWGgrWzyORZ3Q6HuV+Jf0Bj+BTX69fm1zWgK7By1YTXchFDORywnfQ7GpzOo6S+qECrsx2ifVQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-tip.callout-style-default .callout-title {
+    background-color: #ccf1e3
+  }
+
+  div.callout-caution {
+    border-left-color: #fd7e14 !important;
+  }
+
+  div.callout-caution .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACV0lEQVRYCdVWzWoUQRCuqp2ICBLJXgITZL1EfQDBW/bkzUMUD7klD+ATSHBEfAIfQO+iXsWDxJsHL96EHAwhgzlkg8nBg25XWb0zIb0zs9muYYWkoKeru+vn664fBqElyZNuyh167NXJ8Ut8McjbmEraKHkd7uAnAFku+VWdb3reSmRV8PKSLfZ0Gjn3a6Xlcq9YGb6tADjn+lUfTXtVmaZ1KwBIvFI11rRXlWlatwIAAv2asaa9mlB9wwygiDX26qaw1yYPzFXg2N1GgG0FMF8Oj+VIx7E/03lHx8UhvYyNZLN7BwSPgekXXLribw7w5/c8EF+DBK5idvDVYtEEwMeYefjjLAdEyQ3M9nfOkgnPTEkYU+sxMq0BxNR6jExrAI31H1rzvLEfRIdgcv1XEdj6QTQAS2wtstEALLG1yEZ3QhH6oDX7ExBSFEkFINXH98NTrme5IOaaA7kIfiu2L8A3qhH9zRbukdCqdsA98TdElyeMe5BI8Rs2xHRIsoTSSVFfCFCWGPn9XHb4cdobRIWABNf0add9jakDjQJpJ1bTXOJXnnRXHRf+dNL1ZV1MBRCXhMbaHqGI1JkKIL7+i8uffuP6wVQAzO7+qVEbF6NbS0LJureYcWXUUhH66nLR5rYmva+2tjRFtojkM2aD76HEGAD3tPtKM309FJg5j/K682ywcWJ3PASCcycH/22u+Bh7Aa0ehM2Fu4z0SAE81HF9RkB21c5bEn4Dzw+/qNOyXr3DCTQDMBOdhi4nAgiFDGCinIa2owCEChUwD8qzd03PG+qdW/4fDzjUMcE1ZpIAAAAASUVORK5CYII=');
+  }
+
+  div.callout-caution.callout-style-default .callout-title {
+    background-color: #ffe5d0
+  }
+
+  </style>
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">第0讲：课程介绍</h1>
+  <p class="subtitle">宏观经济学</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+雷浩然 
+</div>
+</div>
+</div>
+
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="2" data-paginate="true" data-theme="gaia" data-marpit-pagination="2" data-marpit-pagination-total="16" style="--paginate:true;--theme:gaia;">
-<h1>课程简介</h1>
+<section id="课程简介" class="slide level2">
+<h2>课程简介</h2>
 <ul>
-<li>教师姓名：<em>雷浩然</em></li>
-<li>联系方式： <a href="mailto:hlei@hnu.edu.cn">hlei@hnu.edu.cn</a></li>
+<li>教师姓名：雷浩然</li>
+<li>联系方式： hlei@hnu.edu.cn</li>
 <li>香港科技大学经济学博士</li>
 <li>研究兴趣：博弈论, 机制设计, 信息经济学</li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="3" data-paginate="true" data-theme="gaia" data-marpit-pagination="3" data-marpit-pagination-total="16" style="--paginate:true;--theme:gaia;">
+<section id="课程-qq-群" class="slide level2">
 <h2>课程 QQ 群</h2>
 <ul>
 <li>QQ 群会不定期发布课程通知，也可用来学习和交流</li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="4" data-paginate="true" data-theme="gaia" data-marpit-pagination="4" data-marpit-pagination-total="16" style="--paginate:true;--theme:gaia;">
+<section id="课程网站" class="slide level2">
 <h2>课程网站</h2>
 <ul>
-<li>
-<p>网站地址会发布在课程 qq 群.</p>
-</li>
-<li>
-<p>所有课程相关资料均会通过课程网站的形式上传.</p>
-</li>
-<li>
-<p>往年课程网站.</p>
-</li>
+<li><p>网站地址会发布在课程 qq 群.</p></li>
+<li><p>所有课程相关资料均会通过课程网站的形式上传.</p></li>
+<li><p>往年课程网站.</p></li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="5" data-paginate="true" data-theme="gaia" data-marpit-pagination="5" data-marpit-pagination-total="16" style="--paginate:true;--theme:gaia;">
+<section id="主要课程资料" class="slide level2">
 <h2>主要课程资料</h2>
-<p><strong>教材</strong></p>
-<ul>
-<li>教育部官方指定教材：《西方经济学下册（马工程教材）》</li>
-</ul>
+<p><strong>教材</strong> - 教育部官方指定教材：《西方经济学下册（马工程教材）》</p>
 <p><strong>推荐阅读</strong> (可在课程网站下载)</p>
-<ol>
+<ol type="1">
 <li>曼昆的《经济学原理》宏观分册</li>
 <li>《宏观经济学》，Acemoglu, Laibson and List</li>
 </ol>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="6" data-paginate="true" data-theme="gaia" data-marpit-pagination="6" data-marpit-pagination-total="16" style="--paginate:true;--theme:gaia;">
+<section id="鼓励同学们多读不同的书" class="slide level2">
 <h2>鼓励同学们<strong>多读不同的书</strong></h2>
 <p>理论上，任选一本《宏观经济学》的教材认真读完即可.</p>
 <p>实际上:</p>
 <ul>
-<li>
-<p>不同的作者会有不同的写作风格, 提供的<strong>动机</strong>和<strong>例子</strong>不同.</p>
-</li>
-<li>
-<p>有的同学喜欢<strong>数学</strong>推导多的, 有的喜欢<strong>编程</strong>和<strong>数值例子</strong>多的, 有的喜欢<strong>案例</strong>和<strong>文字描述</strong>多的</p>
-</li>
+<li><p>不同的作者会有不同的写作风格, 提供的<strong>动机</strong>和<strong>例子</strong>不同.</p></li>
+<li><p>有的同学喜欢<strong>数学</strong>推导多的, 有的喜欢<strong>编程</strong>和<strong>数值例子</strong>多的, 有的喜欢<strong>案例</strong>和<strong>文字描述</strong>多的</p></li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="7" data-paginate="true" data-theme="gaia" data-marpit-pagination="7" data-marpit-pagination-total="16" style="--paginate:true;--theme:gaia;">
+<section id="鼓励同学们多读不同的书-1" class="slide level2">
 <h2>鼓励同学们<strong>多读不同的书</strong></h2>
 <ul>
-<li>
-<p>基于上述原因, 不同教材的&quot;阅读体验&quot;会非常不同.</p>
-</li>
-<li>
-<p>不同于<strong>微积分</strong>和<strong>线性代数</strong>, 初级阶段的<strong>宏观经济学</strong>教材, 不同的书阅读体验会非常不一样.</p>
-</li>
-<li>
-<p>我鼓励大家多转转<strong>学校图书馆</strong>, 知名的和不知名的书都可以看看.</p>
-</li>
+<li><p>基于上述原因, 不同教材的”阅读体验”会非常不同.</p></li>
+<li><p>不同于<strong>微积分</strong>和<strong>线性代数</strong>, 初级阶段的<strong>宏观经济学</strong>教材, 不同的书阅读体验会非常不一样.</p></li>
+<li><p>我鼓励大家多转转<strong>学校图书馆</strong>, 知名的和不知名的书都可以看看.</p></li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="8" data-paginate="true" data-theme="gaia" data-marpit-pagination="8" data-marpit-pagination-total="16" style="--paginate:true;--theme:gaia;">
+<section id="教学目标" class="slide level2">
 <h2>教学目标</h2>
-<p>这是一门，
-针对<strong>数字经济专业</strong>同学的，
-<strong>宏观经济学入门课</strong> <img class="emoji" draggable="false" alt="😄" src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f604.svg" data-marp-twemoji=""/></p>
-</section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="9" data-paginate="true" data-theme="gaia" data-marpit-pagination="9" data-marpit-pagination-total="16" style="--paginate:true;--theme:gaia;">
-<h2>教学目标</h2>
-<p>这是一门，
-针对<strong>数字经济专业</strong>同学的，
-<strong>宏观经济学入门课</strong> <img class="emoji" draggable="false" alt="😄" src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f604.svg" data-marp-twemoji=""/></p>
+<p>这是一门， 针对<strong>数字经济专业</strong>同学的， <strong>宏观经济学入门课</strong></p>
+<div class="fragment">
 <ul>
-<li>
-<p><strong>考核方式</strong>和其他班级没有区别.</p>
-</li>
-<li>
-<p>我会穿插介绍一些 Python 数值计算</p>
-</li>
-<li>
-<p>推荐: QuantEcon</p>
-</li>
+<li><p><strong>考核方式</strong>和其他班级没有区别.</p></li>
+<li><p>我会穿插介绍一些 Python 数值计算</p></li>
+<li><p>推荐: QuantEcon</p></li>
 </ul>
+</div>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="10" data-paginate="true" data-theme="gaia" data-marpit-pagination="10" data-marpit-pagination-total="16" style="--paginate:true;--theme:gaia;">
+<section id="课程分数" class="slide level2">
 <h2>课程分数</h2>
 <ul>
-<li>
-<p>平时成绩 (30%)</p>
+<li><p>平时成绩 (30%)</p>
 <ul>
 <li>主要由两次<strong>课堂报告</strong> (presentation) 决定</li>
-</ul>
-</li>
-<li>
-<p>期中考试 (20%)</p>
-</li>
-<li>
-<p>期末考试 (50%)</p>
-</li>
+</ul></li>
+<li><p>期中考试 (20%)</p></li>
+<li><p>期末考试 (50%)</p></li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="11" data-paginate="true" data-theme="gaia" data-marpit-pagination="11" data-marpit-pagination-total="16" style="--paginate:true;--theme:gaia;">
+<section id="小广告" class="slide level2">
 <h2>小广告</h2>
 <p>本学期我另外还教授 <strong>《金融投资学》</strong></p>
 <ul>
@@ -132,76 +419,432 @@
 <li>9到16周</li>
 <li>北校区办公楼, 感兴趣的同学可以 QQ 问我教室地址</li>
 </ul>
-<p>主要是讲故事，内容可能会比这门《宏观经济学》有趣 <img class="emoji" draggable="false" alt="😂" src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f602.svg" data-marp-twemoji=""/></p>
+<p>主要是讲故事，内容可能会比这门《宏观经济学》有趣 :)</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="12" data-paginate="true" data-theme="gaia" data-marpit-pagination="12" data-marpit-pagination-total="16" style="--paginate:true;--theme:gaia;">
+<section id="宏观金融" class="slide level2">
 <h2>宏观金融</h2>
 <ul>
-<li>
-<p>08 年金融危机以来, 宏观经济学家日益重视
-<strong>金融市场</strong> 对实体经济(or 产品市场)的影响</p>
-</li>
-<li>
-<p>金融市场已成为宏观经济学家的主要研究内容：</p>
+<li><p>08 年金融危机以来, 宏观经济学家日益重视 <strong>金融市场</strong> 对实体经济(or 产品市场)的影响</p></li>
+<li><p>金融市场已成为宏观经济学家的主要研究内容：</p>
 <ul>
-<li>&quot;新兴&quot;领域: <strong>宏观金融</strong></li>
-<li>今天的绝大多数宏观入门教科书, 都会专门介绍金融市场对宏观经济周期的影响.</li>
-</ul>
+<li>“新兴”领域: <strong>宏观金融</strong><br>
 </li>
-<li>
-<p>遗憾的是，本课程并不涉及金融市场部分。</p>
-</li>
+<li>今天的绝大多数宏观入门教科书, 都会专门介绍金融市场对<strong>宏观经济周期</strong>的影响.</li>
+</ul></li>
+<li><p>遗憾的是，本课程并不涉及金融市场部分。</p></li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="13" data-paginate="true" data-theme="gaia" data-marpit-pagination="13" data-marpit-pagination-total="16" style="--paginate:true;--theme:gaia;">
-<h2>本课程不涉及金融投资</h2>
-<p>英文里 investment 一词有两个主要意思：
-(1) <strong>实体资本的增加</strong>
-如：修路，建桥，厂房等</p>
-<p>(2) <strong>财产所有权的转移</strong>
-如：金融市场的几乎所有投资活动</p>
+<section id="本课程不涉及金融投资" class="slide level2">
+<h2>本课程<strong>不涉及金融投资</strong></h2>
+<p>英文里 investment 一词有两个主要意思：</p>
+<ol type="1">
+<li><strong>实体资本的增加</strong>
+<ul>
+<li>如：修路，建桥，厂房等</li>
+</ul></li>
+<li><strong>财产所有权的转移</strong>
+<ul>
+<li>如：金融市场的几乎所有投资活动</li>
+</ul></li>
+</ol>
 <p>本课程里的“投资”只包含 (1)，不涉及金融投资。</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="14" data-paginate="true" data-theme="gaia" data-marpit-pagination="14" data-marpit-pagination-total="16" style="--paginate:true;--theme:gaia;">
+<section id="上课要求" class="slide level2">
 <h2>上课要求</h2>
 <ul>
 <li>认真听讲</li>
 <li>手机静音，不要看手机</li>
-<li>最好不要迟到。</li>
-<li>可以课上吃东西，但只能吃“味道不大”的食物
-<ul>
-<li>面包，牛奶</li>
-</ul>
-</li>
+<li>最好不要迟到</li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="15" data-paginate="true" data-theme="gaia" data-marpit-pagination="15" data-marpit-pagination-total="16" style="--paginate:true;--theme:gaia;">
+<section id="我对你们的期望" class="slide level2">
 <h2>我对你们的期望</h2>
 <ul>
-<li>没有考勤要求</li>
-<li>但我会点名问问题 (cold call)</li>
-<li>答不出来很正常，
-<ol>
+<li><p>没有考勤要求</p></li>
+<li><p>但我会点名问问题 (<strong>cold call</strong>)</p></li>
+<li><p>如果你被我点到了, 但不知道怎么回答. <strong>这很正常</strong></p>
+<ol type="1">
 <li>我想听听你的思考</li>
-<li>有时问题本身没有标准答案</li>
-<li>考试时能答出来就行</li>
-</ol>
-</li>
+<li>有时候, 问的问题本身没有标准答案</li>
+<li>上课答不出来无所谓, 考试时能答出来就行</li>
+</ol></li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="16" data-paginate="true" data-theme="gaia" data-marpit-pagination="16" data-marpit-pagination-total="16" style="--paginate:true;--theme:gaia;">
-<h2>最好是你们主动问问题</h2>
+<section id="最好是你们主动问问题" class="slide level2">
+<h2>最好是你们<strong>主动问问题</strong></h2>
 <ul>
-<li>经济学是研究“激励” (incentives) 的学科
+<li><p>经济学是研究<strong>激励 (incentives)</strong> 的学科</p></li>
+<li><p>以下是我对于你们问问题提供的激励:</p>
 <ul>
-<li>能在课堂上问出好问题，最终成绩有额外加分
-(<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>+</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">+1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">+</span><span class="mord">1</span></span></span></span>)</li>
-<li>也可以通过 qq 群或邮件问
-(<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>+</mo><mn>0.5</mn></mrow><annotation encoding="application/x-tex">+0.5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">+</span><span class="mord">0.5</span></span></span></span>)</li>
+<li>能在课堂上问出好问题，最终成绩有额外加分 (<strong>加1分</strong>)</li>
+<li>也可以通过 qq 群或邮件问 (<strong>加0.5分</strong>)</li>
+</ul></li>
+<li><p>这个加分渠道<strong>最多加两分</strong></p></li>
 </ul>
-</li>
-</ul>
+<style>
+h1, h2, h3 {
+  font-size: 1.1em;
+  font-family: "Noto Sans CJK SC", "Sans";
+  font-weight: normal;
+   color: navy;
+}
+
+b, strong {
+   color: navy;
+   font-weight: normal;
+}
+
+em {
+   font-style: normal; 
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 3px dashed;
+}
+</style>
+<div class="footer footer-default">
+
+</div>
 </section>
-<script>!function(){"use strict";const t={h1:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"1"},style:"display: block; font-size: 2em; margin-block-start: 0.67em; margin-block-end: 0.67em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h2:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"2"},style:"display: block; font-size: 1.5em; margin-block-start: 0.83em; margin-block-end: 0.83em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h3:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"3"},style:"display: block; font-size: 1.17em; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h4:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"4"},style:"display: block; margin-block-start: 1.33em; margin-block-end: 1.33em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h5:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"5"},style:"display: block; font-size: 0.83em; margin-block-start: 1.67em; margin-block-end: 1.67em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h6:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"6"},style:"display: block; font-size: 0.67em; margin-block-start: 2.33em; margin-block-end: 2.33em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},span:{proto:()=>HTMLSpanElement},pre:{proto:()=>HTMLElement,style:"display: block; font-family: monospace; white-space: pre; margin: 1em 0; --marp-auto-scaling-white-space: pre;"}},e="data-marp-auto-scaling-wrapper",i="data-marp-auto-scaling-svg",n="data-marp-auto-scaling-container";class s extends HTMLElement{constructor(){super(),this.svgPreserveAspectRatio="xMinYMid meet";const t=t=>([e])=>{const{width:i,height:n}=e.contentRect;this[t]={width:i,height:n},this.updateSVGRect()};this.attachShadow({mode:"open"}),this.containerObserver=new ResizeObserver(t("containerSize")),this.wrapperObserver=new ResizeObserver(((...e)=>{t("wrapperSize")(...e),this.flushSvgDisplay()}))}static get observedAttributes(){return["data-downscale-only"]}connectedCallback(){var t,s,o,r,a;this.shadowRoot.innerHTML=`\n<style>\n  svg[${i}] { display: block; width: 100%; height: auto; vertical-align: top; }\n  span[${n}] { display: table; white-space: var(--marp-auto-scaling-white-space, nowrap); width: max-content; }\n</style>\n<div ${e}>\n  <svg part="svg" ${i}>\n    <foreignObject><span ${n}><slot></slot></span></foreignObject>\n  </svg>\n</div>\n    `.split(/\n\s*/).join(""),this.wrapper=null!==(t=this.shadowRoot.querySelector(`div[${e}]`))&&void 0!==t?t:void 0;const l=this.svg;this.svg=null!==(o=null===(s=this.wrapper)||void 0===s?void 0:s.querySelector(`svg[${i}]`))&&void 0!==o?o:void 0,this.svg!==l&&(this.svgComputedStyle=this.svg?window.getComputedStyle(this.svg):void 0),this.container=null!==(a=null===(r=this.svg)||void 0===r?void 0:r.querySelector(`span[${n}]`))&&void 0!==a?a:void 0,this.observe()}disconnectedCallback(){this.svg=void 0,this.svgComputedStyle=void 0,this.wrapper=void 0,this.container=void 0,this.observe()}attributeChangedCallback(){this.observe()}flushSvgDisplay(){const{svg:t}=this;t&&(t.style.display="inline",requestAnimationFrame((()=>{t.style.display=""})))}observe(){this.containerObserver.disconnect(),this.wrapperObserver.disconnect(),this.wrapper&&this.wrapperObserver.observe(this.wrapper),this.container&&this.containerObserver.observe(this.container),this.svgComputedStyle&&this.observeSVGStyle(this.svgComputedStyle)}observeSVGStyle(t){const e=()=>{const i=(()=>{const e=t.getPropertyValue("--preserve-aspect-ratio");if(e)return e.trim();return`x${(({textAlign:t,direction:e})=>{if(t.endsWith("left"))return"Min";if(t.endsWith("right"))return"Max";if("start"===t||"end"===t){let i="rtl"===e;return"end"===t&&(i=!i),i?"Max":"Min"}return"Mid"})(t)}YMid meet`})();i!==this.svgPreserveAspectRatio&&(this.svgPreserveAspectRatio=i,this.updateSVGRect()),t===this.svgComputedStyle&&requestAnimationFrame(e)};e()}updateSVGRect(){var t,e,i,n,s,o,r;let a=Math.ceil(null!==(e=null===(t=this.containerSize)||void 0===t?void 0:t.width)&&void 0!==e?e:0);const l=Math.ceil(null!==(n=null===(i=this.containerSize)||void 0===i?void 0:i.height)&&void 0!==n?n:0);void 0!==this.dataset.downscaleOnly&&(a=Math.max(a,null!==(o=null===(s=this.wrapperSize)||void 0===s?void 0:s.width)&&void 0!==o?o:0));const c=null===(r=this.svg)||void 0===r?void 0:r.querySelector(":scope > foreignObject");if(null==c||c.setAttribute("width",`${a}`),null==c||c.setAttribute("height",`${l}`),this.svg&&(this.svg.setAttribute("viewBox",`0 0 ${a} ${l}`),this.svg.setAttribute("preserveAspectRatio",this.svgPreserveAspectRatio),this.svg.style.height=a<=0||l<=0?"0":""),this.container){const t=this.svgPreserveAspectRatio.toLowerCase();this.container.style.marginLeft=t.startsWith("xmid")||t.startsWith("xmax")?"auto":"0",this.container.style.marginRight=t.startsWith("xmi")?"auto":"0"}}}const o=(t,{attrs:e={},style:i})=>class extends t{constructor(...t){super(...t);for(const[t,i]of Object.entries(e))this.hasAttribute(t)||this.setAttribute(t,i);this.attachShadow({mode:"open"})}static get observedAttributes(){return["data-auto-scaling"]}connectedCallback(){this._update()}attributeChangedCallback(){this._update()}_update(){const t=i?`<style>:host { ${i} }</style>`:"";let e="<slot></slot>";const{autoScaling:n}=this.dataset;if(void 0!==n){e=`<marp-auto-scaling exportparts="svg:auto-scaling" ${"downscale-only"===n?"data-downscale-only":""}>${e}</marp-auto-scaling>`}this.shadowRoot.innerHTML=t+e}};let r;const a=Symbol(),l="marpitSVGPolyfill:setZoomFactor,",c=Symbol();let d,p;function h(t){const e="object"==typeof t&&t.target||document,i="object"==typeof t?t.zoom:t;window[c]||(Object.defineProperty(window,c,{configurable:!0,value:!0}),window.addEventListener("message",(({data:t,origin:e})=>{if(e===window.origin)try{if(t&&"string"==typeof t&&t.startsWith(l)){const[,e]=t.split(","),i=Number.parseFloat(e);Number.isNaN(i)||(p=i)}}catch(t){console.error(t)}})));let n=!1;Array.from(e.querySelectorAll("svg[data-marpit-svg]"),(t=>{var e,s,o,r;t.style.transform||(t.style.transform="translateZ(0)");const a=i||p||t.currentScale||1;d!==a&&(d=a,n=a);const l=t.getBoundingClientRect(),{length:c}=t.children;for(let i=0;i<c;i+=1){const n=t.children[i];if(n.getScreenCTM){const t=n.getScreenCTM();if(t){const i=null!==(s=null===(e=n.x)||void 0===e?void 0:e.baseVal.value)&&void 0!==s?s:0,c=null!==(r=null===(o=n.y)||void 0===o?void 0:o.baseVal.value)&&void 0!==r?r:0,d=n.children.length;for(let e=0;e<d;e+=1){const s=n.children[e];if("SECTION"===s.tagName){const{style:e}=s;e.transformOrigin||(e.transformOrigin=`${-i}px ${-c}px`),e.transform=`scale(${a}) matrix(${t.a}, ${t.b}, ${t.c}, ${t.d}, ${t.e-l.left}, ${t.f-l.top}) translateZ(0.0001px)`;break}}}}}})),!1!==n&&Array.from(e.querySelectorAll("iframe"),(({contentWindow:t})=>{null==t||t.postMessage(`${l}${n}`,"null"===window.origin?"*":window.origin)}))}function g({once:t=!1,target:e=document}={}){const i="Apple Computer, Inc."===navigator.vendor?[h]:[];let n=!t;const s=()=>{for(const t of i)t({target:e});n&&window.requestAnimationFrame(s)};return s(),()=>{n=!1}}d=1,p=void 0;const m=Symbol(),v=(e=document)=>{if("undefined"==typeof window)throw new Error("Marp Core's browser script is valid only in browser context.");if(((e=document)=>{const i=window[a];i||customElements.define("marp-auto-scaling",s);for(const n of Object.keys(t)){const s=`marp-${n}`,a=t[n].proto();null!=r||(r=!!document.createElement("div",{is:"marp-auto-scaling"}).outerHTML.startsWith("<div is")),r&&a!==HTMLElement?i||customElements.define(s,o(a,{style:t[n].style}),{extends:n}):(i||customElements.define(s,o(HTMLElement,t[n])),e.querySelectorAll(`${n}[is="${s}"]`).forEach((t=>{t.outerHTML=t.outerHTML.replace(new RegExp(`^<${n}`,"i"),`<${s}`).replace(new RegExp(`</${n}>$`,"i"),`</${s}>`)})))}window[a]=!0})(e),e[m])return e[m];const i=g({target:e}),n=()=>{i(),delete e[m]},l=Object.assign(n,{cleanup:n,update:()=>v(e)});return Object.defineProperty(e,m,{configurable:!0,value:l}),l},u=document.currentScript;v(u?u.getRootNode():document)}();
-</script></foreignObject></svg></div><div class="bespoke-marp-note" data-index="0" tabindex="0"><p>_theme: reveal</p><p>*page_number: false</p></div><script>/*!! License: https://unpkg.com/@marp-team/marp-cli@2.3.0/lib/bespoke.js.LICENSE.txt */
-!function(){"use strict";const e=document.body,t=(...e)=>history.replaceState(...e),n="presenter",r="next",o=["",n,r],i="bespoke-marp-",a=`data-${i}`,s=(e,{protocol:t,host:n,pathname:r,hash:o}=location)=>{const i=e.toString();return`${t}//${n}${r}${i?"?":""}${i}${o}`},l=()=>e.dataset.bespokeView,d=e=>new URLSearchParams(location.search).get(e),c=(e,n={})=>{var r;const o={location,setter:t,...n},i=new URLSearchParams(o.location.search);for(const t of Object.keys(e)){const n=e[t];"string"==typeof n?i.set(t,n):i.delete(t)}try{o.setter({...null!==(r=window.history.state)&&void 0!==r?r:{}},"",s(i,o.location))}catch(e){console.error(e)}},u=(()=>{const e="bespoke-marp";try{return localStorage.setItem(e,e),localStorage.removeItem(e),!0}catch(e){return!1}})(),f=e=>{try{return localStorage.getItem(e)}catch(e){return null}},m=(e,t)=>{try{return localStorage.setItem(e,t),!0}catch(e){return!1}},g=e=>{try{return localStorage.removeItem(e),!0}catch(e){return!1}},p=(e,t)=>{const n="aria-hidden";t?e.setAttribute(n,"true"):e.removeAttribute(n)},v=e=>{e.parent.classList.add(`${i}parent`),e.slides.forEach((e=>e.classList.add(`${i}slide`))),e.on("activate",(t=>{const n=`${i}active`,r=t.slide,o=r.classList,a=!o.contains(n);if(e.slides.forEach((e=>{e.classList.remove(n),p(e,!0)})),o.add(n),p(r,!1),a){const e=`${n}-ready`;o.add(e),document.body.clientHeight,o.remove(e)}}))},h=e=>{let t=0,n=0;Object.defineProperty(e,"fragments",{enumerable:!0,value:e.slides.map((e=>[null,...e.querySelectorAll("[data-marpit-fragment]")]))});const r=r=>void 0!==e.fragments[t][n+r],o=(r,o)=>{t=r,n=o,e.fragments.forEach(((e,t)=>{e.forEach(((e,n)=>{if(null==e)return;const i=t<r||t===r&&n<=o;e.setAttribute(`${a}fragment`,(i?"":"in")+"active");const s=`${a}current-fragment`;t===r&&n===o?e.setAttribute(s,"current"):e.removeAttribute(s)}))})),e.fragmentIndex=o;const i={slide:e.slides[r],index:r,fragments:e.fragments[r],fragmentIndex:o};e.fire("fragment",i)};e.on("next",(({fragment:i=!0})=>{if(i){if(r(1))return o(t,n+1),!1;const i=t+1;e.fragments[i]&&o(i,0)}else{const r=e.fragments[t].length;if(n+1<r)return o(t,r-1),!1;const i=e.fragments[t+1];i&&o(t+1,i.length-1)}})),e.on("prev",(({fragment:i=!0})=>{if(r(-1)&&i)return o(t,n-1),!1;const a=t-1;e.fragments[a]&&o(a,e.fragments[a].length-1)})),e.on("slide",(({index:t,fragment:n})=>{let r=0;if(void 0!==n){const o=e.fragments[t];if(o){const{length:e}=o;r=-1===n?e-1:Math.min(Math.max(n,0),e-1)}}o(t,r)})),o(0,0)},y=document,b=()=>!(!y.fullscreenEnabled&&!y.webkitFullscreenEnabled),w=()=>!(!y.fullscreenElement&&!y.webkitFullscreenElement),x=e=>{e.fullscreen=()=>{b()&&(async()=>{return w()?null===(e=y.exitFullscreen||y.webkitExitFullscreen)||void 0===e?void 0:e.call(y):((e=y.body)=>{var t;return null===(t=e.requestFullscreen||e.webkitRequestFullscreen)||void 0===t?void 0:t.call(e)})();var e})()},document.addEventListener("keydown",(t=>{"f"!==t.key&&"F11"!==t.key||t.altKey||t.ctrlKey||t.metaKey||!b()||(e.fullscreen(),t.preventDefault())}))},k=`${i}inactive`,$=(e=2e3)=>({parent:t,fire:n})=>{const r=t.classList,o=e=>n(`marp-${e?"":"in"}active`);let i;const a=()=>{i&&clearTimeout(i),i=setTimeout((()=>{r.add(k),o()}),e),r.contains(k)&&(r.remove(k),o(!0))};for(const e of["mousedown","mousemove","touchend"])document.addEventListener(e,a);setTimeout(a,0)},E=["AUDIO","BUTTON","INPUT","SELECT","TEXTAREA","VIDEO"],L=e=>{e.parent.addEventListener("keydown",(e=>{if(!e.target)return;const t=e.target;(E.includes(t.nodeName)||"true"===t.contentEditable)&&e.stopPropagation()}))},S=e=>{window.addEventListener("load",(()=>{for(const t of e.slides){const e=t.querySelector("marp-auto-scaling, [data-auto-scaling], [data-marp-fitting]");t.setAttribute(`${a}load`,e?"":"hideable")}}))},P=({interval:e=250}={})=>t=>{document.addEventListener("keydown",(e=>{if(" "===e.key&&e.shiftKey)t.prev();else if("ArrowLeft"===e.key||"ArrowUp"===e.key||"PageUp"===e.key)t.prev({fragment:!e.shiftKey});else if(" "!==e.key||e.shiftKey)if("ArrowRight"===e.key||"ArrowDown"===e.key||"PageDown"===e.key)t.next({fragment:!e.shiftKey});else if("End"===e.key)t.slide(t.slides.length-1,{fragment:-1});else{if("Home"!==e.key)return;t.slide(0)}else t.next();e.preventDefault()}));let n,r,o=0;t.parent.addEventListener("wheel",(i=>{let a=!1;const s=(e,t)=>{e&&(a=a||((e,t)=>((e,t)=>{const n="X"===t?"Width":"Height";return e[`client${n}`]<e[`scroll${n}`]})(e,t)&&((e,t)=>{const{overflow:n}=e,r=e[`overflow${t}`];return"auto"===n||"scroll"===n||"auto"===r||"scroll"===r})(getComputedStyle(e),t))(e,t)),(null==e?void 0:e.parentElement)&&s(e.parentElement,t)};if(0!==i.deltaX&&s(i.target,"X"),0!==i.deltaY&&s(i.target,"Y"),a)return;i.preventDefault();const l=Math.sqrt(i.deltaX**2+i.deltaY**2);if(void 0!==i.wheelDelta){if(void 0===i.webkitForce&&Math.abs(i.wheelDelta)<40)return;if(i.deltaMode===i.DOM_DELTA_PIXEL&&l<4)return}else if(i.deltaMode===i.DOM_DELTA_PIXEL&&l<12)return;r&&clearTimeout(r),r=setTimeout((()=>{n=0}),e);const d=Date.now()-o<e,c=l<=n;if(n=l,d||c)return;let u;(i.deltaX>0||i.deltaY>0)&&(u="next"),(i.deltaX<0||i.deltaY<0)&&(u="prev"),u&&(t[u](),o=Date.now())}))},T=(e=`.${i}osc`)=>{const t=document.querySelector(e);if(!t)return()=>{};const n=(e,n)=>{t.querySelectorAll(`[${a}osc=${JSON.stringify(e)}]`).forEach(n)};return b()||n("fullscreen",(e=>e.style.display="none")),u||n("presenter",(e=>{e.disabled=!0,e.title="Presenter view is disabled due to restricted localStorage."})),e=>{t.addEventListener("click",(t=>{if(t.target instanceof HTMLElement){const{bespokeMarpOsc:n}=t.target.dataset;n&&t.target.blur();const r={fragment:!t.shiftKey};"next"===n?e.next(r):"prev"===n?e.prev(r):"fullscreen"===n?null==e||e.fullscreen():"presenter"===n&&e.openPresenterView()}})),e.parent.appendChild(t),e.on("activate",(({index:t})=>{n("page",(n=>n.textContent=`Page ${t+1} of ${e.slides.length}`))})),e.on("fragment",(({index:t,fragments:r,fragmentIndex:o})=>{n("prev",(e=>e.disabled=0===t&&0===o)),n("next",(n=>n.disabled=t===e.slides.length-1&&o===r.length-1))})),e.on("marp-active",(()=>p(t,!1))),e.on("marp-inactive",(()=>p(t,!0))),b()&&(e=>{for(const t of["","webkit"])y.addEventListener(t+"fullscreenchange",e)})((()=>n("fullscreen",(e=>e.classList.toggle("exit",b()&&w())))))}},_=e=>{window.addEventListener("message",(t=>{if(t.origin!==window.origin)return;const[n,r]=t.data.split(":");if("navigate"===n){const[t,n]=r.split(",");let o=Number.parseInt(t,10),i=Number.parseInt(n,10)+1;i>=e.fragments[o].length&&(o+=1,i=0),e.slide(o,{fragment:i})}}))};var I=["area","base","br","col","command","embed","hr","img","input","keygen","link","meta","param","source","track","wbr"];let M=e=>String(e).replace(/[&<>"']/g,(e=>`&${A[e]};`)),A={"&":"amp","<":"lt",">":"gt",'"':"quot","'":"apos"},D="dangerouslySetInnerHTML",O={className:"class",htmlFor:"for"},C={};function N(e,t){let n=[],r="";t=t||{};for(let e=arguments.length;e-- >2;)n.push(arguments[e]);if("function"==typeof e)return t.children=n.reverse(),e(t);if(e){if(r+="<"+e,t)for(let e in t)!1!==t[e]&&null!=t[e]&&e!==D&&(r+=` ${O[e]?O[e]:M(e)}="${M(t[e])}"`);r+=">"}if(-1===I.indexOf(e)){if(t[D])r+=t[D].__html;else for(;n.length;){let e=n.pop();if(e)if(e.pop)for(let t=e.length;t--;)n.push(e[t]);else r+=!0===C[e]?e:M(e)}r+=e?`</${e}>`:""}return C[r]=!0,r}const B=({children:e})=>N(null,null,...e),q=`${i}presenter-`,K={container:`${q}container`,dragbar:`${q}dragbar-container`,next:`${q}next`,nextContainer:`${q}next-container`,noteContainer:`${q}note-container`,noteWrapper:`${q}note-wrapper`,noteButtons:`${q}note-buttons`,infoContainer:`${q}info-container`,infoPage:`${q}info-page`,infoPageText:`${q}info-page-text`,infoPagePrev:`${q}info-page-prev`,infoPageNext:`${q}info-page-next`,noteButtonsBigger:`${q}note-bigger`,noteButtonsSmaller:`${q}note-smaller`,infoTime:`${q}info-time`,infoTimer:`${q}info-timer`},F=e=>{const{title:t}=document;document.title="[Presenter view]"+(t?` - ${t}`:"");const n={},r=e=>(n[e]=n[e]||document.querySelector(`.${e}`),n[e]);document.body.appendChild((e=>{const t=document.createElement("div");return t.className=K.container,t.appendChild(e),t.insertAdjacentHTML("beforeend",N(B,null,N("div",{class:K.nextContainer},N("iframe",{class:K.next,src:"?view=next"})),N("div",{class:K.dragbar}),N("div",{class:K.noteContainer},N("div",{class:K.noteWrapper}),N("div",{class:K.noteButtons},N("button",{class:K.noteButtonsSmaller,tabindex:"-1",title:"Smaller notes font size"},"Smaller notes font size"),N("button",{class:K.noteButtonsBigger,tabindex:"-1",title:"Bigger notes font size"},"Bigger notes font size"))),N("div",{class:K.infoContainer},N("div",{class:K.infoPage},N("button",{class:K.infoPagePrev,tabindex:"-1",title:"Previous"},"Previous"),N("span",{class:K.infoPageText}),N("button",{class:K.infoPageNext,tabindex:"-1",title:"Next"},"Next")),N("time",{class:K.infoTime,title:"Current time"}),N("time",{class:K.infoTimer,title:"Timer"})))),t})(e.parent)),(e=>{let t=!1;r(K.dragbar).addEventListener("mousedown",(()=>{t=!0,r(K.dragbar).classList.add("active")})),window.addEventListener("mouseup",(()=>{t=!1,r(K.dragbar).classList.remove("active")})),window.addEventListener("mousemove",(e=>{if(!t)return;const n=e.clientX/document.documentElement.clientWidth*100;r(K.container).style.setProperty("--bespoke-marp-presenter-split-ratio",`${Math.max(0,Math.min(100,n))}%`)})),r(K.nextContainer).addEventListener("click",(()=>e.next()));const n=r(K.next),o=(i=n,(e,t)=>{var n;return null===(n=i.contentWindow)||void 0===n?void 0:n.postMessage(`navigate:${e},${t}`,"null"===window.origin?"*":window.origin)});var i;n.addEventListener("load",(()=>{r(K.nextContainer).classList.add("active"),o(e.slide(),e.fragmentIndex),e.on("fragment",(({index:e,fragmentIndex:t})=>o(e,t)))}));const a=document.querySelectorAll(".bespoke-marp-note");a.forEach((e=>{e.addEventListener("keydown",(e=>e.stopPropagation())),r(K.noteWrapper).appendChild(e)})),e.on("activate",(()=>a.forEach((t=>t.classList.toggle("active",t.dataset.index==e.slide())))));let s=0;const l=e=>{s=Math.max(-5,s+e),r(K.noteContainer).style.setProperty("--bespoke-marp-note-font-scale",(1.2**s).toFixed(4))},d=()=>l(1),c=()=>l(-1),u=r(K.noteButtonsBigger),f=r(K.noteButtonsSmaller);u.addEventListener("click",(()=>{u.blur(),d()})),f.addEventListener("click",(()=>{f.blur(),c()})),document.addEventListener("keydown",(e=>{"+"===e.key&&d(),"-"===e.key&&c()}),!0),e.on("activate",(({index:t})=>{r(K.infoPageText).textContent=`${t+1} / ${e.slides.length}`}));const m=r(K.infoPagePrev),g=r(K.infoPageNext);m.addEventListener("click",(t=>{m.blur(),e.prev({fragment:!t.shiftKey})})),g.addEventListener("click",(t=>{g.blur(),e.next({fragment:!t.shiftKey})})),e.on("fragment",(({index:t,fragments:n,fragmentIndex:r})=>{m.disabled=0===t&&0===r,g.disabled=t===e.slides.length-1&&r===n.length-1}));let p=new Date;const v=()=>{const e=new Date,t=e=>`${Math.floor(e)}`.padStart(2,"0"),n=e.getTime()-p.getTime(),o=t(n/1e3%60),i=t(n/1e3/60%60),a=t(n/36e5%24);r(K.infoTime).textContent=e.toLocaleTimeString(),r(K.infoTimer).textContent=`${a}:${i}:${o}`};v(),setInterval(v,250),r(K.infoTimer).addEventListener("click",(()=>{p=new Date}))})(e)},j=e=>{if(!(e=>e.syncKey&&"string"==typeof e.syncKey)(e))throw new Error("The current instance of Bespoke.js is invalid for Marp bespoke presenter plugin.");Object.defineProperties(e,{openPresenterView:{enumerable:!0,value:V},presenterUrl:{enumerable:!0,get:U}}),u&&document.addEventListener("keydown",(t=>{"p"!==t.key||t.altKey||t.ctrlKey||t.metaKey||(t.preventDefault(),e.openPresenterView())}))};function V(){const{max:e,floor:t}=Math,n=e(t(.85*window.innerWidth),640),r=e(t(.85*window.innerHeight),360);return window.open(this.presenterUrl,q+this.syncKey,`width=${n},height=${r},menubar=no,toolbar=no`)}function U(){const e=new URLSearchParams(location.search);return e.set("view","presenter"),e.set("sync",this.syncKey),s(e)}const X=e=>{const t=l();return t===r&&e.appendChild(document.createElement("span")),{"":j,[n]:F,[r]:_}[t]},H=e=>{e.on("activate",(t=>{document.querySelectorAll(".bespoke-progress-parent > .bespoke-progress-bar").forEach((n=>{n.style.flexBasis=100*t.index/(e.slides.length-1)+"%"}))}))},R=e=>{const t=Number.parseInt(e,10);return Number.isNaN(t)?null:t},W=(e={})=>{const t={history:!0,...e};return e=>{let n=!0;const r=e=>{const t=n;try{return n=!0,e()}finally{n=t}},o=(t={fragment:!0})=>{((t,n)=>{const{min:r,max:o}=Math,{fragments:i,slides:a}=e,s=o(0,r(t,a.length-1)),l=o(0,r(n||0,i[s].length-1));s===e.slide()&&l===e.fragmentIndex||e.slide(s,{fragment:l})})((R(location.hash.slice(1))||1)-1,t.fragment?R(d("f")||""):null)};e.on("fragment",(({index:e,fragmentIndex:r})=>{n||c({f:0===r||r.toString()},{location:{...location,hash:`#${e+1}`},setter:(...e)=>t.history?history.pushState(...e):history.replaceState(...e)})})),setTimeout((()=>{o(),window.addEventListener("hashchange",(()=>r((()=>{o({fragment:!1}),c({f:void 0})})))),window.addEventListener("popstate",(()=>{n||r((()=>o()))})),n=!1}),0)}},J=(e={})=>{var n;const r=e.key||(null===(n=window.history.state)||void 0===n?void 0:n.marpBespokeSyncKey)||Math.random().toString(36).slice(2),o=`bespoke-marp-sync-${r}`;var i;i={marpBespokeSyncKey:r},c({},{setter:(e,...n)=>t({...e,...i},...n)});const a=()=>{const e=f(o);return e?JSON.parse(e):Object.create(null)},s=e=>{const t=a(),n={...t,...e(t)};return m(o,JSON.stringify(n)),n},l=()=>{window.removeEventListener("pageshow",l),s((e=>({reference:(e.reference||0)+1})))};return e=>{l(),Object.defineProperty(e,"syncKey",{value:r,enumerable:!0});let t=!0;setTimeout((()=>{e.on("fragment",(e=>{t&&s((()=>({index:e.index,fragmentIndex:e.fragmentIndex})))}))}),0),window.addEventListener("storage",(n=>{if(n.key===o&&n.oldValue&&n.newValue){const r=JSON.parse(n.oldValue),o=JSON.parse(n.newValue);if(r.index!==o.index||r.fragmentIndex!==o.fragmentIndex)try{t=!1,e.slide(o.index,{fragment:o.fragmentIndex,forSync:!0})}finally{t=!0}}}));const n=()=>{const{reference:e}=a();void 0===e||e<=1?g(o):s((()=>({reference:e-1})))};window.addEventListener("pagehide",(e=>{e.persisted&&window.addEventListener("pageshow",l),n()})),e.on("destroy",n)}},{PI:Y,abs:z,sqrt:G,atan2:Q}=Math,Z={passive:!0},ee=({slope:e=-.7,swipeThreshold:t=30}={})=>n=>{let r;const o=n.parent,i=e=>{const t=o.getBoundingClientRect();return{x:e.pageX-(t.left+t.right)/2,y:e.pageY-(t.top+t.bottom)/2}};o.addEventListener("touchstart",(({touches:e})=>{r=1===e.length?i(e[0]):void 0}),Z),o.addEventListener("touchmove",(e=>{if(r)if(1===e.touches.length){e.preventDefault();const t=i(e.touches[0]),n=t.x-r.x,o=t.y-r.y;r.delta=G(z(n)**2+z(o)**2),r.radian=Q(n,o)}else r=void 0})),o.addEventListener("touchend",(o=>{if(r){if(r.delta&&r.delta>=t&&r.radian){const t=(r.radian-e+Y)%(2*Y)-Y;n[t<0?"next":"prev"](),o.stopPropagation()}r=void 0}}),Z)},te=new Map;te.clear(),te.set("none",{backward:{both:void 0,incoming:void 0,outgoing:void 0},forward:{both:void 0,incoming:void 0,outgoing:void 0}});const ne={both:"",outgoing:"outgoing-",incoming:"incoming-"},re={forward:"",backward:"-backward"},oe=e=>`--marp-bespoke-transition-animation-${e}`,ie=e=>`--marp-transition-${e}`,ae=oe("name"),se=oe("duration"),le=e=>new Promise((t=>{const n={},r=document.createElement("div"),o=e=>{r.remove(),t(e)};r.addEventListener("animationstart",(()=>o(n))),Object.assign(r.style,{animationName:e,animationDuration:"1s",animationFillMode:"both",animationPlayState:"paused",position:"absolute",pointerEvents:"none"}),document.body.appendChild(r);const i=getComputedStyle(r).getPropertyValue(ie("duration"));i&&(n.defaultDuration=i),((e,t)=>{requestAnimationFrame((()=>{e.style.animationPlayState="running",requestAnimationFrame((()=>t(void 0)))}))})(r,o)})),de=async e=>te.has(e)?te.get(e):(e=>{const t={},n=[];for(const[r,o]of Object.entries(ne))for(const[i,a]of Object.entries(re)){const s=`marp-${o}transition${a}-${e}`;n.push(le(s).then((e=>{t[i]=t[i]||{},t[i][r]=e?{...e,name:s}:void 0})))}return Promise.all(n).then((()=>t))})(e).then((t=>(te.set(e,t),t))),ce=e=>Object.values(e).flatMap(Object.values).every((e=>!e)),ue=(e,{type:t,backward:n})=>{const r=e[n?"backward":"forward"],o=(()=>{const e=r[t],n=e=>({[ae]:e.name});if(e)return n(e);if(r.both){const e=n(r.both);return"incoming"===t&&(e[oe("direction")]="reverse"),e}})();return!o&&n?ue(e,{type:t,backward:!1}):o||{[ae]:"__bespoke_marp_transition_no_animation__"}},fe=e=>{if(e)try{const t=JSON.parse(e);if((e=>{if("object"!=typeof e)return!1;const t=e;return"string"==typeof t.name&&(void 0===t.duration||"string"==typeof t.duration)})(t))return t}catch(e){}},me="_tSId",ge="_tA",pe="bespoke-marp-transition-warming-up",ve=window.matchMedia("(prefers-reduced-motion: reduce)"),he="__bespoke_marp_transition_reduced_outgoing__",ye="__bespoke_marp_transition_reduced_incoming__",be={forward:{both:void 0,incoming:{name:ye},outgoing:{name:he}},backward:{both:void 0,incoming:{name:ye},outgoing:{name:he}}},we=e=>{if(!document.startViewTransition)return;const t=t=>(void 0!==t&&(e._tD=t),e._tD);let n;t(!1),((...e)=>{const t=[...new Set(e).values()];return Promise.all(t.map((e=>de(e)))).then()})(...Array.from(document.querySelectorAll("section[data-transition], section[data-transition-back]")).flatMap((e=>[e.dataset.transition,e.dataset.transitionBack].flatMap((e=>{const t=fe(e);return[null==t?void 0:t.name,(null==t?void 0:t.builtinFallback)?`__builtin__${t.name}`:void 0]})).filter((e=>!!e))))).then((()=>{document.querySelectorAll("style").forEach((e=>{e.innerHTML=e.innerHTML.replace(/--marp-transition-duration:[^;}]*[;}]/g,(e=>e.slice(0,-1)+"!important"+e.slice(-1)))}))}));const r=(n,{back:r,cond:o})=>i=>{var a;const s=t();if(s)return!!i[ge]||!("object"!=typeof s||(s.skipTransition(),!i.forSync));if(!o(i))return!0;const l=e.slides[e.slide()],d=()=>{var e;return null!==(e=i.back)&&void 0!==e?e:r},c="data-transition"+(d()?"-back":""),u=l.querySelector(`section[${c}]`);if(!u)return!0;const f=fe(null!==(a=u.getAttribute(c))&&void 0!==a?a:void 0);return!f||((async(e,{builtinFallback:t=!0}={})=>{let n=await de(e);if(ce(n)){if(!t)return;return n=await de(`__builtin__${e}`),ce(n)?void 0:n}return n})(f.name,{builtinFallback:f.builtinFallback}).then((e=>{if(!e){t(!0);try{n(i)}finally{t(!1)}return}let r=e;ve.matches&&(console.warn("Use a constant animation to transition because preferring reduced motion by viewer has detected."),r=be);const o=document.getElementById(me);o&&o.remove();const a=document.createElement("style");a.id=me,document.head.appendChild(a),((e,t)=>{const n=[`:root{${ie("direction")}:${t.backward?-1:1};}`],r=t=>{var n,o,i;const a=(null===(n=e[t].both)||void 0===n?void 0:n.defaultDuration)||(null===(o=e[t].outgoing)||void 0===o?void 0:o.defaultDuration)||(null===(i=e[t].incoming)||void 0===i?void 0:i.defaultDuration);return"forward"===t?a:a||r("forward")},o=t.duration||r(t.backward?"backward":"forward");void 0!==o&&n.push(`::view-transition-group(*){${se}:${o};}`);const i=e=>Object.entries(e).map((([e,t])=>`${e}:${t};`)).join("");return n.push(`::view-transition-old(root){${i(ue(e,{...t,type:"outgoing"}))}}`,`::view-transition-new(root){${i(ue(e,{...t,type:"incoming"}))}}`),n})(r,{backward:d(),duration:f.duration}).forEach((e=>{var t;return null===(t=a.sheet)||void 0===t?void 0:t.insertRule(e)}));const s=document.documentElement.classList;s.add(pe);let l=!1;const c=()=>{l||(n(i),l=!0,s.remove(pe))},u=()=>{t(!1),a.remove(),s.remove(pe)};try{t(!0);const e=document.startViewTransition(c);t(e),e.finished.finally(u)}catch(e){console.error(e),c(),u()}})),!1)};e.on("prev",r((t=>e.prev({...t,[ge]:!0})),{back:!0,cond:e=>{var t;return e.index>0&&!((null===(t=e.fragment)||void 0===t||t)&&n.fragmentIndex>0)}})),e.on("next",r((t=>e.next({...t,[ge]:!0})),{cond:t=>t.index+1<e.slides.length&&!(n.fragmentIndex+1<n.fragments.length)})),setTimeout((()=>{e.on("slide",r((t=>e.slide(t.index,{...t,[ge]:!0})),{cond:t=>{const n=e.slide();return t.index!==n&&(t.back=t.index<n,!0)}}))}),0),e.on("fragment",(e=>{n=e}))};let xe;const ke=()=>(void 0===xe&&(xe="wakeLock"in navigator&&navigator.wakeLock),xe),$e=async()=>{const e=ke();if(e)try{return await e.request("screen")}catch(e){console.warn(e)}return null},Ee=async()=>{if(!ke())return;let e;const t=()=>{e&&"visible"===document.visibilityState&&$e()};for(const e of["visibilitychange","fullscreenchange"])document.addEventListener(e,t);return e=await $e(),e};((t=document.getElementById("p"))=>{(()=>{const t=d("view");e.dataset.bespokeView=t===r||t===n?t:""})();const i=(e=>{const t=d(e);return c({[e]:void 0}),t})("sync")||void 0;var a,s,u,f,m,g,p,y,b,w,k,E;a=t,s=((...e)=>{const t=o.findIndex((e=>l()===e));return e.map((([e,n])=>e[t]&&n)).filter((e=>e))})([[1,1,0],J({key:i})],[[1,1,1],X(t)],[[1,1,0],L],[[1,1,1],v],[[1,0,0],$()],[[1,1,1],S],[[1,1,1],W({history:!1})],[[1,1,0],P()],[[1,1,0],x],[[1,0,0],H],[[1,1,0],ee()],[[1,0,0],T()],[[1,0,0],we],[[1,1,1],h],[[1,1,0],Ee]),f=1===(a.parent||a).nodeType?a.parent||a:document.querySelector(a.parent||a),m=[].filter.call("string"==typeof a.slides?f.querySelectorAll(a.slides):a.slides||f.children,(function(e){return"SCRIPT"!==e.nodeName})),g={},p=function(e,t){return(t=t||{}).index=m.indexOf(e),t.slide=e,t},w=function(e,t){m[e]&&(u&&b("deactivate",p(u,t)),u=m[e],b("activate",p(u,t)))},k=function(e,t){var n=m.indexOf(u)+e;b(e>0?"next":"prev",p(u,t))&&w(n,t)},E={off:y=function(e,t){g[e]=(g[e]||[]).filter((function(e){return e!==t}))},on:function(e,t){return(g[e]||(g[e]=[])).push(t),y.bind(null,e,t)},fire:b=function(e,t){return(g[e]||[]).reduce((function(e,n){return e&&!1!==n(t)}),!0)},slide:function(e,t){if(!arguments.length)return m.indexOf(u);b("slide",p(m[e],t))&&w(e,t)},next:k.bind(null,1),prev:k.bind(null,-1),parent:f,slides:m,destroy:function(e){b("destroy",p(u,e)),g={}}},(s||[]).forEach((function(e){e(E)})),u||w(0)})()}();</script></body></html>
+    </div>
+  </div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="00-intro_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="00-intro_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="00-intro_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="00-intro_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="00-intro_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="00-intro_files/libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="00-intro_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="00-intro_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="00-intro_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="00-intro_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'smaller': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button', {
+        text: function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+      });
+      clipboard.on('success', function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      });
+      function tippyHover(el, contentFn) {
+        const config = {
+          allowHTML: true,
+          content: contentFn,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start'
+        };
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          return note.innerHTML;
+        });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    
+
+</body></html>
